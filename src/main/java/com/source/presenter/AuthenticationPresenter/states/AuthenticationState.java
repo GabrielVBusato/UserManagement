@@ -1,7 +1,6 @@
 package com.source.presenter.AuthenticationPresenter.states;
 
 import com.source.presenter.AuthenticationPresenter.AuthenticationPresenter;
-import com.source.presenter.EmployeeManagement.EmployeeManagementState;
 import com.source.view.AuthenticationView;
 import java.sql.SQLException;
 import javax.swing.JOptionPane;

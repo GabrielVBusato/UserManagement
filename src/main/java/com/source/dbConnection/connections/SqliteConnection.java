@@ -19,7 +19,7 @@ public class SqliteConnection implements IDatabaseConnection {
     
     @Override
     public boolean connect() throws SQLException {
-        String url = "jdbc:sqlite:database/employee_management.db";
+        String url = "jdbc:sqlite:database/users_management.db";
         SqliteConnection.connection = DriverManager.getConnection(url);
         return true;
     }
