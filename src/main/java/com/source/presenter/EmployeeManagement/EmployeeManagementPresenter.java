@@ -139,71 +139,34 @@ public final class EmployeeManagementPresenter {
     }
 
     public void initComponents() {
-        clearScreen();
-        view.getBtnClose().addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
+        view.getBtnUpdate().addActionListener(e -> {
+            try {
+                state.onUpdate();
+                JOptionPane.showConfirmDialog(view, "Funcionário atualizado com sucesso",
+                        "Sucesso", JOptionPane.DEFAULT_OPTION,
+                        JOptionPane.PLAIN_MESSAGE);
                 view.dispose();
+            } catch (SQLException ex) {
+                JOptionPane.showMessageDialog(null, "Erro ao atualizar funcionário");
+            } catch (NumberFormatException ex) {
+                JOptionPane.showMessageDialog(null, "Todos os campos são obrigatórios.");
             }
         });
-        view.getBtnCreate().addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                try {
-                    if (isAllFieldsFilled()) {
-                        state.onCreate();
-                        JOptionPane.showConfirmDialog(view, "Funcionário criado com sucesso",
-                                "Sucesso", JOptionPane.DEFAULT_OPTION,
-                                JOptionPane.PLAIN_MESSAGE);
-                    } else {
-                        JOptionPane.showMessageDialog(null, "Todos os campos são obrigatórios.");
-                    }
-                } catch (SQLException ex) {
-                    JOptionPane.showMessageDialog(null, "Erro ao criar funcionário");
-                }
-            }
-        });
-        view.getBtnUpdate().addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                try {
-                    state.onUpdate();
-                    JOptionPane.showConfirmDialog(view, "Funcionário atualizado com sucesso",
+
+        view.getBtnDelete().addActionListener(e -> {
+            try {
+                int inputConfirm = JOptionPane.showConfirmDialog(null,
+                        "Deseja realmente deletar?", "Selecione uma opção...", JOptionPane.YES_NO_CANCEL_OPTION);
+                if (inputConfirm == 0) {
+                    state.onDelete();
+                    JOptionPane.showConfirmDialog(view, "Funcionário deletado com sucesso",
                             "Sucesso", JOptionPane.DEFAULT_OPTION,
                             JOptionPane.PLAIN_MESSAGE);
                     view.dispose();
-                } catch (SQLException ex) {
-                    JOptionPane.showMessageDialog(null, "Erro ao atualizar funcionário");
-                } catch (NumberFormatException ex) {
-                    JOptionPane.showMessageDialog(null, "Todos os campos são obrigatórios.");
                 }
+            } catch (SQLException ex) {
+                JOptionPane.showMessageDialog(null, "Erro ao deletar funcionário");
             }
         });
-        view.getBtnDelete().addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                try {
-                    int inputConfirm = JOptionPane.showConfirmDialog(null,
-                            "Deseja realmente deletar?", "Selecione uma opção...", JOptionPane.YES_NO_CANCEL_OPTION);
-                    if (inputConfirm == 0) {
-                        state.onDelete();
-                        JOptionPane.showConfirmDialog(view, "Funcionário deletado com sucesso",
-                                "Sucesso", JOptionPane.DEFAULT_OPTION,
-                                JOptionPane.PLAIN_MESSAGE);
-                        view.dispose();
-                    }
-                } catch (SQLException ex) {
-                    JOptionPane.showMessageDialog(null, "Erro ao deletar funcionário");
-                }
-            }
-        });
-        try {
-            ArrayList<String> roles = new ArrayList(this.service.getAllRoles());
-            for (String role : roles) {
-                view.getComboRole().addItem(role);
-            }
-        } catch (SQLException ex) {
-            JOptionPane.showMessageDialog(null, "Erro ao buscar cargos cadastrados");
-        }
     }
 }

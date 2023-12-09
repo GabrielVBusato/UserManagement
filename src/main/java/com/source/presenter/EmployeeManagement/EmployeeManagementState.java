@@ -4,6 +4,7 @@
  */
 package com.source.presenter.EmployeeManagement;
 
+import com.source.presenter.AuthenticationPresenter.states.AuthenticationState;
 import com.source.view.EmployeeManagementView;
 import java.sql.SQLException;
 import javax.swing.JOptionPane;
@@ -16,11 +17,16 @@ public abstract class EmployeeManagementState {
 
     public EmployeeManagementPresenter presenter;
     private final String operationErr = "Operação não permitida nesse estado";
-    protected final EmployeeManagementView view;
+    public final EmployeeManagementView view;
+    private AuthenticationState state;
 
     public EmployeeManagementState(EmployeeManagementPresenter presenter) {
         this.presenter = presenter;
         this.view = presenter.getView();
+    }
+    
+    public void setState(AuthenticationState state){
+        this.state = state;
     }
 
     public abstract void initComponents() throws SQLException;
