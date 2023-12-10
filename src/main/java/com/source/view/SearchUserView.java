@@ -13,10 +13,10 @@ import javax.swing.JTextField;
  *
  * @author busat
  */
-public class SearchEmployeeView extends javax.swing.JFrame {
+public class SearchUserView extends javax.swing.JFrame {
 
     /** Creates new form SearchEmployeeView */
-    public SearchEmployeeView() {
+    public SearchUserView() {
         initComponents();
     }
 
@@ -35,9 +35,8 @@ public class SearchEmployeeView extends javax.swing.JFrame {
         jScrollPane1 = new javax.swing.JScrollPane();
         tblSearch = new javax.swing.JTable();
         btnClose = new javax.swing.JButton();
-        btnNewEmployee = new javax.swing.JButton();
-        btnViewBonus = new javax.swing.JButton();
-        btnViewEmployee = new javax.swing.JButton();
+        btnNewUser = new javax.swing.JButton();
+        btnViewUser = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setTitle("Buscar funcionário");
@@ -52,7 +51,7 @@ public class SearchEmployeeView extends javax.swing.JFrame {
 
             },
             new String [] {
-                "ID", "Nome", "Função", "Salário base", "Quantidade faltas"
+                "ID", "Nome", "Type", "Notificações lidas", "Notificações não lidas"
             }
         ) {
             boolean[] canEdit = new boolean [] {
@@ -74,11 +73,9 @@ public class SearchEmployeeView extends javax.swing.JFrame {
 
         btnClose.setText("Fechar");
 
-        btnNewEmployee.setText("Novo");
+        btnNewUser.setText("Novo");
 
-        btnViewBonus.setText("Ver Bonus");
-
-        btnViewEmployee.setText("Visualizar");
+        btnViewUser.setText("Visualizar");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -100,11 +97,9 @@ public class SearchEmployeeView extends javax.swing.JFrame {
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(btnClose)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(btnNewEmployee)
+                        .addComponent(btnNewUser)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(btnViewBonus)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(btnViewEmployee)
+                        .addComponent(btnViewUser)
                         .addContainerGap())))
         );
         layout.setVerticalGroup(
@@ -120,9 +115,8 @@ public class SearchEmployeeView extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btnClose, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btnNewEmployee)
-                    .addComponent(btnViewBonus)
-                    .addComponent(btnViewEmployee))
+                    .addComponent(btnNewUser)
+                    .addComponent(btnViewUser))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
@@ -130,20 +124,20 @@ public class SearchEmployeeView extends javax.swing.JFrame {
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
-    public JButton getBtnViewEmployee() {
-        return btnViewEmployee;
+    public JButton getBtnViewUser() {
+        return btnViewUser;
     }
 
-    public void setBtnViewEmployee(JButton BtnViewEmployee) {
-        this.btnViewEmployee = BtnViewEmployee;
+    public void setBtnViewUseer(JButton BtnViewEmployee) {
+        this.btnViewUser = BtnViewEmployee;
     }
 
-    public JButton getBtnNewEmployee() {
-        return btnNewEmployee;
+    public JButton getBtnNewUser() {
+        return btnNewUser;
     }
 
-    public void setBtnNewEmployee(JButton btnNewEmployee) {
-        this.btnNewEmployee = btnNewEmployee;
+    public void setBtnNewUser(JButton btnNewUser) {
+        this.btnNewUser = btnNewUser;
     }
 
     public JButton getBtnSearch() {
@@ -153,15 +147,7 @@ public class SearchEmployeeView extends javax.swing.JFrame {
     public void setBtnSearch(JButton btnSearch) {
         this.btnSearch = btnSearch;
     }
-
-    public JButton getBtnViewBonus() {
-        return btnViewBonus;
-    }
-
-    public void setBtnViewBonus(JButton btnViewBonus) {
-        this.btnViewBonus = btnViewBonus;
-    }
-
+    
     public JTable getTblSearch() {
         return tblSearch;
     }
@@ -188,10 +174,9 @@ public class SearchEmployeeView extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnClose;
-    private javax.swing.JButton btnNewEmployee;
+    private javax.swing.JButton btnNewUser;
     private javax.swing.JButton btnSearch;
-    private javax.swing.JButton btnViewBonus;
-    private javax.swing.JButton btnViewEmployee;
+    private javax.swing.JButton btnViewUser;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTable tblSearch;

@@ -46,7 +46,7 @@ public final class LoginState extends AuthenticationState {
             UserSession.getInstance().loginUser(user);
             presenter.getView().dispose();
 
-            MainPresenter.getInstance(presenter.getConnection());
+            MainPresenter.getInstance(presenter.getConnection(), presenter.getUserService());
         }
     }
 }

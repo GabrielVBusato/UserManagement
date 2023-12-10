@@ -4,6 +4,8 @@
  */
 package com.source.view;
 
+import javax.swing.JButton;
+import javax.swing.JLabel;
 import javax.swing.JMenu;
 import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
@@ -31,9 +33,15 @@ public class MainView extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jPanel1 = new javax.swing.JPanel();
+        lblDummyUserLoggedIn = new javax.swing.JLabel();
+        lblUserLoggedIn = new javax.swing.JLabel();
+        lblDummyUserType = new javax.swing.JLabel();
+        lblUserType = new javax.swing.JLabel();
+        lblDummyNewNotifications = new javax.swing.JLabel();
+        btnNewNotifications = new javax.swing.JButton();
         menuBarMain = new javax.swing.JMenuBar();
         menuUserManagement = new javax.swing.JMenu();
-        menuItemCreateUser = new javax.swing.JMenuItem();
         menuItemListUsers = new javax.swing.JMenuItem();
         menuItemAuthUser = new javax.swing.JMenuItem();
         menuItemChangePassword = new javax.swing.JMenuItem();
@@ -45,14 +53,56 @@ public class MainView extends javax.swing.JFrame {
         setTitle("Sistema de gestão de pessoas");
         setResizable(false);
 
+        lblDummyUserLoggedIn.setText("Usuário Logado: ");
+
+        lblUserLoggedIn.setText("user");
+
+        lblDummyUserType.setText("Tipo:");
+
+        lblUserType.setText("user");
+
+        lblDummyNewNotifications.setText("Novas notificações");
+
+        btnNewNotifications.setText("0");
+
+        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
+        jPanel1.setLayout(jPanel1Layout);
+        jPanel1Layout.setHorizontalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(lblDummyNewNotifications)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btnNewNotifications)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 343, Short.MAX_VALUE)
+                .addComponent(lblDummyUserLoggedIn)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(lblUserLoggedIn)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(lblDummyUserType)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(lblUserType)
+                .addContainerGap())
+        );
+        jPanel1Layout.setVerticalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                .addContainerGap(7, Short.MAX_VALUE)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(lblDummyUserLoggedIn)
+                    .addComponent(lblUserLoggedIn)
+                    .addComponent(lblDummyUserType)
+                    .addComponent(lblUserType)
+                    .addComponent(lblDummyNewNotifications)
+                    .addComponent(btnNewNotifications))
+                .addContainerGap())
+        );
+
         menuBarMain.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
         menuBarMain.setFocusable(false);
         menuBarMain.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
 
         menuUserManagement.setText("Usuários");
-
-        menuItemCreateUser.setText("Manter usuário");
-        menuUserManagement.add(menuItemCreateUser);
 
         menuItemListUsers.setText("Listar usuários");
         menuUserManagement.add(menuItemListUsers);
@@ -86,11 +136,13 @@ public class MainView extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 661, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 352, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addGap(0, 316, Short.MAX_VALUE)
+                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
         pack();
@@ -101,6 +153,30 @@ public class MainView extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_menuItemSendNotificationActionPerformed
 
+    public JLabel getLblDummyNewNotifications() {
+        return lblDummyNewNotifications;
+    }
+
+    public JLabel getLblDummyUserLoggedIn() {
+        return lblDummyUserLoggedIn;
+    }
+
+    public JLabel getLblDummyUserType() {
+        return lblDummyUserType;
+    }
+
+    public JButton getBtnNewNotifications() {
+        return btnNewNotifications;
+    }
+
+    public JLabel getLblUserLoggedIn() {
+        return lblUserLoggedIn;
+    }
+
+    public JLabel getLblUserType() {
+        return lblUserType;
+    }
+    
     public JMenuBar getMenuBarMain() {
         return menuBarMain;
     }
@@ -123,14 +199,6 @@ public class MainView extends javax.swing.JFrame {
 
     public void setMenuItemChangePassword(JMenuItem menuItemChangePassword) {
         this.menuItemChangePassword = menuItemChangePassword;
-    }
-
-    public JMenuItem getMenuItemCreateUser() {
-        return menuItemCreateUser;
-    }
-
-    public void setMenuItemCreateUser(JMenuItem menuItemCreateUser) {
-        this.menuItemCreateUser = menuItemCreateUser;
     }
 
     public JMenuItem getMenuItemListNotifications() {
@@ -178,10 +246,16 @@ public class MainView extends javax.swing.JFrame {
     
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton btnNewNotifications;
+    private javax.swing.JPanel jPanel1;
+    private javax.swing.JLabel lblDummyNewNotifications;
+    private javax.swing.JLabel lblDummyUserLoggedIn;
+    private javax.swing.JLabel lblDummyUserType;
+    private javax.swing.JLabel lblUserLoggedIn;
+    private javax.swing.JLabel lblUserType;
     private javax.swing.JMenuBar menuBarMain;
     private javax.swing.JMenuItem menuItemAuthUser;
     private javax.swing.JMenuItem menuItemChangePassword;
-    private javax.swing.JMenuItem menuItemCreateUser;
     private javax.swing.JMenuItem menuItemListNotifications;
     private javax.swing.JMenuItem menuItemListUsers;
     private javax.swing.JMenuItem menuItemSendNotification;

@@ -30,4 +30,108 @@
   "adminUsername" : "Sem administrador",
   "message" : "LOGIN: teste, (10/12/23, 05:46:50, e Sem administrador)",
   "operation" : "LOGIN"
+}, {
+  "type" : "INFO",
+  "contactName" : "teste",
+  "currentDate" : "10/12/23",
+  "currentHour" : "12:36:18",
+  "adminUsername" : "Sem administrador",
+  "message" : "LOGIN: teste, (10/12/23, 12:36:18, e Sem administrador)",
+  "operation" : "LOGIN"
+}, {
+  "type" : "INFO",
+  "contactName" : "teste",
+  "currentDate" : "10/12/23",
+  "currentHour" : "12:37:36",
+  "adminUsername" : "Sem administrador",
+  "message" : "LOGIN: teste, (10/12/23, 12:37:36, e Sem administrador)",
+  "operation" : "LOGIN"
+}, {
+  "type" : "INFO",
+  "contactName" : "teste",
+  "currentDate" : "10/12/23",
+  "currentHour" : "12:38:30",
+  "adminUsername" : "Sem administrador",
+  "message" : "LOGIN: teste, (10/12/23, 12:38:30, e Sem administrador)",
+  "operation" : "LOGIN"
+}, {
+  "type" : "INFO",
+  "contactName" : "teste",
+  "currentDate" : "10/12/23",
+  "currentHour" : "12:39:14",
+  "adminUsername" : "Sem administrador",
+  "message" : "LOGIN: teste, (10/12/23, 12:39:14, e Sem administrador)",
+  "operation" : "LOGIN"
+}, {
+  "type" : "INFO",
+  "contactName" : "testa",
+  "currentDate" : "10/12/23",
+  "currentHour" : "12:39:33",
+  "adminUsername" : "Sem administrador",
+  "message" : "LOGIN: testa, (10/12/23, 12:39:33, e Sem administrador)",
+  "operation" : "LOGIN"
+}, {
+  "type" : "INFO",
+  "contactName" : "teste",
+  "currentDate" : "10/12/23",
+  "currentHour" : "12:45:57",
+  "adminUsername" : "Sem administrador",
+  "message" : "LOGIN: teste, (10/12/23, 12:45:57, e Sem administrador)",
+  "operation" : "LOGIN"
+}, {
+  "type" : "INFO",
+  "contactName" : "testa",
+  "currentDate" : "10/12/23",
+  "currentHour" : "12:46:12",
+  "adminUsername" : "Sem administrador",
+  "message" : "LOGIN: testa, (10/12/23, 12:46:12, e Sem administrador)",
+  "operation" : "LOGIN"
+}, {
+  "type" : "INFO",
+  "contactName" : "teste",
+  "currentDate" : "10/12/23",
+  "currentHour" : "12:46:43",
+  "adminUsername" : "Sem administrador",
+  "message" : "LOGIN: teste, (10/12/23, 12:46:43, e Sem administrador)",
+  "operation" : "LOGIN"
+}, {
+  "type" : "INFO",
+  "contactName" : "teste",
+  "currentDate" : "10/12/23",
+  "currentHour" : "13:01:47",
+  "adminUsername" : "Sem administrador",
+  "message" : "LOGIN: teste, (10/12/23, 13:01:47, e Sem administrador)",
+  "operation" : "LOGIN"
+}, {
+  "type" : "INFO",
+  "contactName" : "teste",
+  "currentDate" : "10/12/23",
+  "currentHour" : "13:03:33",
+  "adminUsername" : "Sem administrador",
+  "message" : "LOGIN: teste, (10/12/23, 13:03:33, e Sem administrador)",
+  "operation" : "LOGIN"
+}, {
+  "type" : "INFO",
+  "contactName" : "teste",
+  "currentDate" : "10/12/23",
+  "currentHour" : "13:12:53",
+  "adminUsername" : "Sem administrador",
+  "message" : "LOGIN: teste, (10/12/23, 13:12:53, e Sem administrador)",
+  "operation" : "LOGIN"
+}, {
+  "type" : "INFO",
+  "contactName" : "teste",
+  "currentDate" : "10/12/23",
+  "currentHour" : "13:15:00",
+  "adminUsername" : "Sem administrador",
+  "message" : "LOGIN: teste, (10/12/23, 13:15:00, e Sem administrador)",
+  "operation" : "LOGIN"
+}, {
+  "type" : "INFO",
+  "contactName" : "teste",
+  "currentDate" : "10/12/23",
+  "currentHour" : "13:36:18",
+  "adminUsername" : "Sem administrador",
+  "message" : "LOGIN: teste, (10/12/23, 13:36:18, e Sem administrador)",
+  "operation" : "LOGIN"
 } ]
