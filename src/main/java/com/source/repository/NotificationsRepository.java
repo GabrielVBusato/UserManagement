@@ -26,7 +26,7 @@ public class NotificationsRepository {
         this.connection = connection;
     }
 
-    public NotificationsModel craeteNotification(NotificationsModel notification) throws SQLException {
+    public NotificationsModel createNotification(NotificationsModel notification) throws SQLException {
         notificationsDao.create(notification);
 
         return notification;

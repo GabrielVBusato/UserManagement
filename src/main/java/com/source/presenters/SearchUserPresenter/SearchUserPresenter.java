@@ -5,10 +5,12 @@
 package com.source.presenters.SearchUserPresenter;
 
 import com.source.dbConnection.connections.IDatabaseConnection;
+import com.source.model.UsersModel;
 import com.source.service.UserService.UsersService;
 import com.source.view.SearchUserView;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.List;
 import javax.swing.table.DefaultTableModel;
 
 /**
@@ -20,7 +22,7 @@ public class SearchUserPresenter {
     private static SearchUserView view = null;
     private static SearchUserPresenter instance = null;
     private final IDatabaseConnection connection;
-    private final UsersService service;
+    private static UsersService service;
 
     private SearchUserPresenter(IDatabaseConnection connection,
             UsersService service) {
@@ -28,7 +30,7 @@ public class SearchUserPresenter {
             view = new SearchUserView();
         }
         this.connection = connection;
-        this.service = service;
+        SearchUserPresenter.service = service;
     }
 
     public IDatabaseConnection getConnection() {
@@ -54,23 +56,17 @@ public class SearchUserPresenter {
     private static void setModelTable() {
         DefaultTableModel tableModel = (DefaultTableModel) view.getTblSearch().getModel();
         tableModel.setRowCount(0);
-        //List<UsersModel> users = service.login(view.getTxtSearchName().getText());
-        //for (UsersModel user : users) {
-        //  Object[] rowData = {user.getId(), user.getName(), user.getType()};
-        // tableModel.addRow(rowData);
-        //}
+        List<UsersModel> users = service.listAllUsers();
+        for (UsersModel user : users) {
+            Object[] rowData = {user.getId(), user.getName(), user.getType(),
+                user.getUnreadNotifications(), user.getReadNotifications(), user.getAuthorized()};
+            tableModel.addRow(rowData);
+        }
     }
 
     private static void clearScreen() {
         DefaultTableModel tableModel = (DefaultTableModel) view.getTblSearch().getModel();
         tableModel.setRowCount(0);
-        view.getTxtSearchName().setText("");
-        for (ActionListener al : view.getBtnClose().getActionListeners()) {
-            view.getBtnClose().removeActionListener(al);
-        }
-        for (ActionListener al : view.getBtnSearch().getActionListeners()) {
-            view.getBtnSearch().removeActionListener(al);
-        }
         for (ActionListener al : view.getBtnNewUser().getActionListeners()) {
             view.getBtnNewUser().removeActionListener(al);
         }
@@ -78,9 +74,10 @@ public class SearchUserPresenter {
             view.getBtnViewUser().removeActionListener(al);
         }
     }
-    
+
     private static void initComponents() {
         clearScreen();
+        setModelTable();
         view.getBtnClose().addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -91,12 +88,6 @@ public class SearchUserPresenter {
             @Override
             public void actionPerformed(ActionEvent e) {
                 //new EmployeeManagementPresenter(service);
-            }
-        });
-        view.getBtnSearch().addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                setModelTable();
             }
         });
         view.getBtnViewUser().addActionListener(new ActionListener() {

@@ -70,6 +70,19 @@ public class NotificationsService {
                     null, "MARCAÇÃO DE NOTIFICAÇÃO COMO LIDA", ex.getMessage());
         }
     }
+    
+     public void sendNotification(NotificationsModel notification) {
+        try {
+            notificationsRepository.createNotification(notification);
+
+            Logger.writeSystemInfoLog(LogTypeEnum.INFO, null, "ENVIAR NOTIFICAÇÃO");
+        } catch (SQLException ex) {
+            JOptionPane.showMessageDialog(null, ex.getMessage(),
+                    "Erro ao enviar notificação", JOptionPane.ERROR_MESSAGE);
+            Logger.writeSystemErrorLog(LogTypeEnum.ERROR,
+                    null, "ENVIAR NOTIFICAÇÃO", ex.getMessage());
+        }
+    }
 
     public int totalUnreadUserNotifications(int userId) {
         int total = 0;
