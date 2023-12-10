@@ -63,7 +63,7 @@ public class UnauthenticatedUsersView extends javax.swing.JFrame {
 
         btnClose.setText("Fechar");
 
-        btnAuthenticateUser.setText("Autenticar");
+        btnAuthenticateUser.setText("Autorizar");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);

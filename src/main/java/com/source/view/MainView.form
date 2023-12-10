@@ -108,7 +108,9 @@
                   <Component id="lblDummyNewNotifications" min="-2" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
                   <Component id="btnNewNotifications" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace pref="343" max="32767" attributes="0"/>
+                  <EmptySpace pref="259" max="32767" attributes="0"/>
+                  <Component id="btnConfig" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
                   <Component id="lblDummyUserLoggedIn" min="-2" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
                   <Component id="lblUserLoggedIn" min="-2" max="-2" attributes="0"/>
@@ -131,6 +133,7 @@
                       <Component id="lblUserType" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="lblDummyNewNotifications" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="btnNewNotifications" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnConfig" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
               </Group>
@@ -166,6 +169,11 @@
         <Component class="javax.swing.JButton" name="btnNewNotifications">
           <Properties>
             <Property name="text" type="java.lang.String" value="0"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnConfig">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Config"/>
           </Properties>
         </Component>
       </SubComponents>

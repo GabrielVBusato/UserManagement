@@ -30,7 +30,7 @@ public class UsersDao implements IDao<UsersModel> {
         connection.createStatement().executeUpdate(query);
         connection.disconnect();
     }
-    
+
     @Override
     public int create(UsersModel user) throws SQLException {
         String valuesFormat = String.format(Locale.US, "('%s', '%s', '%s', '%s', '%s')", user.getName(), user.getPassword(), user.getType(), user.getAuthorized(), user.getCreatedAt());
@@ -49,7 +49,7 @@ public class UsersDao implements IDao<UsersModel> {
     public ResultSet getAll() throws SQLException {
         return this.databaseQuery("Select * from users");
     }
-    
+
     public ResultSet getAllUnauthorized() throws SQLException {
         return this.databaseQuery("Select * from users where authorized = 0");
     }
@@ -58,11 +58,11 @@ public class UsersDao implements IDao<UsersModel> {
     public ResultSet read(int id) throws SQLException {
         return this.databaseQuery("Select * from users where id = '" + id + "'");
     }
-    
+
     public ResultSet readByUsername(String username) throws SQLException {
         return this.databaseQuery("Select * from users where name = '" + username + "'");
     }
-    
+
     private ResultSet databaseQuery(String query) throws SQLException {
         ResultSet result;
         Statement statement;
@@ -74,9 +74,10 @@ public class UsersDao implements IDao<UsersModel> {
 
     @Override
     public void update(UsersModel user) throws SQLException {
-        String updateQuery = "UPDATE users SET name = '" + user.getName() + "', password = '" + user.getPassword() + "', authorized = " + user.getAuthorized() + ", created_at = '" + user.getCreatedAt() + "'";
+        String updateQuery = "UPDATE users SET name = '" + user.getName() + "', password = '" + user.getPassword() + "', authorized = "
+                + user.getAuthorized() + ", created_at = '" + user.getCreatedAt() + "' where id = '" + user.getId() + "'";
         connection.connect();
-        connection.createStatement().executeUpdate(updateQuery);        
+        connection.createStatement().executeUpdate(updateQuery);
         connection.disconnect();
     }
 }

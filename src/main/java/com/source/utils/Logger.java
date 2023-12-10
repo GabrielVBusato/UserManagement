@@ -39,6 +39,10 @@ public class Logger {
         }
 
     }
+    
+    public static void setLogType(FileTypeEnum fileType){
+        logService.setFileType(fileType);
+    }
 
     public static void writeSystemInfoLog(LogTypeEnum logType,
             String userName,

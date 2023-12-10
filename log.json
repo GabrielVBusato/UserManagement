@@ -1,137 +1,65 @@
 [ {
-  "type" : "ERROR",
+  "type" : "INFO",
   "contactName" : "teste",
   "currentDate" : "10/12/23",
-  "currentHour" : "05:29:50",
+  "currentHour" : "16:12:28",
   "adminUsername" : "Sem administrador",
-  "message" : "Ocorreu a falha {Username ou senha incorretos.} ao realizar a operação {LOGIN} do contato teste, (10/12/23, 05:29:50, e Sem administrador)",
+  "message" : "LOGIN: teste, (10/12/23, 16:12:28, e Sem administrador)",
   "operation" : "LOGIN"
 }, {
-  "type" : "ERROR",
-  "contactName" : "<<no user>>",
+  "type" : "INFO",
+  "contactName" : "<< no user >>",
   "currentDate" : "10/12/23",
-  "currentHour" : "05:29:55",
-  "adminUsername" : "Sem administrador",
-  "message" : "Ocorreu a falha {Validação falhou para o campo: userName} ao realizar a operação {LOGIN} do contato <<no user>>, (10/12/23, 05:29:55, e Sem administrador)",
-  "operation" : "LOGIN"
+  "currentHour" : "16:12:32",
+  "adminUsername" : "teste",
+  "message" : "LISTAGEM DE USUÁRIOS NÃO AUTORIZADOS: << no user >>, (10/12/23, 16:12:32, e teste)",
+  "operation" : "LISTAGEM DE USUÁRIOS NÃO AUTORIZADOS"
+}, {
+  "type" : "INFO",
+  "contactName" : "teasd",
+  "currentDate" : "10/12/23",
+  "currentHour" : "16:12:36",
+  "adminUsername" : "teste",
+  "message" : "FIND_USER: teasd, (10/12/23, 16:12:36, e teste)",
+  "operation" : "FIND_USER"
+}, {
+  "type" : "INFO",
+  "contactName" : "<< no user >>",
+  "currentDate" : "10/12/23",
+  "currentHour" : "16:12:37",
+  "adminUsername" : "teste",
+  "message" : "ATUALIZAÇÃO DE USUÁRIO: << no user >>, (10/12/23, 16:12:37, e teste)",
+  "operation" : "ATUALIZAÇÃO DE USUÁRIO"
 }, {
   "type" : "INFO",
   "contactName" : "teste",
   "currentDate" : "10/12/23",
-  "currentHour" : "05:32:31",
+  "currentHour" : "16:13:52",
   "adminUsername" : "Sem administrador",
-  "message" : "LOGIN: teste, (10/12/23, 05:32:31, e Sem administrador)",
-  "operation" : "LOGIN"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "10/12/23",
-  "currentHour" : "05:46:50",
-  "adminUsername" : "Sem administrador",
-  "message" : "LOGIN: teste, (10/12/23, 05:46:50, e Sem administrador)",
-  "operation" : "LOGIN"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "10/12/23",
-  "currentHour" : "12:36:18",
-  "adminUsername" : "Sem administrador",
-  "message" : "LOGIN: teste, (10/12/23, 12:36:18, e Sem administrador)",
-  "operation" : "LOGIN"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "10/12/23",
-  "currentHour" : "12:37:36",
-  "adminUsername" : "Sem administrador",
-  "message" : "LOGIN: teste, (10/12/23, 12:37:36, e Sem administrador)",
+  "message" : "LOGIN: teste, (10/12/23, 16:13:52, e Sem administrador)",
   "operation" : "LOGIN"
 }, {
   "type" : "INFO",
   "contactName" : "teste",
   "currentDate" : "10/12/23",
-  "currentHour" : "12:38:30",
+  "currentHour" : "16:14:41",
   "adminUsername" : "Sem administrador",
-  "message" : "LOGIN: teste, (10/12/23, 12:38:30, e Sem administrador)",
+  "message" : "LOGIN: teste, (10/12/23, 16:14:41, e Sem administrador)",
   "operation" : "LOGIN"
 }, {
   "type" : "INFO",
   "contactName" : "teste",
   "currentDate" : "10/12/23",
-  "currentHour" : "12:39:14",
+  "currentHour" : "16:15:45",
   "adminUsername" : "Sem administrador",
-  "message" : "LOGIN: teste, (10/12/23, 12:39:14, e Sem administrador)",
-  "operation" : "LOGIN"
-}, {
-  "type" : "INFO",
-  "contactName" : "testa",
-  "currentDate" : "10/12/23",
-  "currentHour" : "12:39:33",
-  "adminUsername" : "Sem administrador",
-  "message" : "LOGIN: testa, (10/12/23, 12:39:33, e Sem administrador)",
+  "message" : "LOGIN: teste, (10/12/23, 16:15:45, e Sem administrador)",
   "operation" : "LOGIN"
 }, {
   "type" : "INFO",
   "contactName" : "teste",
   "currentDate" : "10/12/23",
-  "currentHour" : "12:45:57",
+  "currentHour" : "16:18:04",
   "adminUsername" : "Sem administrador",
-  "message" : "LOGIN: teste, (10/12/23, 12:45:57, e Sem administrador)",
-  "operation" : "LOGIN"
-}, {
-  "type" : "INFO",
-  "contactName" : "testa",
-  "currentDate" : "10/12/23",
-  "currentHour" : "12:46:12",
-  "adminUsername" : "Sem administrador",
-  "message" : "LOGIN: testa, (10/12/23, 12:46:12, e Sem administrador)",
-  "operation" : "LOGIN"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "10/12/23",
-  "currentHour" : "12:46:43",
-  "adminUsername" : "Sem administrador",
-  "message" : "LOGIN: teste, (10/12/23, 12:46:43, e Sem administrador)",
-  "operation" : "LOGIN"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "10/12/23",
-  "currentHour" : "13:01:47",
-  "adminUsername" : "Sem administrador",
-  "message" : "LOGIN: teste, (10/12/23, 13:01:47, e Sem administrador)",
-  "operation" : "LOGIN"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "10/12/23",
-  "currentHour" : "13:03:33",
-  "adminUsername" : "Sem administrador",
-  "message" : "LOGIN: teste, (10/12/23, 13:03:33, e Sem administrador)",
-  "operation" : "LOGIN"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "10/12/23",
-  "currentHour" : "13:12:53",
-  "adminUsername" : "Sem administrador",
-  "message" : "LOGIN: teste, (10/12/23, 13:12:53, e Sem administrador)",
-  "operation" : "LOGIN"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "10/12/23",
-  "currentHour" : "13:15:00",
-  "adminUsername" : "Sem administrador",
-  "message" : "LOGIN: teste, (10/12/23, 13:15:00, e Sem administrador)",
-  "operation" : "LOGIN"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "10/12/23",
-  "currentHour" : "13:36:18",
-  "adminUsername" : "Sem administrador",
-  "message" : "LOGIN: teste, (10/12/23, 13:36:18, e Sem administrador)",
+  "message" : "LOGIN: teste, (10/12/23, 16:18:04, e Sem administrador)",
   "operation" : "LOGIN"
 } ]

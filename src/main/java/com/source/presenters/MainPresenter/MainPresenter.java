@@ -6,9 +6,13 @@ package com.source.presenters.MainPresenter;
 
 import com.source.dbConnection.connections.IDatabaseConnection;
 import com.source.model.UsersModel;
+import com.source.presenters.ConfigPresenter.ConfigPresenter;
+import com.source.presenters.UnauthenticatedUsersPresenter.UnauthenticatedUsersPresenter;
 import com.source.service.UserService.UsersService;
 import com.source.session.UserSession;
 import com.source.view.MainView;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 /**
  *
@@ -22,7 +26,8 @@ public class MainPresenter {
     private MainStrategy strategy;
     private final UsersService userService;
 
-    private MainPresenter(IDatabaseConnection connection, UsersService userService) {
+    private MainPresenter(IDatabaseConnection connection,
+            UsersService userService) {
         if (view == null) {
             view = new MainView();
         }
@@ -30,27 +35,34 @@ public class MainPresenter {
         this.connection = connection;
         initComponents();
     }
-    
-    public IDatabaseConnection getConnection(){
+
+    public IDatabaseConnection getConnection() {
         return this.connection;
     }
-    
-    public UsersService getUserService(){
+
+    public UsersService getUserService() {
         return this.userService;
     }
 
     public static MainPresenter getInstance(
-            IDatabaseConnection connection, UsersService userService) {
+            IDatabaseConnection connection,
+            UsersService userService) {
         if (instance == null) {
             instance = new MainPresenter(connection, userService);
         }
-        
+
         view.setVisible(true);
         return instance;
     }
 
     private void initComponents() {
         try {
+            view.getBtnConfig().addActionListener(new ActionListener() {
+                @Override
+                public void actionPerformed(ActionEvent e) {
+                    ConfigPresenter.getInstance();
+                }
+            });
             UsersModel authenticatedUser = UserSession.getInstance().getCurrentUser();
             view.getLblUserType().setText(authenticatedUser.getType());
             view.getLblUserLoggedIn().setText(authenticatedUser.getName());

@@ -5,10 +5,12 @@
 package com.source.presenters.UnauthenticatedUsersPresenter;
 
 import com.source.dbConnection.connections.IDatabaseConnection;
+import com.source.model.UsersModel;
 import com.source.service.UserService.UsersService;
 import com.source.view.UnauthenticatedUsersView;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.List;
 import javax.swing.table.DefaultTableModel;
 
 /**
@@ -16,10 +18,11 @@ import javax.swing.table.DefaultTableModel;
  * @author busat
  */
 public class UnauthenticatedUsersPresenter {
-     private static UnauthenticatedUsersView view = null;
+
+    private static UnauthenticatedUsersView view = null;
     private static UnauthenticatedUsersPresenter instance = null;
     private final IDatabaseConnection connection;
-    private final UsersService service;
+    private static UsersService service;
 
     private UnauthenticatedUsersPresenter(IDatabaseConnection connection,
             UsersService service) {
@@ -27,7 +30,7 @@ public class UnauthenticatedUsersPresenter {
             view = new UnauthenticatedUsersView();
         }
         this.connection = connection;
-        this.service = service;
+        UnauthenticatedUsersPresenter.service = service;
     }
 
     public IDatabaseConnection getConnection() {
@@ -45,19 +48,20 @@ public class UnauthenticatedUsersPresenter {
         return instance;
     }
 
-    private String getSelectedRowValue(int column) {
+    private static UsersModel getSelectedRowValue() {
         int row = view.getTblSearch().getSelectedRow();
-        return view.getTblSearch().getModel().getValueAt(row, column).toString();
+        UsersModel userToUpdate = service.findUserByUsername(view.getTblSearch().getModel().getValueAt(row, 1).toString());
+        return userToUpdate;
     }
 
     private static void setModelTable() {
         DefaultTableModel tableModel = (DefaultTableModel) view.getTblSearch().getModel();
         tableModel.setRowCount(0);
-        //List<UsersModel> users = service.login(view.getTxtSearchName().getText());
-        //for (UsersModel user : users) {
-        //  Object[] rowData = {user.getId(), user.getName(), user.getType()};
-        // tableModel.addRow(rowData);
-        //}
+        List<UsersModel> users = service.listUnauthorizedUsers();
+        for (UsersModel user : users) {
+            Object[] rowData = {user.getId(), user.getName(), user.getType()};
+            tableModel.addRow(rowData);
+        }
     }
 
     private static void clearScreen() {
@@ -70,7 +74,7 @@ public class UnauthenticatedUsersPresenter {
             view.getBtnAuthenticateUser().removeActionListener(al);
         }
     }
-    
+
     private static void initComponents() {
         clearScreen();
         setModelTable();
@@ -83,7 +87,10 @@ public class UnauthenticatedUsersPresenter {
         view.getBtnAuthenticateUser().addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                //new EmployeeManagementPresenter(service);
+                UsersModel userToUpdate = getSelectedRowValue();
+                userToUpdate.setAuthorized(1);
+                service.updateUser(userToUpdate);
+                view.dispose();
             }
         });
     }

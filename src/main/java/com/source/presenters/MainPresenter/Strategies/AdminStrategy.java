@@ -7,6 +7,7 @@ package com.source.presenters.MainPresenter.Strategies;
 import com.source.presenters.MainPresenter.MainPresenter;
 import com.source.presenters.MainPresenter.MainStrategy;
 import com.source.presenters.SearchUserPresenter.SearchUserPresenter;
+import com.source.presenters.UnauthenticatedUsersPresenter.UnauthenticatedUsersPresenter;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -32,6 +33,12 @@ public class AdminStrategy implements MainStrategy {
             @Override
             public void actionPerformed(ActionEvent e) {
                 SearchUserPresenter.getInstance(presenter.getConnection(), presenter.getUserService());
+            }
+        });
+        presenter.getView().getMenuItemAuthUser().addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                UnauthenticatedUsersPresenter.getInstance(presenter.getConnection(), presenter.getUserService());
             }
         });
     }

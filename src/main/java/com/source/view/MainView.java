@@ -40,6 +40,7 @@ public class MainView extends javax.swing.JFrame {
         lblUserType = new javax.swing.JLabel();
         lblDummyNewNotifications = new javax.swing.JLabel();
         btnNewNotifications = new javax.swing.JButton();
+        btnConfig = new javax.swing.JButton();
         menuBarMain = new javax.swing.JMenuBar();
         menuUserManagement = new javax.swing.JMenu();
         menuItemListUsers = new javax.swing.JMenuItem();
@@ -65,6 +66,8 @@ public class MainView extends javax.swing.JFrame {
 
         btnNewNotifications.setText("0");
 
+        btnConfig.setText("Config");
+
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
@@ -74,7 +77,9 @@ public class MainView extends javax.swing.JFrame {
                 .addComponent(lblDummyNewNotifications)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(btnNewNotifications)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 343, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 259, Short.MAX_VALUE)
+                .addComponent(btnConfig)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(lblDummyUserLoggedIn)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(lblUserLoggedIn)
@@ -94,7 +99,8 @@ public class MainView extends javax.swing.JFrame {
                     .addComponent(lblDummyUserType)
                     .addComponent(lblUserType)
                     .addComponent(lblDummyNewNotifications)
-                    .addComponent(btnNewNotifications))
+                    .addComponent(btnNewNotifications)
+                    .addComponent(btnConfig))
                 .addContainerGap())
         );
 
@@ -167,6 +173,10 @@ public class MainView extends javax.swing.JFrame {
 
     public JButton getBtnNewNotifications() {
         return btnNewNotifications;
+    }
+
+    public JButton getBtnConfig() {
+        return btnConfig;
     }
 
     public JLabel getLblUserLoggedIn() {
@@ -246,6 +256,7 @@ public class MainView extends javax.swing.JFrame {
     
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton btnConfig;
     private javax.swing.JButton btnNewNotifications;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JLabel lblDummyNewNotifications;

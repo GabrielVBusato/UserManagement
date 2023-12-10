@@ -1,0 +1,4 @@
+operação,mensagem,nome do user,admin,data,hora
+"LISTAGEM DE USUÁRIOS NÃO AUTORIZADOS","LISTAGEM DE USUÁRIOS NÃO AUTORIZADOS: << no user >>, (10/12/23, 16:18:17, e teste)","<< no user >>","teste","10/12/23","16:18:17"
+"FIND_USER","FIND_USER: fefe, (10/12/23, 16:18:19, e teste)","fefe","teste","10/12/23","16:18:19"
+"ATUALIZAÇÃO DE USUÁRIO","ATUALIZAÇÃO DE USUÁRIO: << no user >>, (10/12/23, 16:18:20, e teste)","<< no user >>","teste","10/12/23","16:18:20"
