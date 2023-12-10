@@ -10,6 +10,6 @@ package com.source.exceptions;
  */
 public class AuthenticateFailException extends Exception {
     public AuthenticateFailException() {
-        super("Usuário não autenticado.");
+        super("Username ou senha incorretos.");
     }
 }

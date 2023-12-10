@@ -17,9 +17,11 @@ import java.sql.SQLException;
 public class UsersRepository {
 
     private final UsersDao usersDao;
+    private final IDatabaseConnection connection;
 
     public UsersRepository(IDatabaseConnection connection) {
         usersDao = new UsersDao(connection);
+        this.connection = connection;
     }
 
 //    public EmployeeModel getEmployeeById(int id) throws SQLException {
@@ -50,14 +52,17 @@ public class UsersRepository {
         newUser.setType(result.getString("type"));
         newUser.setAuthorized(result.getInt("authorized"));
         newUser.setCreatedAt(result.getString("created_at"));
+        connection.disconnect();
         
         return newUser;
     }
 
-    public boolean checkAuthorized(UsersModel user) throws SQLException {
-        ResultSet result = usersDao.read(user.getId());
-
-        return result.getBoolean("authorized");
+    public boolean isAuthorized(int id) throws SQLException {
+        ResultSet result = usersDao.read(id);
+        Boolean isAuthorized = result.getBoolean("authorized");
+        connection.disconnect();
+        
+        return isAuthorized;
     }
     
     public UsersModel readByUsername(String username) throws SQLException {
@@ -69,14 +74,19 @@ public class UsersRepository {
         user.setName(result.getString("name"));
         user.setType(result.getString("type"));
         user.setAuthorized(result.getInt("authorized"));
+        user.setPassword(result.getString("password"));
         user.setCreatedAt(result.getString("created_at"));
         
+        connection.disconnect();
         return user;
     }
 
     public boolean existThereAnyUser() throws SQLException {
         ResultSet result = usersDao.getAll();
-        return result.next();
+        Boolean existsThereAnyUser = result.next();
+        
+        connection.disconnect();
+        return existsThereAnyUser;
     }
 
 //    public List<EmployeeModel> getAllEmployees() throws SQLException {

@@ -15,36 +15,49 @@
         </Property>
       </Properties>
       <SubComponents>
-        <Menu class="javax.swing.JMenu" name="menuEmployeeManagement">
+        <Menu class="javax.swing.JMenu" name="menuUserManagement">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Funcion&#xe1;rio"/>
+            <Property name="text" type="java.lang.String" value="Usu&#xe1;rios"/>
           </Properties>
           <SubComponents>
-            <MenuItem class="javax.swing.JMenuItem" name="menuItemCreateEmployee">
+            <MenuItem class="javax.swing.JMenuItem" name="menuItemCreateUser">
               <Properties>
-                <Property name="text" type="java.lang.String" value="Criar funcion&#xe1;rio"/>
+                <Property name="text" type="java.lang.String" value="Manter usu&#xe1;rio"/>
               </Properties>
             </MenuItem>
-            <MenuItem class="javax.swing.JMenuItem" name="menuItemSearchEmployee">
+            <MenuItem class="javax.swing.JMenuItem" name="menuItemListUsers">
               <Properties>
-                <Property name="text" type="java.lang.String" value="Procurar funcion&#xe1;rio"/>
+                <Property name="text" type="java.lang.String" value="Listar usu&#xe1;rios"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="menuItemAuthUser">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Autorizar usu&#xe1;rio"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="menuItemChangePassword">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Alterar senha"/>
               </Properties>
             </MenuItem>
           </SubComponents>
         </Menu>
-        <Menu class="javax.swing.JMenu" name="menuSalaryManagement">
+        <Menu class="javax.swing.JMenu" name="menuNotificationManagement">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Sal&#xe1;rio"/>
+            <Property name="text" type="java.lang.String" value="Notifica&#xe7;&#xe3;o"/>
           </Properties>
           <SubComponents>
-            <MenuItem class="javax.swing.JMenuItem" name="menuItemCalculateSalarys">
+            <MenuItem class="javax.swing.JMenuItem" name="menuItemSendNotification">
               <Properties>
-                <Property name="text" type="java.lang.String" value="Calcular sal&#xe1;rios"/>
+                <Property name="text" type="java.lang.String" value="Enviar notifica&#xe7;&#xe3;o"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="menuItemSendNotificationActionPerformed"/>
+              </Events>
             </MenuItem>
-            <MenuItem class="javax.swing.JMenuItem" name="menuItemSalaryStatistics">
+            <MenuItem class="javax.swing.JMenuItem" name="menuItemListNotifications">
               <Properties>
-                <Property name="text" type="java.lang.String" value="Estat&#xed;stica dos sal&#xe1;rios"/>
+                <Property name="text" type="java.lang.String" value="Listar notifica&#xe7;&#xf5;es"/>
               </Properties>
             </MenuItem>
           </SubComponents>

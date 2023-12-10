@@ -32,12 +32,14 @@ public class MainView extends javax.swing.JFrame {
     private void initComponents() {
 
         menuBarMain = new javax.swing.JMenuBar();
-        menuEmployeeManagement = new javax.swing.JMenu();
-        menuItemCreateEmployee = new javax.swing.JMenuItem();
-        menuItemSearchEmployee = new javax.swing.JMenuItem();
-        menuSalaryManagement = new javax.swing.JMenu();
-        menuItemCalculateSalarys = new javax.swing.JMenuItem();
-        menuItemSalaryStatistics = new javax.swing.JMenuItem();
+        menuUserManagement = new javax.swing.JMenu();
+        menuItemCreateUser = new javax.swing.JMenuItem();
+        menuItemListUsers = new javax.swing.JMenuItem();
+        menuItemAuthUser = new javax.swing.JMenuItem();
+        menuItemChangePassword = new javax.swing.JMenuItem();
+        menuNotificationManagement = new javax.swing.JMenu();
+        menuItemSendNotification = new javax.swing.JMenuItem();
+        menuItemListNotifications = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Sistema de gestão de pessoas");
@@ -47,25 +49,36 @@ public class MainView extends javax.swing.JFrame {
         menuBarMain.setFocusable(false);
         menuBarMain.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
 
-        menuEmployeeManagement.setText("Funcionário");
+        menuUserManagement.setText("Usuários");
 
-        menuItemCreateEmployee.setText("Criar funcionário");
-        menuEmployeeManagement.add(menuItemCreateEmployee);
+        menuItemCreateUser.setText("Manter usuário");
+        menuUserManagement.add(menuItemCreateUser);
 
-        menuItemSearchEmployee.setText("Procurar funcionário");
-        menuEmployeeManagement.add(menuItemSearchEmployee);
+        menuItemListUsers.setText("Listar usuários");
+        menuUserManagement.add(menuItemListUsers);
 
-        menuBarMain.add(menuEmployeeManagement);
+        menuItemAuthUser.setText("Autorizar usuário");
+        menuUserManagement.add(menuItemAuthUser);
 
-        menuSalaryManagement.setText("Salário");
+        menuItemChangePassword.setText("Alterar senha");
+        menuUserManagement.add(menuItemChangePassword);
 
-        menuItemCalculateSalarys.setText("Calcular salários");
-        menuSalaryManagement.add(menuItemCalculateSalarys);
+        menuBarMain.add(menuUserManagement);
 
-        menuItemSalaryStatistics.setText("Estatística dos salários");
-        menuSalaryManagement.add(menuItemSalaryStatistics);
+        menuNotificationManagement.setText("Notificação");
 
-        menuBarMain.add(menuSalaryManagement);
+        menuItemSendNotification.setText("Enviar notificação");
+        menuItemSendNotification.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuItemSendNotificationActionPerformed(evt);
+            }
+        });
+        menuNotificationManagement.add(menuItemSendNotification);
+
+        menuItemListNotifications.setText("Listar notificações");
+        menuNotificationManagement.add(menuItemListNotifications);
+
+        menuBarMain.add(menuNotificationManagement);
 
         setJMenuBar(menuBarMain);
 
@@ -84,37 +97,9 @@ public class MainView extends javax.swing.JFrame {
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
-    public JMenuItem getMenuItemCreateEmployee() {
-        return menuItemCreateEmployee;
-    }
-
-    public JMenuItem getMenuItemSalaryStatistics() {
-        return menuItemSalaryStatistics;
-    }
-
-    public void setMenuItemSalaryStatistics(JMenuItem menuItemSalaryStatistics) {
-        this.menuItemSalaryStatistics = menuItemSalaryStatistics;
-    }
-
-    public void setMenuItemCreateEmployee(JMenuItem menuItemCreateEmployee) {
-        this.menuItemCreateEmployee = menuItemCreateEmployee;
-    }
-
-    public JMenuItem getMenuItemSearchEmployee() {
-        return menuItemSearchEmployee;
-    }
-
-    public void setMenuItemSearchEmployee(JMenuItem menuItemSearchEmployee) {
-        this.menuItemSearchEmployee = menuItemSearchEmployee;
-    }
-
-    public JMenu getMenuSalaryManagement() {
-        return menuSalaryManagement;
-    }
-
-    public void setMenuSalaryManagement(JMenu menuSalaryManagement) {
-        this.menuSalaryManagement = menuSalaryManagement;
-    }
+    private void menuItemSendNotificationActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItemSendNotificationActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_menuItemSendNotificationActionPerformed
 
     public JMenuBar getMenuBarMain() {
         return menuBarMain;
@@ -124,31 +109,83 @@ public class MainView extends javax.swing.JFrame {
         this.menuBarMain = menuBarMain;
     }
 
-    public JMenu getMenuEmployeeManagement() {
-        return menuEmployeeManagement;
+    public JMenuItem getMenuItemAuthUser() {
+        return menuItemAuthUser;
     }
 
-    public void setMenuEmployeeManagement(JMenu menuEmployeeManagement) {
-        this.menuEmployeeManagement = menuEmployeeManagement;
+    public void setMenuItemAuthUser(JMenuItem menuItemAuthUser) {
+        this.menuItemAuthUser = menuItemAuthUser;
     }
 
-    public JMenuItem getMenuItemCalculateSalarys() {
-        return menuItemCalculateSalarys;
+    public JMenuItem getMenuItemChangePassword() {
+        return menuItemChangePassword;
     }
 
-    public void setMenuItemCalculateSalarys(JMenuItem menuItemCalculateSalarys) {
-        this.menuItemCalculateSalarys = menuItemCalculateSalarys;
+    public void setMenuItemChangePassword(JMenuItem menuItemChangePassword) {
+        this.menuItemChangePassword = menuItemChangePassword;
     }
-    
+
+    public JMenuItem getMenuItemCreateUser() {
+        return menuItemCreateUser;
+    }
+
+    public void setMenuItemCreateUser(JMenuItem menuItemCreateUser) {
+        this.menuItemCreateUser = menuItemCreateUser;
+    }
+
+    public JMenuItem getMenuItemListNotifications() {
+        return menuItemListNotifications;
+    }
+
+    public void setMenuItemListNotifications(JMenuItem menuItemListNotifications) {
+        this.menuItemListNotifications = menuItemListNotifications;
+    }
+
+    public JMenuItem getMenuItemListUsers() {
+        return menuItemListUsers;
+    }
+
+    public void setMenuItemListUsers(JMenuItem menuItemListUsers) {
+        this.menuItemListUsers = menuItemListUsers;
+    }
+
+    public JMenuItem getMenuItemSendNotification() {
+        return menuItemSendNotification;
+    }
+
+    public void setMenuItemSendNotification(JMenuItem menuItemSendNotification) {
+        this.menuItemSendNotification = menuItemSendNotification;
+    }
+
+    public JMenu getMenuNotificationManagement() {
+        return menuNotificationManagement;
+    }
+
+    public void setMenuNotificationManagement(JMenu menuNotificationManagement) {
+        this.menuNotificationManagement = menuNotificationManagement;
+    }
+
+    public JMenu getMenuUserManagement() {
+        return menuUserManagement;
+    }
+
+    public void setMenuUserManagement(JMenu menuUserManagement) {
+        this.menuUserManagement = menuUserManagement;
+    }
+
+
+  
     
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JMenuBar menuBarMain;
-    private javax.swing.JMenu menuEmployeeManagement;
-    private javax.swing.JMenuItem menuItemCalculateSalarys;
-    private javax.swing.JMenuItem menuItemCreateEmployee;
-    private javax.swing.JMenuItem menuItemSalaryStatistics;
-    private javax.swing.JMenuItem menuItemSearchEmployee;
-    private javax.swing.JMenu menuSalaryManagement;
+    private javax.swing.JMenuItem menuItemAuthUser;
+    private javax.swing.JMenuItem menuItemChangePassword;
+    private javax.swing.JMenuItem menuItemCreateUser;
+    private javax.swing.JMenuItem menuItemListNotifications;
+    private javax.swing.JMenuItem menuItemListUsers;
+    private javax.swing.JMenuItem menuItemSendNotification;
+    private javax.swing.JMenu menuNotificationManagement;
+    private javax.swing.JMenu menuUserManagement;
     // End of variables declaration//GEN-END:variables
 }

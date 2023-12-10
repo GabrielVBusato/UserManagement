@@ -25,7 +25,7 @@ public class UsersDao implements IDao<UsersModel> {
 
     @Override
     public void delete(int id) throws SQLException {
-        String query = "Delete from users where id = " + id;
+        String query = "Delete from users where id = '" + id + "'";
         connection.connect();
         connection.createStatement().executeUpdate(query);
         connection.disconnect();
@@ -61,17 +61,18 @@ public class UsersDao implements IDao<UsersModel> {
     public ResultSet read(int id) throws SQLException {
         ResultSet result;
         Statement statement;
-        String query = "Select * from users where id = " + id;
+        String query = "Select * from users where id = '" + id + "'";
         connection.connect();
         statement = connection.createStatement();
         result = statement.executeQuery(query);
+        
         return result;
     }
     
     public ResultSet readByUsername(String username) throws SQLException {
         ResultSet result;
         Statement statement;
-        String query = "Select * from users where name = " + username;
+        String query = "Select * from users where name = '" + username + "'";
         connection.connect();
         statement = connection.createStatement();
         result = statement.executeQuery(query);

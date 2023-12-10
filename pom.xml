@@ -12,6 +12,11 @@
         </repository>
     </repositories>
     <dependencies>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.13.0</version>
+        </dependency>
         <!-- https://mvnrepository.com/artifact/org.xerial/sqlite-jdbc -->
         <dependency>
             <groupId>org.xerial</groupId>
@@ -27,7 +32,7 @@
         <dependency>
             <groupId>com.github.GabrielVBusato</groupId>
             <artifactId>LoggerJava</artifactId>
-            <version>Release-1.2</version>
+            <version>Release-1.3</version>
         </dependency>
         <dependency>
 

@@ -1,0 +1,33 @@
+[ {
+  "type" : "ERROR",
+  "contactName" : "teste",
+  "currentDate" : "10/12/23",
+  "currentHour" : "05:29:50",
+  "adminUsername" : "Sem administrador",
+  "message" : "Ocorreu a falha {Username ou senha incorretos.} ao realizar a operação {LOGIN} do contato teste, (10/12/23, 05:29:50, e Sem administrador)",
+  "operation" : "LOGIN"
+}, {
+  "type" : "ERROR",
+  "contactName" : "<<no user>>",
+  "currentDate" : "10/12/23",
+  "currentHour" : "05:29:55",
+  "adminUsername" : "Sem administrador",
+  "message" : "Ocorreu a falha {Validação falhou para o campo: userName} ao realizar a operação {LOGIN} do contato <<no user>>, (10/12/23, 05:29:55, e Sem administrador)",
+  "operation" : "LOGIN"
+}, {
+  "type" : "INFO",
+  "contactName" : "teste",
+  "currentDate" : "10/12/23",
+  "currentHour" : "05:32:31",
+  "adminUsername" : "Sem administrador",
+  "message" : "LOGIN: teste, (10/12/23, 05:32:31, e Sem administrador)",
+  "operation" : "LOGIN"
+}, {
+  "type" : "INFO",
+  "contactName" : "teste",
+  "currentDate" : "10/12/23",
+  "currentHour" : "05:46:50",
+  "adminUsername" : "Sem administrador",
+  "message" : "LOGIN: teste, (10/12/23, 05:46:50, e Sem administrador)",
+  "operation" : "LOGIN"
+} ]

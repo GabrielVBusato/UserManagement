@@ -4,10 +4,10 @@
  */
 package com.source;
 
-import com.logger.services.LogService;
 import com.source.dbConnection.factory.DatabaseConnectionFactory;
 import com.source.dbConnection.factory.SqliteConnectionFactory;
-import com.source.presenter.AuthenticationPresenter.AuthenticationPresenter;
+import com.source.presenters.AuthenticationPresenter.AuthenticationPresenter;
+import com.source.service.UserService.UsersService;
 
 /**
  *
@@ -17,7 +17,7 @@ public class Application {
 
     public static void main(String[] args) {
         DatabaseConnectionFactory connection = new SqliteConnectionFactory();
-        LogService logService = new LogService();
-        AuthenticationPresenter.getInstance(logService, connection.getConnection());
+        UsersService userService = new UsersService(connection.getConnection());
+        AuthenticationPresenter.getInstance(connection.getConnection(), userService);
     }
 }
