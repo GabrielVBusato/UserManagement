@@ -486,4 +486,84 @@
   "adminUsername" : "teste 1",
   "message" : "MARCAÇÃO DE NOTIFICAÇÃO COMO LIDA: teste 1, (10/12/23, 18:46:58, e teste 1)",
   "operation" : "MARCAÇÃO DE NOTIFICAÇÃO COMO LIDA"
+}, {
+  "type" : "INFO",
+  "contactName" : "teste 1",
+  "currentDate" : "10/12/23",
+  "currentHour" : "19:52:22",
+  "adminUsername" : "Sem administrador",
+  "message" : "LOGIN: teste 1, (10/12/23, 19:52:22, e Sem administrador)",
+  "operation" : "LOGIN"
+}, {
+  "type" : "INFO",
+  "contactName" : "teste 1",
+  "currentDate" : "10/12/23",
+  "currentHour" : "20:03:47",
+  "adminUsername" : "Sem administrador",
+  "message" : "LOGIN: teste 1, (10/12/23, 20:03:47, e Sem administrador)",
+  "operation" : "LOGIN"
+}, {
+  "type" : "INFO",
+  "contactName" : "teste 1",
+  "currentDate" : "10/12/23",
+  "currentHour" : "20:06:06",
+  "adminUsername" : "Sem administrador",
+  "message" : "LOGIN: teste 1, (10/12/23, 20:06:06, e Sem administrador)",
+  "operation" : "LOGIN"
+}, {
+  "type" : "INFO",
+  "contactName" : "teste 1",
+  "currentDate" : "10/12/23",
+  "currentHour" : "20:06:54",
+  "adminUsername" : "Sem administrador",
+  "message" : "LOGIN: teste 1, (10/12/23, 20:06:54, e Sem administrador)",
+  "operation" : "LOGIN"
+}, {
+  "type" : "INFO",
+  "contactName" : "teste 1",
+  "currentDate" : "10/12/23",
+  "currentHour" : "20:10:15",
+  "adminUsername" : "Sem administrador",
+  "message" : "LOGIN: teste 1, (10/12/23, 20:10:15, e Sem administrador)",
+  "operation" : "LOGIN"
+}, {
+  "type" : "INFO",
+  "contactName" : "<< no user >>",
+  "currentDate" : "10/12/23",
+  "currentHour" : "20:10:25",
+  "adminUsername" : "teste 1",
+  "message" : "ATUALIZAÇÃO DE USUÁRIO: << no user >>, (10/12/23, 20:10:25, e teste 1)",
+  "operation" : "ATUALIZAÇÃO DE USUÁRIO"
+}, {
+  "type" : "INFO",
+  "contactName" : "teste 1",
+  "currentDate" : "10/12/23",
+  "currentHour" : "20:11:03",
+  "adminUsername" : "Sem administrador",
+  "message" : "LOGIN: teste 1, (10/12/23, 20:11:03, e Sem administrador)",
+  "operation" : "LOGIN"
+}, {
+  "type" : "ERROR",
+  "contactName" : "teste 1",
+  "currentDate" : "10/12/23",
+  "currentHour" : "20:11:10",
+  "adminUsername" : "teste 1",
+  "message" : "Ocorreu a falha {Validação falhou para o campo: Nova senha} ao realizar a operação {TROCAR SENHA} do contato teste 1, (10/12/23, 20:11:10, e teste 1)",
+  "operation" : "TROCAR SENHA"
+}, {
+  "type" : "ERROR",
+  "contactName" : "teste 1",
+  "currentDate" : "10/12/23",
+  "currentHour" : "20:11:16",
+  "adminUsername" : "teste 1",
+  "message" : "Ocorreu a falha {Validação falhou para o campo: Nova senha} ao realizar a operação {TROCAR SENHA} do contato teste 1, (10/12/23, 20:11:16, e teste 1)",
+  "operation" : "TROCAR SENHA"
+}, {
+  "type" : "INFO",
+  "contactName" : "<< no user >>",
+  "currentDate" : "10/12/23",
+  "currentHour" : "20:11:19",
+  "adminUsername" : "teste 1",
+  "message" : "ATUALIZAÇÃO DE USUÁRIO: << no user >>, (10/12/23, 20:11:19, e teste 1)",
+  "operation" : "ATUALIZAÇÃO DE USUÁRIO"
 } ]

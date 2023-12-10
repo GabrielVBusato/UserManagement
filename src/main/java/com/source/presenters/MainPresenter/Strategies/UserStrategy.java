@@ -4,6 +4,7 @@
  */
 package com.source.presenters.MainPresenter.Strategies;
 
+import com.source.presenters.ChangePasswordPresenter.ChangePasswordPresenter;
 import com.source.presenters.ListNotificationsPresenter.ListNotificationsPresenter;
 import com.source.presenters.MainPresenter.MainPresenter;
 import com.source.presenters.MainPresenter.MainStrategy;
@@ -33,6 +34,12 @@ public class UserStrategy implements MainStrategy {
             @Override
             public void actionPerformed(ActionEvent e) {
                 ListNotificationsPresenter.getInstance(presenter.getConnection());
+            }
+        });
+        presenter.getView().getMenuItemChangePassword().addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                ChangePasswordPresenter.getInstance(presenter.getConnection(), presenter.getUserService());
             }
         });
     }

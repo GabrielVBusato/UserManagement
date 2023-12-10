@@ -39,4 +39,13 @@ public class TextField {
             throw new FailedValidationException(name);
         }
     }
+    
+    public void validateNotEquals(String secondValue)throws FailedValidationException {
+        if(!value.equals(secondValue)) {
+            JOptionPane.showMessageDialog(null, "As senhas não são iguais",
+                    "Validação de senha", JOptionPane.ERROR_MESSAGE
+            );
+            throw new FailedValidationException("Nova senha");
+        }
+    }
 }
