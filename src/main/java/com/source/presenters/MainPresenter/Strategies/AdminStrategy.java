@@ -30,6 +30,7 @@ public class AdminStrategy implements MainStrategy {
         presenter.getView().getMenuItemListNotifications().setVisible(false);
         presenter.getView().getLblDummyNewNotifications().setVisible(false);
         presenter.getView().getBtnNewNotifications().setVisible(false);
+        presenter.getView().getMenuItemListUsers().setVisible(true);
         presenter.getView().getMenuItemListUsers().addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {

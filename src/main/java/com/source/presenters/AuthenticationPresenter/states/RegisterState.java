@@ -38,12 +38,13 @@ public final class RegisterState extends AuthenticationState {
         for (TextField field : fields) {
             field.validateNotNull();
         }
+        
+        password.validatePassword();
 
         UsersModel user = new UsersModel();
         user.setPassword(password.getValue());
         user.setName(userName.getValue());
         
-        System.out.println("oi");
         UsersModel newUser = presenter.getUserService().register(user);
 
         if (newUser != null) {
