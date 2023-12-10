@@ -9,6 +9,8 @@ import com.source.model.UsersModel;
 import com.source.dbConnection.connections.IDatabaseConnection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  *
@@ -24,23 +26,6 @@ public class UsersRepository {
         this.connection = connection;
     }
 
-//    public EmployeeModel getEmployeeById(int id) throws SQLException {
-//        ResultSet result = employeeDao.read(id);
-//        EmployeeModel employee = new EmployeeModel();
-//        while (result.next()) {
-//            employee.setId(result.getInt("id"));
-//            employee.setName(result.getString("name"));
-//            employee.setRole(result.getString("role"));
-//            employee.setBaseSalary(result.getString("base_salary"));
-//            employee.setDistanceFromWork(result.getString("distance_from_work"));
-//            employee.setServiceTime(result.getString("service_time"));
-//            employee.setCreatedAt(result.getString("created_at"));
-//            employee.setTotalAbsencesFromWork(result.getInt("absences_from_work"));
-//            employee.setEmployeeOfTheMonth(result.getInt("employee_of_the_month"));
-//        }
-//        connection.disconnect();
-//        return employee;
-//    }
     public UsersModel createUser(UsersModel user) throws SQLException {
         int id = usersDao.create(user);
         ResultSet result = usersDao.read(id);
@@ -65,17 +50,39 @@ public class UsersRepository {
         return isAuthorized;
     }
     
+    public List<UsersModel> getAllUnauthorized() throws SQLException {
+        ResultSet result = usersDao.getAllUnauthorized();
+        
+        List<UsersModel> unauthorizedUsers = new ArrayList<>();
+        
+        while(result.next()) {
+            UsersModel user = new UsersModel();
+            user.parseData(result);
+            unauthorizedUsers.add(user);
+        }
+        
+        return unauthorizedUsers;
+    }
+    
+    public List<UsersModel> getAll() throws SQLException {
+        ResultSet result = usersDao.getAll();
+        
+        List<UsersModel> users = new ArrayList<>();
+        
+        while(result.next()) {
+            UsersModel user = new UsersModel();
+            user.parseData(result);
+            users.add(user);
+        }
+        
+        return users;
+    }
+    
     public UsersModel readByUsername(String username) throws SQLException {
         ResultSet result = usersDao.readByUsername(username);
         
         UsersModel user = new UsersModel();
-        
-        user.setId(result.getInt("id"));
-        user.setName(result.getString("name"));
-        user.setType(result.getString("type"));
-        user.setAuthorized(result.getInt("authorized"));
-        user.setPassword(result.getString("password"));
-        user.setCreatedAt(result.getString("created_at"));
+        user.parseData(result);
         
         connection.disconnect();
         return user;
@@ -88,24 +95,8 @@ public class UsersRepository {
         connection.disconnect();
         return existsThereAnyUser;
     }
-
-//    public List<EmployeeModel> getAllEmployees() throws SQLException {
-//        ResultSet result = employeeDao.getAll();
-//        List<EmployeeModel> employees = new ArrayList<>();
-//        while (result.next()) {
-//            EmployeeModel employee = new EmployeeModel();
-//            employee.setId(result.getInt("id"));
-//            employee.setName(result.getString("name"));
-//            employee.setRole(result.getString("role"));
-//            employee.setBaseSalary(result.getString("base_salary"));
-//            employee.setDistanceFromWork(result.getString("distance_from_work"));
-//            employee.setServiceTime(result.getString("service_time"));
-//            employee.setCreatedAt(result.getString("created_at"));
-//            employee.setTotalAbsencesFromWork(result.getInt("absences_from_work"));
-//            employee.setEmployeeOfTheMonth(result.getInt("employee_of_the_month"));
-//            employees.add(employee);
-//        }
-//        connection.disconnect();
-//        return employees;
-//    }
+    
+    public void updateUser(UsersModel user) throws SQLException {
+        usersDao.update(user);
+    }
 }
