@@ -46,7 +46,7 @@ public class NotificationsDao implements IDao<NotificationsModel> {
     }
 
     public void markAsRead(int notificationId) throws SQLException {
-        String updateQuery = "Update notifications SET read = 1 where = '" + notificationId + "'";
+        String updateQuery = "Update notifications SET read = 1 where id = '" + notificationId + "'";
         connection.connect();
         connection.createStatement().executeUpdate(updateQuery);
         connection.disconnect();
@@ -57,7 +57,7 @@ public class NotificationsDao implements IDao<NotificationsModel> {
     }
 
     public ResultSet getAllUnread(int userId) throws SQLException {
-        return this.databaseQuery("Select * from notifications where user_id = '" + userId + "' and where read = 0");
+        return this.databaseQuery("Select * from notifications where user_id = '" + userId + "' and read = 0");
     }
     
     public int totalUnreadNotifications(int userId) throws SQLException {

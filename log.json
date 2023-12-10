@@ -1,817 +1,551 @@
-[ {
-  "type" : "ERROR",
-  "contactName" : "teste 5",
-  "currentDate" : "10/12/23",
-  "currentHour" : "16:33:06",
-  "adminUsername" : "Sem administrador",
-  "message" : "Ocorreu a falha {nome já existente} ao realizar a operação {CRIAÇÃO} do contato teste 5, (10/12/23, 16:33:06, e Sem administrador)",
-  "operation" : "CRIAÇÃO"
-}, {
-  "type" : "ERROR",
-  "contactName" : "teste 6",
-  "currentDate" : "10/12/23",
-  "currentHour" : "16:35:07",
-  "adminUsername" : "Sem administrador",
-  "message" : "Ocorreu a falha {nome já existente} ao realizar a operação {CRIAÇÃO} do contato teste 6, (10/12/23, 16:35:07, e Sem administrador)",
-  "operation" : "CRIAÇÃO"
-}, {
-  "type" : "ERROR",
-  "contactName" : "teste6",
-  "currentDate" : "10/12/23",
-  "currentHour" : "16:35:32",
-  "adminUsername" : "Sem administrador",
-  "message" : "Ocorreu a falha {nome já existente} ao realizar a operação {CRIAÇÃO} do contato teste6, (10/12/23, 16:35:32, e Sem administrador)",
-  "operation" : "CRIAÇÃO"
-}, {
-  "type" : "ERROR",
-  "contactName" : "teste",
-  "currentDate" : "10/12/23",
-  "currentHour" : "16:37:27",
-  "adminUsername" : "Sem administrador",
-  "message" : "Ocorreu a falha {nome já existente} ao realizar a operação {CRIAÇÃO} do contato teste, (10/12/23, 16:37:27, e Sem administrador)",
-  "operation" : "CRIAÇÃO"
-}, {
-  "type" : "ERROR",
-  "contactName" : "teste1",
-  "currentDate" : "10/12/23",
-  "currentHour" : "16:37:30",
-  "adminUsername" : "Sem administrador",
-  "message" : "Ocorreu a falha {nome já existente} ao realizar a operação {CRIAÇÃO} do contato teste1, (10/12/23, 16:37:30, e Sem administrador)",
-  "operation" : "CRIAÇÃO"
-}, {
-  "type" : "ERROR",
-  "contactName" : "teste1",
-  "currentDate" : "10/12/23",
-  "currentHour" : "16:37:33",
-  "adminUsername" : "Sem administrador",
-  "message" : "Ocorreu a falha {nome já existente} ao realizar a operação {CRIAÇÃO} do contato teste1, (10/12/23, 16:37:33, e Sem administrador)",
-  "operation" : "CRIAÇÃO"
-}, {
-  "type" : "ERROR",
-  "contactName" : "teste13",
-  "currentDate" : "10/12/23",
-  "currentHour" : "16:37:42",
-  "adminUsername" : "Sem administrador",
-  "message" : "Ocorreu a falha {nome já existente} ao realizar a operação {CRIAÇÃO} do contato teste13, (10/12/23, 16:37:42, e Sem administrador)",
-  "operation" : "CRIAÇÃO"
-}, {
-  "type" : "ERROR",
-  "contactName" : "teste 444",
-  "currentDate" : "10/12/23",
-  "currentHour" : "16:39:14",
-  "adminUsername" : "Sem administrador",
-  "message" : "Ocorreu a falha {nome já existente} ao realizar a operação {CRIAÇÃO} do contato teste 444, (10/12/23, 16:39:14, e Sem administrador)",
-  "operation" : "CRIAÇÃO"
-}, {
-  "type" : "ERROR",
-  "contactName" : "te232423",
-  "currentDate" : "10/12/23",
-  "currentHour" : "16:39:40",
-  "adminUsername" : "Sem administrador",
-  "message" : "Ocorreu a falha {nome já existente} ao realizar a operação {CRIAÇÃO} do contato te232423, (10/12/23, 16:39:40, e Sem administrador)",
-  "operation" : "CRIAÇÃO"
-}, {
-  "type" : "ERROR",
-  "contactName" : "te23242443",
-  "currentDate" : "10/12/23",
-  "currentHour" : "16:39:47",
-  "adminUsername" : "Sem administrador",
-  "message" : "Ocorreu a falha {nome já existente} ao realizar a operação {CRIAÇÃO} do contato te23242443, (10/12/23, 16:39:47, e Sem administrador)",
-  "operation" : "CRIAÇÃO"
-}, {
-  "type" : "ERROR",
-  "contactName" : "test23423",
-  "currentDate" : "10/12/23",
-  "currentHour" : "16:51:30",
-  "adminUsername" : "Sem administrador",
-  "message" : "Ocorreu a falha {nome já existente} ao realizar a operação {CRIAÇÃO} do contato test23423, (10/12/23, 16:51:30, e Sem administrador)",
-  "operation" : "CRIAÇÃO"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste34",
-  "currentDate" : "10/12/23",
-  "currentHour" : "16:52:01",
-  "adminUsername" : "Sem administrador",
-  "message" : "CRIAÇÃO: teste34, (10/12/23, 16:52:01, e Sem administrador)",
-  "operation" : "CRIAÇÃO"
-}, {
-  "type" : "INFO",
-  "contactName" : "2342",
-  "currentDate" : "10/12/23",
-  "currentHour" : "16:52:11",
-  "adminUsername" : "Sem administrador",
-  "message" : "CRIAÇÃO: 2342, (10/12/23, 16:52:11, e Sem administrador)",
-  "operation" : "CRIAÇÃO"
-}, {
-  "type" : "ERROR",
-  "contactName" : "teste",
-  "currentDate" : "10/12/23",
-  "currentHour" : "16:52:42",
-  "adminUsername" : "Sem administrador",
-  "message" : "Ocorreu a falha {nome já existente} ao realizar a operação {CRIAÇÃO} do contato teste, (10/12/23, 16:52:42, e Sem administrador)",
-  "operation" : "CRIAÇÃO"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste3333",
-  "currentDate" : "10/12/23",
-  "currentHour" : "16:52:45",
-  "adminUsername" : "Sem administrador",
-  "message" : "CRIAÇÃO: teste3333, (10/12/23, 16:52:45, e Sem administrador)",
-  "operation" : "CRIAÇÃO"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "10/12/23",
-  "currentHour" : "16:52:49",
-  "adminUsername" : "Sem administrador",
-  "message" : "LOGIN: teste, (10/12/23, 16:52:49, e Sem administrador)",
-  "operation" : "LOGIN"
-}, {
-  "type" : "ERROR",
-  "contactName" : "<< no user >>",
-  "currentDate" : "10/12/23",
-  "currentHour" : "16:53:14",
-  "adminUsername" : "teste",
-  "message" : "Ocorreu a falha {[SQLITE_ERROR] SQL error or missing database (near \"WHERE\": syntax error)} ao realizar a operação {LISTAGEM DE USUÁRIOS NÃO AUTORIZADOS} do contato << no user >>, (10/12/23, 16:53:14, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS NÃO AUTORIZADOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "10/12/23",
-  "currentHour" : "16:54:42",
-  "adminUsername" : "Sem administrador",
-  "message" : "LOGIN: teste, (10/12/23, 16:54:42, e Sem administrador)",
-  "operation" : "LOGIN"
-}, {
-  "type" : "ERROR",
-  "contactName" : "<< no user >>",
-  "currentDate" : "10/12/23",
-  "currentHour" : "16:54:49",
-  "adminUsername" : "teste",
-  "message" : "Ocorreu a falha {no such column: 'password'} ao realizar a operação {LISTAGEM DE USUÁRIOS NÃO AUTORIZADOS} do contato << no user >>, (10/12/23, 16:54:49, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS NÃO AUTORIZADOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "10/12/23",
-  "currentHour" : "16:55:25",
-  "adminUsername" : "Sem administrador",
-  "message" : "LOGIN: teste, (10/12/23, 16:55:25, e Sem administrador)",
-  "operation" : "LOGIN"
-}, {
-  "type" : "ERROR",
-  "contactName" : "<< no user >>",
-  "currentDate" : "10/12/23",
-  "currentHour" : "16:55:32",
-  "adminUsername" : "teste",
-  "message" : "Ocorreu a falha {[SQLITE_SCHEMA] The database schema changed (near \"(\": syntax error)} ao realizar a operação {LISTAGEM DE USUÁRIOS NÃO AUTORIZADOS} do contato << no user >>, (10/12/23, 16:55:32, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS NÃO AUTORIZADOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "10/12/23",
-  "currentHour" : "16:55:59",
-  "adminUsername" : "Sem administrador",
-  "message" : "LOGIN: teste, (10/12/23, 16:55:59, e Sem administrador)",
-  "operation" : "LOGIN"
-}, {
-  "type" : "ERROR",
-  "contactName" : "<< no user >>",
-  "currentDate" : "10/12/23",
-  "currentHour" : "16:56:35",
-  "adminUsername" : "teste",
-  "message" : "Ocorreu a falha {[SQLITE_SCHEMA] The database schema changed (near \"(\": syntax error)} ao realizar a operação {LISTAGEM DE USUÁRIOS NÃO AUTORIZADOS} do contato << no user >>, (10/12/23, 16:56:35, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS NÃO AUTORIZADOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "10/12/23",
-  "currentHour" : "16:56:45",
-  "adminUsername" : "Sem administrador",
-  "message" : "LOGIN: teste, (10/12/23, 16:56:45, e Sem administrador)",
-  "operation" : "LOGIN"
-}, {
-  "type" : "ERROR",
-  "contactName" : "<< no user >>",
-  "currentDate" : "10/12/23",
-  "currentHour" : "16:56:50",
-  "adminUsername" : "teste",
-  "message" : "Ocorreu a falha {[SQLITE_SCHEMA] The database schema changed (near \"(\": syntax error)} ao realizar a operação {LISTAGEM DE USUÁRIOS NÃO AUTORIZADOS} do contato << no user >>, (10/12/23, 16:56:50, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS NÃO AUTORIZADOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "10/12/23",
-  "currentHour" : "16:57:27",
-  "adminUsername" : "Sem administrador",
-  "message" : "LOGIN: teste, (10/12/23, 16:57:27, e Sem administrador)",
-  "operation" : "LOGIN"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "10/12/23",
-  "currentHour" : "16:57:28",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS NÃO AUTORIZADOS: << no user >>, (10/12/23, 16:57:28, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS NÃO AUTORIZADOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste 4",
-  "currentDate" : "10/12/23",
-  "currentHour" : "16:57:37",
-  "adminUsername" : "teste",
-  "message" : "FIND_USER: teste 4, (10/12/23, 16:57:37, e teste)",
-  "operation" : "FIND_USER"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "10/12/23",
-  "currentHour" : "16:57:38",
-  "adminUsername" : "teste",
-  "message" : "ATUALIZAÇÃO DE USUÁRIO: << no user >>, (10/12/23, 16:57:38, e teste)",
-  "operation" : "ATUALIZAÇÃO DE USUÁRIO"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "10/12/23",
-  "currentHour" : "16:57:46",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS NÃO AUTORIZADOS: << no user >>, (10/12/23, 16:57:46, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS NÃO AUTORIZADOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "10/12/23",
-  "currentHour" : "17:08:52",
-  "adminUsername" : "Sem administrador",
-  "message" : "LOGIN: teste, (10/12/23, 17:08:52, e Sem administrador)",
-  "operation" : "LOGIN"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "10/12/23",
-  "currentHour" : "17:08:54",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS NÃO AUTORIZADOS: << no user >>, (10/12/23, 17:08:54, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS NÃO AUTORIZADOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "10/12/23",
-  "currentHour" : "17:08:59",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (10/12/23, 17:08:59, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "10/12/23",
-  "currentHour" : "17:11:00",
-  "adminUsername" : "Sem administrador",
-  "message" : "LOGIN: teste, (10/12/23, 17:11:00, e Sem administrador)",
-  "operation" : "LOGIN"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "10/12/23",
-  "currentHour" : "17:12:41",
-  "adminUsername" : "Sem administrador",
-  "message" : "LOGIN: teste, (10/12/23, 17:12:41, e Sem administrador)",
-  "operation" : "LOGIN"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "10/12/23",
-  "currentHour" : "17:12:44",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (10/12/23, 17:12:44, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "ERROR",
-  "contactName" : "test",
-  "currentDate" : "10/12/23",
-  "currentHour" : "17:13:36",
-  "adminUsername" : "Sem administrador",
-  "message" : "Ocorreu a falha {Usuário não autorizado.} ao realizar a operação {LOGIN} do contato test, (10/12/23, 17:13:36, e Sem administrador)",
-  "operation" : "LOGIN"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "10/12/23",
-  "currentHour" : "17:13:37",
-  "adminUsername" : "Sem administrador",
-  "message" : "LOGIN: teste, (10/12/23, 17:13:37, e Sem administrador)",
-  "operation" : "LOGIN"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "10/12/23",
-  "currentHour" : "17:13:41",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (10/12/23, 17:13:41, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste 1",
-  "currentDate" : "10/12/23",
-  "currentHour" : "17:45:58",
-  "adminUsername" : "Sem administrador",
-  "message" : "LOGIN: teste 1, (10/12/23, 17:45:58, e Sem administrador)",
-  "operation" : "LOGIN"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "10/12/23",
-  "currentHour" : "17:52:22",
-  "adminUsername" : "Sem administrador",
-  "message" : "LOGIN: teste, (10/12/23, 17:52:22, e Sem administrador)",
-  "operation" : "LOGIN"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "10/12/23",
-  "currentHour" : "17:52:24",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS NÃO AUTORIZADOS: << no user >>, (10/12/23, 17:52:24, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS NÃO AUTORIZADOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "10/12/23",
-  "currentHour" : "17:54:39",
-  "adminUsername" : "Sem administrador",
-  "message" : "LOGIN: teste, (10/12/23, 17:54:39, e Sem administrador)",
-  "operation" : "LOGIN"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "10/12/23",
-  "currentHour" : "17:54:42",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS NÃO AUTORIZADOS: << no user >>, (10/12/23, 17:54:42, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS NÃO AUTORIZADOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste 5",
-  "currentDate" : "10/12/23",
-  "currentHour" : "17:54:47",
-  "adminUsername" : "teste",
-  "message" : "FIND_USER: teste 5, (10/12/23, 17:54:47, e teste)",
-  "operation" : "FIND_USER"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "10/12/23",
-  "currentHour" : "17:54:49",
-  "adminUsername" : "teste",
-  "message" : "ATUALIZAÇÃO DE USUÁRIO: << no user >>, (10/12/23, 17:54:49, e teste)",
-  "operation" : "ATUALIZAÇÃO DE USUÁRIO"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "10/12/23",
-  "currentHour" : "17:54:51",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS NÃO AUTORIZADOS: << no user >>, (10/12/23, 17:54:51, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS NÃO AUTORIZADOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "10/12/23",
-  "currentHour" : "18:01:35",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS NÃO AUTORIZADOS: << no user >>, (10/12/23, 18:01:35, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS NÃO AUTORIZADOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste 444",
-  "currentDate" : "10/12/23",
-  "currentHour" : "18:01:38",
-  "adminUsername" : "teste",
-  "message" : "FIND_USER: teste 444, (10/12/23, 18:01:38, e teste)",
-  "operation" : "FIND_USER"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "10/12/23",
-  "currentHour" : "18:01:42",
-  "adminUsername" : "teste",
-  "message" : "ATUALIZAÇÃO DE USUÁRIO: << no user >>, (10/12/23, 18:01:42, e teste)",
-  "operation" : "ATUALIZAÇÃO DE USUÁRIO"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "10/12/23",
-  "currentHour" : "18:01:44",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS NÃO AUTORIZADOS: << no user >>, (10/12/23, 18:01:44, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS NÃO AUTORIZADOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "10/12/23",
-  "currentHour" : "18:28:42",
-  "adminUsername" : "Sem administrador",
-  "message" : "LOGIN: teste, (10/12/23, 18:28:42, e Sem administrador)",
-  "operation" : "LOGIN"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "10/12/23",
-  "currentHour" : "18:32:08",
-  "adminUsername" : "Sem administrador",
-  "message" : "LOGIN: teste, (10/12/23, 18:32:08, e Sem administrador)",
-  "operation" : "LOGIN"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "10/12/23",
-  "currentHour" : "18:33:52",
-  "adminUsername" : "Sem administrador",
-  "message" : "LOGIN: teste, (10/12/23, 18:33:52, e Sem administrador)",
-  "operation" : "LOGIN"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "10/12/23",
-  "currentHour" : "18:33:55",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (10/12/23, 18:33:55, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "10/12/23",
-  "currentHour" : "18:37:37",
-  "adminUsername" : "Sem administrador",
-  "message" : "LOGIN: teste, (10/12/23, 18:37:37, e Sem administrador)",
-  "operation" : "LOGIN"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "10/12/23",
-  "currentHour" : "18:37:43",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (10/12/23, 18:37:43, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "10/12/23",
-  "currentHour" : "18:38:24",
-  "adminUsername" : "teste",
-  "message" : "ENVIAR NOTIFICAÇÃO: teste, (10/12/23, 18:38:24, e teste)",
-  "operation" : "ENVIAR NOTIFICAÇÃO"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "10/12/23",
-  "currentHour" : "18:38:30",
-  "adminUsername" : "teste",
-  "message" : "ENVIAR NOTIFICAÇÃO: teste, (10/12/23, 18:38:30, e teste)",
-  "operation" : "ENVIAR NOTIFICAÇÃO"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "10/12/23",
-  "currentHour" : "18:38:30",
-  "adminUsername" : "teste",
-  "message" : "ENVIAR NOTIFICAÇÃO: teste, (10/12/23, 18:38:30, e teste)",
-  "operation" : "ENVIAR NOTIFICAÇÃO"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "10/12/23",
-  "currentHour" : "18:38:30",
-  "adminUsername" : "teste",
-  "message" : "ENVIAR NOTIFICAÇÃO: teste, (10/12/23, 18:38:30, e teste)",
-  "operation" : "ENVIAR NOTIFICAÇÃO"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "10/12/23",
-  "currentHour" : "18:38:31",
-  "adminUsername" : "teste",
-  "message" : "ENVIAR NOTIFICAÇÃO: teste, (10/12/23, 18:38:31, e teste)",
-  "operation" : "ENVIAR NOTIFICAÇÃO"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "10/12/23",
-  "currentHour" : "18:38:31",
-  "adminUsername" : "teste",
-  "message" : "ENVIAR NOTIFICAÇÃO: teste, (10/12/23, 18:38:31, e teste)",
-  "operation" : "ENVIAR NOTIFICAÇÃO"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "10/12/23",
-  "currentHour" : "18:38:31",
-  "adminUsername" : "teste",
-  "message" : "ENVIAR NOTIFICAÇÃO: teste, (10/12/23, 18:38:31, e teste)",
-  "operation" : "ENVIAR NOTIFICAÇÃO"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "10/12/23",
-  "currentHour" : "18:38:31",
-  "adminUsername" : "teste",
-  "message" : "ENVIAR NOTIFICAÇÃO: teste, (10/12/23, 18:38:31, e teste)",
-  "operation" : "ENVIAR NOTIFICAÇÃO"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "10/12/23",
-  "currentHour" : "18:38:31",
-  "adminUsername" : "teste",
-  "message" : "ENVIAR NOTIFICAÇÃO: teste, (10/12/23, 18:38:31, e teste)",
-  "operation" : "ENVIAR NOTIFICAÇÃO"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "10/12/23",
-  "currentHour" : "18:38:33",
-  "adminUsername" : "teste",
-  "message" : "ENVIAR NOTIFICAÇÃO: teste, (10/12/23, 18:38:33, e teste)",
-  "operation" : "ENVIAR NOTIFICAÇÃO"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "10/12/23",
-  "currentHour" : "18:38:33",
-  "adminUsername" : "teste",
-  "message" : "ENVIAR NOTIFICAÇÃO: teste, (10/12/23, 18:38:33, e teste)",
-  "operation" : "ENVIAR NOTIFICAÇÃO"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "10/12/23",
-  "currentHour" : "18:38:34",
-  "adminUsername" : "teste",
-  "message" : "ENVIAR NOTIFICAÇÃO: teste, (10/12/23, 18:38:34, e teste)",
-  "operation" : "ENVIAR NOTIFICAÇÃO"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "10/12/23",
-  "currentHour" : "18:38:34",
-  "adminUsername" : "teste",
-  "message" : "ENVIAR NOTIFICAÇÃO: teste, (10/12/23, 18:38:34, e teste)",
-  "operation" : "ENVIAR NOTIFICAÇÃO"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "10/12/23",
-  "currentHour" : "18:38:34",
-  "adminUsername" : "teste",
-  "message" : "ENVIAR NOTIFICAÇÃO: teste, (10/12/23, 18:38:34, e teste)",
-  "operation" : "ENVIAR NOTIFICAÇÃO"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "10/12/23",
-  "currentHour" : "18:38:34",
-  "adminUsername" : "teste",
-  "message" : "ENVIAR NOTIFICAÇÃO: teste, (10/12/23, 18:38:34, e teste)",
-  "operation" : "ENVIAR NOTIFICAÇÃO"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "10/12/23",
-  "currentHour" : "18:38:34",
-  "adminUsername" : "teste",
-  "message" : "ENVIAR NOTIFICAÇÃO: teste, (10/12/23, 18:38:34, e teste)",
-  "operation" : "ENVIAR NOTIFICAÇÃO"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "10/12/23",
-  "currentHour" : "18:38:34",
-  "adminUsername" : "teste",
-  "message" : "ENVIAR NOTIFICAÇÃO: teste, (10/12/23, 18:38:34, e teste)",
-  "operation" : "ENVIAR NOTIFICAÇÃO"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "10/12/23",
-  "currentHour" : "18:38:34",
-  "adminUsername" : "teste",
-  "message" : "ENVIAR NOTIFICAÇÃO: teste, (10/12/23, 18:38:34, e teste)",
-  "operation" : "ENVIAR NOTIFICAÇÃO"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "10/12/23",
-  "currentHour" : "18:38:34",
-  "adminUsername" : "teste",
-  "message" : "ENVIAR NOTIFICAÇÃO: teste, (10/12/23, 18:38:34, e teste)",
-  "operation" : "ENVIAR NOTIFICAÇÃO"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "10/12/23",
-  "currentHour" : "18:39:12",
-  "adminUsername" : "Sem administrador",
-  "message" : "LOGIN: teste, (10/12/23, 18:39:12, e Sem administrador)",
-  "operation" : "LOGIN"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "10/12/23",
-  "currentHour" : "18:39:14",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (10/12/23, 18:39:14, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "10/12/23",
-  "currentHour" : "18:39:30",
-  "adminUsername" : "teste",
-  "message" : "ENVIAR NOTIFICAÇÃO: teste, (10/12/23, 18:39:30, e teste)",
-  "operation" : "ENVIAR NOTIFICAÇÃO"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "10/12/23",
-  "currentHour" : "18:40:56",
-  "adminUsername" : "Sem administrador",
-  "message" : "LOGIN: teste, (10/12/23, 18:40:56, e Sem administrador)",
-  "operation" : "LOGIN"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "10/12/23",
-  "currentHour" : "18:41:07",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (10/12/23, 18:41:07, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "10/12/23",
-  "currentHour" : "18:42:27",
-  "adminUsername" : "Sem administrador",
-  "message" : "LOGIN: teste, (10/12/23, 18:42:27, e Sem administrador)",
-  "operation" : "LOGIN"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "10/12/23",
-  "currentHour" : "18:42:35",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (10/12/23, 18:42:35, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "10/12/23",
-  "currentHour" : "18:42:39",
-  "adminUsername" : "teste",
-  "message" : "ENVIAR NOTIFICAÇÃO: teste, (10/12/23, 18:42:39, e teste)",
-  "operation" : "ENVIAR NOTIFICAÇÃO"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "10/12/23",
-  "currentHour" : "18:42:43",
-  "adminUsername" : "teste",
-  "message" : "ENVIAR NOTIFICAÇÃO: teste, (10/12/23, 18:42:43, e teste)",
-  "operation" : "ENVIAR NOTIFICAÇÃO"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "10/12/23",
-  "currentHour" : "18:42:43",
-  "adminUsername" : "teste",
-  "message" : "ENVIAR NOTIFICAÇÃO: teste, (10/12/23, 18:42:43, e teste)",
-  "operation" : "ENVIAR NOTIFICAÇÃO"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "10/12/23",
-  "currentHour" : "18:42:43",
-  "adminUsername" : "teste",
-  "message" : "ENVIAR NOTIFICAÇÃO: teste, (10/12/23, 18:42:43, e teste)",
-  "operation" : "ENVIAR NOTIFICAÇÃO"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "10/12/23",
-  "currentHour" : "18:42:43",
-  "adminUsername" : "teste",
-  "message" : "ENVIAR NOTIFICAÇÃO: teste, (10/12/23, 18:42:43, e teste)",
-  "operation" : "ENVIAR NOTIFICAÇÃO"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "10/12/23",
-  "currentHour" : "18:42:43",
-  "adminUsername" : "teste",
-  "message" : "ENVIAR NOTIFICAÇÃO: teste, (10/12/23, 18:42:43, e teste)",
-  "operation" : "ENVIAR NOTIFICAÇÃO"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "10/12/23",
-  "currentHour" : "18:43:26",
-  "adminUsername" : "Sem administrador",
-  "message" : "LOGIN: teste, (10/12/23, 18:43:26, e Sem administrador)",
-  "operation" : "LOGIN"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "10/12/23",
-  "currentHour" : "18:43:28",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (10/12/23, 18:43:28, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "10/12/23",
-  "currentHour" : "18:43:35",
-  "adminUsername" : "teste",
-  "message" : "ENVIAR NOTIFICAÇÃO: teste, (10/12/23, 18:43:35, e teste)",
-  "operation" : "ENVIAR NOTIFICAÇÃO"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "10/12/23",
-  "currentHour" : "18:44:21",
-  "adminUsername" : "Sem administrador",
-  "message" : "LOGIN: teste, (10/12/23, 18:44:21, e Sem administrador)",
-  "operation" : "LOGIN"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "10/12/23",
-  "currentHour" : "18:44:24",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (10/12/23, 18:44:24, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "10/12/23",
-  "currentHour" : "18:45:07",
-  "adminUsername" : "Sem administrador",
-  "message" : "LOGIN: teste, (10/12/23, 18:45:07, e Sem administrador)",
-  "operation" : "LOGIN"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "10/12/23",
-  "currentHour" : "18:45:13",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (10/12/23, 18:45:13, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "10/12/23",
-  "currentHour" : "18:48:26",
-  "adminUsername" : "Sem administrador",
-  "message" : "LOGIN: teste, (10/12/23, 18:48:26, e Sem administrador)",
-  "operation" : "LOGIN"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "10/12/23",
-  "currentHour" : "18:48:28",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (10/12/23, 18:48:28, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "10/12/23",
-  "currentHour" : "18:48:31",
-  "adminUsername" : "teste",
-  "message" : "ENVIAR NOTIFICAÇÃO: teste, (10/12/23, 18:48:31, e teste)",
-  "operation" : "ENVIAR NOTIFICAÇÃO"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "10/12/23",
-  "currentHour" : "18:50:49",
-  "adminUsername" : "Sem administrador",
-  "message" : "LOGIN: teste, (10/12/23, 18:50:49, e Sem administrador)",
-  "operation" : "LOGIN"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "10/12/23",
-  "currentHour" : "18:50:51",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (10/12/23, 18:50:51, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "10/12/23",
-  "currentHour" : "18:50:58",
-  "adminUsername" : "teste",
-  "message" : "ENVIAR NOTIFICAÇÃO: teste, (10/12/23, 18:50:58, e teste)",
-  "operation" : "ENVIAR NOTIFICAÇÃO"
-} ]
+[
+  {
+    "type": "ERROR",
+    "contactName": "teste 5",
+    "currentDate": "10/12/23",
+    "currentHour": "16:33:06",
+    "adminUsername": "Sem administrador",
+    "message": "Ocorreu a falha {nome já existente} ao realizar a operação {CRIAÇÃO} do contato teste 5, (10/12/23, 16:33:06, e Sem administrador)",
+    "operation": "CRIAÇÃO"
+  },
+  {
+    "type": "ERROR",
+    "contactName": "teste 6",
+    "currentDate": "10/12/23",
+    "currentHour": "16:35:07",
+    "adminUsername": "Sem administrador",
+    "message": "Ocorreu a falha {nome já existente} ao realizar a operação {CRIAÇÃO} do contato teste 6, (10/12/23, 16:35:07, e Sem administrador)",
+    "operation": "CRIAÇÃO"
+  },
+  {
+    "type": "ERROR",
+    "contactName": "teste6",
+    "currentDate": "10/12/23",
+    "currentHour": "16:35:32",
+    "adminUsername": "Sem administrador",
+    "message": "Ocorreu a falha {nome já existente} ao realizar a operação {CRIAÇÃO} do contato teste6, (10/12/23, 16:35:32, e Sem administrador)",
+    "operation": "CRIAÇÃO"
+  },
+  {
+    "type": "ERROR",
+    "contactName": "teste",
+    "currentDate": "10/12/23",
+    "currentHour": "16:37:27",
+    "adminUsername": "Sem administrador",
+    "message": "Ocorreu a falha {nome já existente} ao realizar a operação {CRIAÇÃO} do contato teste, (10/12/23, 16:37:27, e Sem administrador)",
+    "operation": "CRIAÇÃO"
+  },
+  {
+    "type": "ERROR",
+    "contactName": "teste1",
+    "currentDate": "10/12/23",
+    "currentHour": "16:37:30",
+    "adminUsername": "Sem administrador",
+    "message": "Ocorreu a falha {nome já existente} ao realizar a operação {CRIAÇÃO} do contato teste1, (10/12/23, 16:37:30, e Sem administrador)",
+    "operation": "CRIAÇÃO"
+  },
+  {
+    "type": "ERROR",
+    "contactName": "teste1",
+    "currentDate": "10/12/23",
+    "currentHour": "16:37:33",
+    "adminUsername": "Sem administrador",
+    "message": "Ocorreu a falha {nome já existente} ao realizar a operação {CRIAÇÃO} do contato teste1, (10/12/23, 16:37:33, e Sem administrador)",
+    "operation": "CRIAÇÃO"
+  },
+  {
+    "type": "ERROR",
+    "contactName": "teste13",
+    "currentDate": "10/12/23",
+    "currentHour": "16:37:42",
+    "adminUsername": "Sem administrador",
+    "message": "Ocorreu a falha {nome já existente} ao realizar a operação {CRIAÇÃO} do contato teste13, (10/12/23, 16:37:42, e Sem administrador)",
+    "operation": "CRIAÇÃO"
+  },
+  {
+    "type": "ERROR",
+    "contactName": "teste 444",
+    "currentDate": "10/12/23",
+    "currentHour": "16:39:14",
+    "adminUsername": "Sem administrador",
+    "message": "Ocorreu a falha {nome já existente} ao realizar a operação {CRIAÇÃO} do contato teste 444, (10/12/23, 16:39:14, e Sem administrador)",
+    "operation": "CRIAÇÃO"
+  },
+  {
+    "type": "ERROR",
+    "contactName": "te232423",
+    "currentDate": "10/12/23",
+    "currentHour": "16:39:40",
+    "adminUsername": "Sem administrador",
+    "message": "Ocorreu a falha {nome já existente} ao realizar a operação {CRIAÇÃO} do contato te232423, (10/12/23, 16:39:40, e Sem administrador)",
+    "operation": "CRIAÇÃO"
+  },
+  {
+    "type": "ERROR",
+    "contactName": "te23242443",
+    "currentDate": "10/12/23",
+    "currentHour": "16:39:47",
+    "adminUsername": "Sem administrador",
+    "message": "Ocorreu a falha {nome já existente} ao realizar a operação {CRIAÇÃO} do contato te23242443, (10/12/23, 16:39:47, e Sem administrador)",
+    "operation": "CRIAÇÃO"
+  },
+  {
+    "type": "ERROR",
+    "contactName": "test23423",
+    "currentDate": "10/12/23",
+    "currentHour": "16:51:30",
+    "adminUsername": "Sem administrador",
+    "message": "Ocorreu a falha {nome já existente} ao realizar a operação {CRIAÇÃO} do contato test23423, (10/12/23, 16:51:30, e Sem administrador)",
+    "operation": "CRIAÇÃO"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste34",
+    "currentDate": "10/12/23",
+    "currentHour": "16:52:01",
+    "adminUsername": "Sem administrador",
+    "message": "CRIAÇÃO: teste34, (10/12/23, 16:52:01, e Sem administrador)",
+    "operation": "CRIAÇÃO"
+  },
+  {
+    "type": "INFO",
+    "contactName": "2342",
+    "currentDate": "10/12/23",
+    "currentHour": "16:52:11",
+    "adminUsername": "Sem administrador",
+    "message": "CRIAÇÃO: 2342, (10/12/23, 16:52:11, e Sem administrador)",
+    "operation": "CRIAÇÃO"
+  },
+  {
+    "type": "ERROR",
+    "contactName": "teste",
+    "currentDate": "10/12/23",
+    "currentHour": "16:52:42",
+    "adminUsername": "Sem administrador",
+    "message": "Ocorreu a falha {nome já existente} ao realizar a operação {CRIAÇÃO} do contato teste, (10/12/23, 16:52:42, e Sem administrador)",
+    "operation": "CRIAÇÃO"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste3333",
+    "currentDate": "10/12/23",
+    "currentHour": "16:52:45",
+    "adminUsername": "Sem administrador",
+    "message": "CRIAÇÃO: teste3333, (10/12/23, 16:52:45, e Sem administrador)",
+    "operation": "CRIAÇÃO"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste",
+    "currentDate": "10/12/23",
+    "currentHour": "16:52:49",
+    "adminUsername": "Sem administrador",
+    "message": "LOGIN: teste, (10/12/23, 16:52:49, e Sem administrador)",
+    "operation": "LOGIN"
+  },
+  {
+    "type": "ERROR",
+    "contactName": "<< no user >>",
+    "currentDate": "10/12/23",
+    "currentHour": "16:53:14",
+    "adminUsername": "teste",
+    "message": "Ocorreu a falha {[SQLITE_ERROR] SQL error or missing database (near \"WHERE\": syntax error)} ao realizar a operação {LISTAGEM DE USUÁRIOS NÃO AUTORIZADOS} do contato << no user >>, (10/12/23, 16:53:14, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS NÃO AUTORIZADOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste",
+    "currentDate": "10/12/23",
+    "currentHour": "16:54:42",
+    "adminUsername": "Sem administrador",
+    "message": "LOGIN: teste, (10/12/23, 16:54:42, e Sem administrador)",
+    "operation": "LOGIN"
+  },
+  {
+    "type": "ERROR",
+    "contactName": "<< no user >>",
+    "currentDate": "10/12/23",
+    "currentHour": "16:54:49",
+    "adminUsername": "teste",
+    "message": "Ocorreu a falha {no such column: 'password'} ao realizar a operação {LISTAGEM DE USUÁRIOS NÃO AUTORIZADOS} do contato << no user >>, (10/12/23, 16:54:49, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS NÃO AUTORIZADOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste",
+    "currentDate": "10/12/23",
+    "currentHour": "16:55:25",
+    "adminUsername": "Sem administrador",
+    "message": "LOGIN: teste, (10/12/23, 16:55:25, e Sem administrador)",
+    "operation": "LOGIN"
+  },
+  {
+    "type": "ERROR",
+    "contactName": "<< no user >>",
+    "currentDate": "10/12/23",
+    "currentHour": "16:55:32",
+    "adminUsername": "teste",
+    "message": "Ocorreu a falha {[SQLITE_SCHEMA] The database schema changed (near \"(\": syntax error)} ao realizar a operação {LISTAGEM DE USUÁRIOS NÃO AUTORIZADOS} do contato << no user >>, (10/12/23, 16:55:32, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS NÃO AUTORIZADOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste",
+    "currentDate": "10/12/23",
+    "currentHour": "16:55:59",
+    "adminUsername": "Sem administrador",
+    "message": "LOGIN: teste, (10/12/23, 16:55:59, e Sem administrador)",
+    "operation": "LOGIN"
+  },
+  {
+    "type": "ERROR",
+    "contactName": "<< no user >>",
+    "currentDate": "10/12/23",
+    "currentHour": "16:56:35",
+    "adminUsername": "teste",
+    "message": "Ocorreu a falha {[SQLITE_SCHEMA] The database schema changed (near \"(\": syntax error)} ao realizar a operação {LISTAGEM DE USUÁRIOS NÃO AUTORIZADOS} do contato << no user >>, (10/12/23, 16:56:35, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS NÃO AUTORIZADOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste",
+    "currentDate": "10/12/23",
+    "currentHour": "16:56:45",
+    "adminUsername": "Sem administrador",
+    "message": "LOGIN: teste, (10/12/23, 16:56:45, e Sem administrador)",
+    "operation": "LOGIN"
+  },
+  {
+    "type": "ERROR",
+    "contactName": "<< no user >>",
+    "currentDate": "10/12/23",
+    "currentHour": "16:56:50",
+    "adminUsername": "teste",
+    "message": "Ocorreu a falha {[SQLITE_SCHEMA] The database schema changed (near \"(\": syntax error)} ao realizar a operação {LISTAGEM DE USUÁRIOS NÃO AUTORIZADOS} do contato << no user >>, (10/12/23, 16:56:50, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS NÃO AUTORIZADOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste",
+    "currentDate": "10/12/23",
+    "currentHour": "16:57:27",
+    "adminUsername": "Sem administrador",
+    "message": "LOGIN: teste, (10/12/23, 16:57:27, e Sem administrador)",
+    "operation": "LOGIN"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "10/12/23",
+    "currentHour": "16:57:28",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS NÃO AUTORIZADOS: << no user >>, (10/12/23, 16:57:28, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS NÃO AUTORIZADOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste 4",
+    "currentDate": "10/12/23",
+    "currentHour": "16:57:37",
+    "adminUsername": "teste",
+    "message": "FIND_USER: teste 4, (10/12/23, 16:57:37, e teste)",
+    "operation": "FIND_USER"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "10/12/23",
+    "currentHour": "16:57:38",
+    "adminUsername": "teste",
+    "message": "ATUALIZAÇÃO DE USUÁRIO: << no user >>, (10/12/23, 16:57:38, e teste)",
+    "operation": "ATUALIZAÇÃO DE USUÁRIO"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "10/12/23",
+    "currentHour": "16:57:46",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS NÃO AUTORIZADOS: << no user >>, (10/12/23, 16:57:46, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS NÃO AUTORIZADOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste 1",
+    "currentDate": "10/12/23",
+    "currentHour": "18:34:04",
+    "adminUsername": "Sem administrador",
+    "message": "LOGIN: teste 1, (10/12/23, 18:34:04, e Sem administrador)",
+    "operation": "LOGIN"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste 1",
+    "currentDate": "10/12/23",
+    "currentHour": "18:34:08",
+    "adminUsername": "teste 1",
+    "message": "LISTAGEM DE NOTIFICAÇÕES: teste 1, (10/12/23, 18:34:08, e teste 1)",
+    "operation": "LISTAGEM DE NOTIFICAÇÕES"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste 1",
+    "currentDate": "10/12/23",
+    "currentHour": "18:34:46",
+    "adminUsername": "Sem administrador",
+    "message": "LOGIN: teste 1, (10/12/23, 18:34:46, e Sem administrador)",
+    "operation": "LOGIN"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste 1",
+    "currentDate": "10/12/23",
+    "currentHour": "18:34:47",
+    "adminUsername": "teste 1",
+    "message": "LISTAGEM DE NOTIFICAÇÕES: teste 1, (10/12/23, 18:34:47, e teste 1)",
+    "operation": "LISTAGEM DE NOTIFICAÇÕES"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste 1",
+    "currentDate": "10/12/23",
+    "currentHour": "18:38:05",
+    "adminUsername": "Sem administrador",
+    "message": "LOGIN: teste 1, (10/12/23, 18:38:05, e Sem administrador)",
+    "operation": "LOGIN"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste 1",
+    "currentDate": "10/12/23",
+    "currentHour": "18:38:07",
+    "adminUsername": "teste 1",
+    "message": "LISTAGEM DE NOTIFICAÇÕES: teste 1, (10/12/23, 18:38:07, e teste 1)",
+    "operation": "LISTAGEM DE NOTIFICAÇÕES"
+  },
+  {
+    "type": "ERROR",
+    "contactName": null,
+    "currentDate": "10/12/23",
+    "currentHour": "18:38:28",
+    "adminUsername": "teste 1",
+    "message": "Ocorreu a falha {[SQLITE_ERROR] SQL error or missing database (near \"=\": syntax error)} ao realizar a operação {MARCAÇÃO DE NOTIFICAÇÃO COMO LIDA} do contato null, (10/12/23, 18:38:28, e teste 1)",
+    "operation": "MARCAÇÃO DE NOTIFICAÇÃO COMO LIDA"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste 1",
+    "currentDate": "10/12/23",
+    "currentHour": "18:39:41",
+    "adminUsername": "Sem administrador",
+    "message": "LOGIN: teste 1, (10/12/23, 18:39:41, e Sem administrador)",
+    "operation": "LOGIN"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste 1",
+    "currentDate": "10/12/23",
+    "currentHour": "18:39:42",
+    "adminUsername": "teste 1",
+    "message": "LISTAGEM DE NOTIFICAÇÕES: teste 1, (10/12/23, 18:39:42, e teste 1)",
+    "operation": "LISTAGEM DE NOTIFICAÇÕES"
+  },
+  {
+    "type": "ERROR",
+    "contactName": null,
+    "currentDate": "10/12/23",
+    "currentHour": "18:39:46",
+    "adminUsername": "teste 1",
+    "message": "Ocorreu a falha {[SQLITE_ERROR] SQL error or missing database (near \"=\": syntax error)} ao realizar a operação {MARCAÇÃO DE NOTIFICAÇÃO COMO LIDA} do contato null, (10/12/23, 18:39:46, e teste 1)",
+    "operation": "MARCAÇÃO DE NOTIFICAÇÃO COMO LIDA"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste 1",
+    "currentDate": "10/12/23",
+    "currentHour": "18:40:41",
+    "adminUsername": "Sem administrador",
+    "message": "LOGIN: teste 1, (10/12/23, 18:40:41, e Sem administrador)",
+    "operation": "LOGIN"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste 1",
+    "currentDate": "10/12/23",
+    "currentHour": "18:40:43",
+    "adminUsername": "teste 1",
+    "message": "LISTAGEM DE NOTIFICAÇÕES: teste 1, (10/12/23, 18:40:43, e teste 1)",
+    "operation": "LISTAGEM DE NOTIFICAÇÕES"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste 1",
+    "currentDate": "10/12/23",
+    "currentHour": "18:40:44",
+    "adminUsername": "teste 1",
+    "message": "MARCAÇÃO DE NOTIFICAÇÃO COMO LIDA: teste 1, (10/12/23, 18:40:44, e teste 1)",
+    "operation": "MARCAÇÃO DE NOTIFICAÇÃO COMO LIDA"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste 1",
+    "currentDate": "10/12/23",
+    "currentHour": "18:40:46",
+    "adminUsername": "teste 1",
+    "message": "LISTAGEM DE NOTIFICAÇÕES: teste 1, (10/12/23, 18:40:46, e teste 1)",
+    "operation": "LISTAGEM DE NOTIFICAÇÕES"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste 1",
+    "currentDate": "10/12/23",
+    "currentHour": "18:41:34",
+    "adminUsername": "Sem administrador",
+    "message": "LOGIN: teste 1, (10/12/23, 18:41:34, e Sem administrador)",
+    "operation": "LOGIN"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste 1",
+    "currentDate": "10/12/23",
+    "currentHour": "18:41:36",
+    "adminUsername": "teste 1",
+    "message": "LISTAGEM DE NOTIFICAÇÕES: teste 1, (10/12/23, 18:41:36, e teste 1)",
+    "operation": "LISTAGEM DE NOTIFICAÇÕES"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste 1",
+    "currentDate": "10/12/23",
+    "currentHour": "18:41:38",
+    "adminUsername": "teste 1",
+    "message": "MARCAÇÃO DE NOTIFICAÇÃO COMO LIDA: teste 1, (10/12/23, 18:41:38, e teste 1)",
+    "operation": "MARCAÇÃO DE NOTIFICAÇÃO COMO LIDA"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste 1",
+    "currentDate": "10/12/23",
+    "currentHour": "18:41:39",
+    "adminUsername": "teste 1",
+    "message": "LISTAGEM DE NOTIFICAÇÕES: teste 1, (10/12/23, 18:41:39, e teste 1)",
+    "operation": "LISTAGEM DE NOTIFICAÇÕES"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste 1",
+    "currentDate": "10/12/23",
+    "currentHour": "18:42:06",
+    "adminUsername": "teste 1",
+    "message": "MARCAÇÃO DE NOTIFICAÇÃO COMO LIDA: teste 1, (10/12/23, 18:42:06, e teste 1)",
+    "operation": "MARCAÇÃO DE NOTIFICAÇÃO COMO LIDA"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste 1",
+    "currentDate": "10/12/23",
+    "currentHour": "18:42:55",
+    "adminUsername": "Sem administrador",
+    "message": "LOGIN: teste 1, (10/12/23, 18:42:55, e Sem administrador)",
+    "operation": "LOGIN"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste 1",
+    "currentDate": "10/12/23",
+    "currentHour": "18:42:56",
+    "adminUsername": "teste 1",
+    "message": "LISTAGEM DE NOTIFICAÇÕES: teste 1, (10/12/23, 18:42:56, e teste 1)",
+    "operation": "LISTAGEM DE NOTIFICAÇÕES"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste 1",
+    "currentDate": "10/12/23",
+    "currentHour": "18:42:58",
+    "adminUsername": "teste 1",
+    "message": "MARCAÇÃO DE NOTIFICAÇÃO COMO LIDA: teste 1, (10/12/23, 18:42:58, e teste 1)",
+    "operation": "MARCAÇÃO DE NOTIFICAÇÃO COMO LIDA"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste 1",
+    "currentDate": "10/12/23",
+    "currentHour": "18:46:23",
+    "adminUsername": "Sem administrador",
+    "message": "LOGIN: teste 1, (10/12/23, 18:46:23, e Sem administrador)",
+    "operation": "LOGIN"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste 1",
+    "currentDate": "10/12/23",
+    "currentHour": "18:46:25",
+    "adminUsername": "teste 1",
+    "message": "LISTAGEM DE NOTIFICAÇÕES: teste 1, (10/12/23, 18:46:25, e teste 1)",
+    "operation": "LISTAGEM DE NOTIFICAÇÕES"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste 1",
+    "currentDate": "10/12/23",
+    "currentHour": "18:46:27",
+    "adminUsername": "teste 1",
+    "message": "MARCAÇÃO DE NOTIFICAÇÃO COMO LIDA: teste 1, (10/12/23, 18:46:27, e teste 1)",
+    "operation": "MARCAÇÃO DE NOTIFICAÇÃO COMO LIDA"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste 1",
+    "currentDate": "10/12/23",
+    "currentHour": "18:46:29",
+    "adminUsername": "teste 1",
+    "message": "LISTAGEM DE NOTIFICAÇÕES: teste 1, (10/12/23, 18:46:29, e teste 1)",
+    "operation": "LISTAGEM DE NOTIFICAÇÕES"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste 1",
+    "currentDate": "10/12/23",
+    "currentHour": "18:46:32",
+    "adminUsername": "teste 1",
+    "message": "MARCAÇÃO DE NOTIFICAÇÃO COMO LIDA: teste 1, (10/12/23, 18:46:32, e teste 1)",
+    "operation": "MARCAÇÃO DE NOTIFICAÇÃO COMO LIDA"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste 1",
+    "currentDate": "10/12/23",
+    "currentHour": "18:46:33",
+    "adminUsername": "teste 1",
+    "message": "LISTAGEM DE NOTIFICAÇÕES: teste 1, (10/12/23, 18:46:33, e teste 1)",
+    "operation": "LISTAGEM DE NOTIFICAÇÕES"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste 1",
+    "currentDate": "10/12/23",
+    "currentHour": "18:46:38",
+    "adminUsername": "teste 1",
+    "message": "MARCAÇÃO DE NOTIFICAÇÃO COMO LIDA: teste 1, (10/12/23, 18:46:38, e teste 1)",
+    "operation": "MARCAÇÃO DE NOTIFICAÇÃO COMO LIDA"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste 1",
+    "currentDate": "10/12/23",
+    "currentHour": "18:46:40",
+    "adminUsername": "teste 1",
+    "message": "LISTAGEM DE NOTIFICAÇÕES: teste 1, (10/12/23, 18:46:40, e teste 1)",
+    "operation": "LISTAGEM DE NOTIFICAÇÕES"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste 1",
+    "currentDate": "10/12/23",
+    "currentHour": "18:46:58",
+    "adminUsername": "teste 1",
+    "message": "MARCAÇÃO DE NOTIFICAÇÃO COMO LIDA: teste 1, (10/12/23, 18:46:58, e teste 1)",
+    "operation": "MARCAÇÃO DE NOTIFICAÇÃO COMO LIDA"
+  }
+]

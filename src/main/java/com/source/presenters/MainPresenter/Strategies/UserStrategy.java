@@ -4,8 +4,12 @@
  */
 package com.source.presenters.MainPresenter.Strategies;
 
+import com.source.presenters.ListNotificationsPresenter.ListNotificationsPresenter;
 import com.source.presenters.MainPresenter.MainPresenter;
 import com.source.presenters.MainPresenter.MainStrategy;
+import com.source.presenters.UnauthenticatedUsersPresenter.UnauthenticatedUsersPresenter;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 /**
  *
@@ -25,5 +29,11 @@ public class UserStrategy implements MainStrategy {
         presenter.getView().getMenuItemListNotifications().setVisible(true);
         presenter.getView().getLblDummyNewNotifications().setVisible(true);
         presenter.getView().getBtnNewNotifications().setVisible(true);
+        presenter.getView().getMenuItemListNotifications().addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                ListNotificationsPresenter.getInstance(presenter.getConnection());
+            }
+        });
     }
 }

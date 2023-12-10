@@ -60,6 +60,7 @@ public class NotificationsModel {
     }
     
     public void parseData(ResultSet result) throws SQLException {
+        this.setId(result.getInt("id"));
         this.setNotification(result.getString("notification"));
         this.setRead(result.getInt("read"));
         this.setId(result.getInt("id"));

@@ -8,6 +8,7 @@ import com.source.dbConnection.connections.IDatabaseConnection;
 import com.source.model.UsersModel;
 import com.source.presenters.ConfigPresenter.ConfigPresenter;
 import com.source.presenters.UnauthenticatedUsersPresenter.UnauthenticatedUsersPresenter;
+import com.source.service.NotificationsService.NotificationsService;
 import com.source.service.UserService.UsersService;
 import com.source.session.UserSession;
 import com.source.view.MainView;
