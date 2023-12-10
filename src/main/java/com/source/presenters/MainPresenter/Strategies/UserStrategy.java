@@ -9,6 +9,8 @@ import com.source.presenters.ListNotificationsPresenter.ListNotificationsPresent
 import com.source.presenters.MainPresenter.MainPresenter;
 import com.source.presenters.MainPresenter.MainStrategy;
 import com.source.presenters.UnauthenticatedUsersPresenter.UnauthenticatedUsersPresenter;
+import com.source.service.NotificationsService.NotificationsService;
+import com.source.session.UserSession;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -23,6 +25,7 @@ public class UserStrategy implements MainStrategy {
 
     @Override
     public void configureMainView(MainPresenter presenter) {
+        NotificationsService service = new NotificationsService(presenter.getConnection());
         presenter.getView().getMenuItemAuthUser().setVisible(false);
         presenter.getView().getMenuItemListUsers().setVisible(false);
         presenter.getView().getMenuItemSendNotification().setVisible(false);
@@ -42,5 +45,15 @@ public class UserStrategy implements MainStrategy {
                 ChangePasswordPresenter.getInstance(presenter.getConnection(), presenter.getUserService());
             }
         });
+        
+        presenter.getView().getBtnNewNotifications().addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                ListNotificationsPresenter.getInstance(presenter.getConnection());
+            }
+        });
+        int totalUnreadUserNotifications = service.totalUnreadUserNotifications(UserSession.getInstance().getCurrentUser().getId());
+        presenter.getView().getBtnNewNotifications()
+                .setText(String.valueOf(totalUnreadUserNotifications));
     }
 }
