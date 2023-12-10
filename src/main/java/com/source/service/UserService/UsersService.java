@@ -113,6 +113,23 @@ public class UsersService {
 
         return users;
     }
+    
+    public List<UsersModel> listAllUsers() {
+        List<UsersModel> users = new ArrayList<>();
+
+        try {
+            users = usersRepository.getAll();
+
+            Logger.writeSystemInfoLog(LogTypeEnum.INFO, "<< no user >>", "LISTAGEM DE USUÁRIOS");
+        } catch (SQLException ex) {
+            JOptionPane.showMessageDialog(null, ex.getMessage(),
+                    "Erro ao buscar usuários não autorizados", JOptionPane.ERROR_MESSAGE);
+            Logger.writeSystemErrorLog(LogTypeEnum.ERROR,
+                    "<< no user >>", "LISTAGEM DE USUÁRIOS NÃO AUTORIZADOS", ex.getMessage());
+        }
+
+        return users;
+    }
 
     public UsersModel updateUser(UsersModel user) {
         try {

@@ -50,8 +50,11 @@ public class UnauthenticatedUsersPresenter {
 
     private static UsersModel getSelectedRowValue() {
         int row = view.getTblSearch().getSelectedRow();
-        UsersModel userToUpdate = service.findUserByUsername(view.getTblSearch().getModel().getValueAt(row, 1).toString());
-        return userToUpdate;
+        if (row != -1) {
+            UsersModel userToUpdate = service.findUserByUsername(view.getTblSearch().getModel().getValueAt(row, 1).toString());
+            return userToUpdate;
+        }
+        return null;
     }
 
     private static void setModelTable() {
@@ -88,9 +91,11 @@ public class UnauthenticatedUsersPresenter {
             @Override
             public void actionPerformed(ActionEvent e) {
                 UsersModel userToUpdate = getSelectedRowValue();
-                userToUpdate.setAuthorized(1);
-                service.updateUser(userToUpdate);
-                view.dispose();
+                if (userToUpdate != null) {
+                    userToUpdate.setAuthorized(1);
+                    service.updateUser(userToUpdate);
+                    view.dispose();
+                }
             }
         });
     }

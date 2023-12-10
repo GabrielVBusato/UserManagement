@@ -63,5 +63,6 @@ public class NotificationsModel {
         this.setId(result.getInt("id"));
         this.setNotification(result.getString("notification"));
         this.setRead(result.getInt("read"));
+        this.setId(result.getInt("id"));
     }
 }

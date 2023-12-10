@@ -7,7 +7,6 @@ package com.source.view;
 
 import javax.swing.JButton;
 import javax.swing.JTable;
-import javax.swing.JTextField;
 
 /**
  *
@@ -29,9 +28,6 @@ public class SearchUserView extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jLabel1 = new javax.swing.JLabel();
-        txtSearchName = new javax.swing.JTextField();
-        btnSearch = new javax.swing.JButton();
         jScrollPane1 = new javax.swing.JScrollPane();
         tblSearch = new javax.swing.JTable();
         btnClose = new javax.swing.JButton();
@@ -42,20 +38,16 @@ public class SearchUserView extends javax.swing.JFrame {
         setTitle("Buscar funcionário");
         setResizable(false);
 
-        jLabel1.setText("Nome");
-
-        btnSearch.setText("Buscar");
-
         tblSearch.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
 
             },
             new String [] {
-                "ID", "Nome", "Type", "Notificações lidas", "Notificações não lidas"
+                "ID", "Nome", "Type", "Notificações lidas", "Notificações não lidas", "Autorizado"
             }
         ) {
             boolean[] canEdit = new boolean [] {
-                false, false, false, false, false
+                false, false, false, false, false, true
             };
 
             public boolean isCellEditable(int rowIndex, int columnIndex) {
@@ -85,38 +77,26 @@ public class SearchUserView extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 528, Short.MAX_VALUE)
+                        .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 718, Short.MAX_VALUE)
                         .addContainerGap())
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(jLabel1)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(txtSearchName)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(btnSearch)
-                        .addGap(6, 6, 6))
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(btnClose)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(btnNewUser)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(btnViewUser)
-                        .addContainerGap())))
+                        .addGap(8, 8, 8))))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 279, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(5, 5, 5)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel1)
-                    .addComponent(txtSearchName, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btnSearch))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 290, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(btnClose, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnViewUser)
                     .addComponent(btnNewUser)
-                    .addComponent(btnViewUser))
+                    .addComponent(btnClose, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
@@ -139,14 +119,6 @@ public class SearchUserView extends javax.swing.JFrame {
     public void setBtnNewUser(JButton btnNewUser) {
         this.btnNewUser = btnNewUser;
     }
-
-    public JButton getBtnSearch() {
-        return btnSearch;
-    }
-
-    public void setBtnSearch(JButton btnSearch) {
-        this.btnSearch = btnSearch;
-    }
     
     public JTable getTblSearch() {
         return tblSearch;
@@ -154,14 +126,6 @@ public class SearchUserView extends javax.swing.JFrame {
 
     public void setTblSearch(JTable tblSearch) {
         this.tblSearch = tblSearch;
-    }
-
-    public JTextField getTxtSearchName() {
-        return txtSearchName;
-    }
-
-    public void setTxtSearchName(JTextField txtSearchName) {
-        this.txtSearchName = txtSearchName;
     }
 
     public JButton getBtnClose() {
@@ -175,12 +139,9 @@ public class SearchUserView extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnClose;
     private javax.swing.JButton btnNewUser;
-    private javax.swing.JButton btnSearch;
     private javax.swing.JButton btnViewUser;
-    private javax.swing.JLabel jLabel1;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTable tblSearch;
-    private javax.swing.JTextField txtSearchName;
     // End of variables declaration//GEN-END:variables
 
 }
