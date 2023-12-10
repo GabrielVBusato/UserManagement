@@ -34,6 +34,8 @@ public class Logger {
 
         if (adminUser != null) {
             director.setAdminUserName(UserSession.getInstance().getCurrentUser().getName());
+            if (adminUser.getType().equals("User")) director.setContactName(adminUser.getName());
+            if (adminUser.getType().equals("Admin")) director.setContactName(adminUser.getName());
         } else {
             director.setAdminUserName("Sem administrador");
         }
@@ -45,7 +47,7 @@ public class Logger {
             String operation) {
         initialize();
 
-        director.setContactName(userName);
+        if (userName != null) director.setContactName(userName);
         director.setOperation(operation);
         LogBuilder infoLogger = new LogInfoBuilder();
         logService.writeSystemLogFile(logType, infoLogger);

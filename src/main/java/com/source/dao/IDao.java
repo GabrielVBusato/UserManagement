@@ -13,9 +13,14 @@ import java.sql.SQLException;
  * @param <U>
  */
 public interface IDao<U> {
+
     int create(U entity) throws SQLException;
+
     void delete(int id) throws SQLException;
+
     ResultSet read(int id) throws SQLException;
+
     void update(U entity) throws SQLException;
+
     ResultSet getAll() throws SQLException;
 }

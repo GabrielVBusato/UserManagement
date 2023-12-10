@@ -83,7 +83,7 @@ public class UsersService {
 
     public List<UsersModel> listUnauthorizedUsers() {
         List<UsersModel> users = new ArrayList<>();
-        
+
         try {
             users = usersRepository.getAllUnauthorized();
 
@@ -94,10 +94,10 @@ public class UsersService {
             Logger.writeSystemErrorLog(LogTypeEnum.ERROR,
                     "<< no user >>", "LISTAGEM DE USUÁRIOS NÃO AUTORIZADOS", ex.getMessage());
         }
-        
+
         return users;
     }
-    
+
     public UsersModel updateUser(UsersModel user) {
         try {
             usersRepository.updateUser(user);
@@ -109,7 +109,7 @@ public class UsersService {
             Logger.writeSystemErrorLog(LogTypeEnum.ERROR,
                     "<< no user >>", "ATUALIZAÇÃO DE USUÁRIO", ex.getMessage());
         }
-        
+
         return user;
     }
 }

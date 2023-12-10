@@ -31,12 +31,8 @@ public class UsersRepository {
         ResultSet result = usersDao.read(id);
         
         UsersModel newUser = new UsersModel();
+        newUser.parseData(result);
         
-        newUser.setId(id);
-        newUser.setName(result.getString("name"));
-        newUser.setType(result.getString("type"));
-        newUser.setAuthorized(result.getInt("authorized"));
-        newUser.setCreatedAt(result.getString("created_at"));
         connection.disconnect();
         
         return newUser;
