@@ -21,7 +21,7 @@ public class UsersModel {
     private String createdAt;
     private int unreadNotifications;
     private int readNotifications;
-    
+
     public UsersModel() {
         this.unreadNotifications = 0;
         this.readNotifications = 0;
@@ -42,8 +42,6 @@ public class UsersModel {
     public void setReadNotifications(int readNotifications) {
         this.readNotifications = readNotifications;
     }
-    
-    
 
     public String getPassword() {
         return password;
@@ -97,7 +95,7 @@ public class UsersModel {
     public String toString() {
         return "UsersModel{" + "id=" + id + ", name=" + name + ", type=" + type + ", Authorized=" + authorized + ", createdAt=" + createdAt + '}';
     }
-    
+
     public void parseData(ResultSet result) throws SQLException {
         this.setId(result.getInt("id"));
         this.setName(result.getString("name"));
@@ -105,7 +103,19 @@ public class UsersModel {
         this.setAuthorized(result.getInt("authorized"));
         this.setPassword(result.getString("password"));
         this.setCreatedAt(result.getString("created_at"));
-        this.setReadNotifications(result.getInt("read_notifications"));
-        this.setUnreadNotifications(result.getInt("unread_notifications"));
+
+        if (this.isThere(result, "read_notifications") && this.isThere(result, "unread_notifications")) {
+            this.setReadNotifications(result.getInt("read_notifications"));
+            this.setUnreadNotifications(result.getInt("unread_notifications"));
+        }
+    }
+
+    private boolean isThere(ResultSet rs, String column) {
+        try {
+            rs.findColumn(column);
+            return true;
+        } catch (SQLException sqlex) {
+            return false;
+        }
     }
 }
