@@ -12,6 +12,8 @@ import com.source.model.UsersModel;
 import com.source.repository.UsersRepository;
 import com.source.utils.Logger;
 import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
 import javax.swing.JOptionPane;
 
 /**
@@ -68,7 +70,7 @@ public class UsersService {
                 throw new AuthenticateFailException();
             }
 
-             Logger.writeSystemInfoLog(LogTypeEnum.INFO, user.getName(), "LOGIN");
+            Logger.writeSystemInfoLog(LogTypeEnum.INFO, user.getName(), "LOGIN");
             return user;
         } catch (SQLException | UnauthorizedException | AuthenticateFailException ex) {
             JOptionPane.showMessageDialog(null, ex.getMessage(),
@@ -77,5 +79,37 @@ public class UsersService {
                     name, "LOGIN", ex.getMessage());
         }
         return null;
+    }
+
+    public List<UsersModel> listUnauthorizedUsers() {
+        List<UsersModel> users = new ArrayList<>();
+        
+        try {
+            users = usersRepository.getAllUnauthorized();
+
+            Logger.writeSystemInfoLog(LogTypeEnum.INFO, "<< no user >>", "LISTAGEM DE USUÁRIOS NÃO AUTORIZADOS");
+        } catch (SQLException ex) {
+            JOptionPane.showMessageDialog(null, ex.getMessage(),
+                    "Erro ao buscar usuários não autorizados", JOptionPane.ERROR_MESSAGE);
+            Logger.writeSystemErrorLog(LogTypeEnum.ERROR,
+                    "<< no user >>", "LISTAGEM DE USUÁRIOS NÃO AUTORIZADOS", ex.getMessage());
+        }
+        
+        return users;
+    }
+    
+    public UsersModel updateUser(UsersModel user) {
+        try {
+            usersRepository.updateUser(user);
+
+            Logger.writeSystemInfoLog(LogTypeEnum.INFO, "<< no user >>", "ATUALIZAÇÃO DE USUÁRIO");
+        } catch (SQLException ex) {
+            JOptionPane.showMessageDialog(null, ex.getMessage(),
+                    "Erro ao atualizar usuário", JOptionPane.ERROR_MESSAGE);
+            Logger.writeSystemErrorLog(LogTypeEnum.ERROR,
+                    "<< no user >>", "ATUALIZAÇÃO DE USUÁRIO", ex.getMessage());
+        }
+        
+        return user;
     }
 }
