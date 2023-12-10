@@ -1,65 +1,241 @@
 [ {
+  "type" : "ERROR",
+  "contactName" : "teste 5",
+  "currentDate" : "10/12/23",
+  "currentHour" : "16:33:06",
+  "adminUsername" : "Sem administrador",
+  "message" : "Ocorreu a falha {nome já existente} ao realizar a operação {CRIAÇÃO} do contato teste 5, (10/12/23, 16:33:06, e Sem administrador)",
+  "operation" : "CRIAÇÃO"
+}, {
+  "type" : "ERROR",
+  "contactName" : "teste 6",
+  "currentDate" : "10/12/23",
+  "currentHour" : "16:35:07",
+  "adminUsername" : "Sem administrador",
+  "message" : "Ocorreu a falha {nome já existente} ao realizar a operação {CRIAÇÃO} do contato teste 6, (10/12/23, 16:35:07, e Sem administrador)",
+  "operation" : "CRIAÇÃO"
+}, {
+  "type" : "ERROR",
+  "contactName" : "teste6",
+  "currentDate" : "10/12/23",
+  "currentHour" : "16:35:32",
+  "adminUsername" : "Sem administrador",
+  "message" : "Ocorreu a falha {nome já existente} ao realizar a operação {CRIAÇÃO} do contato teste6, (10/12/23, 16:35:32, e Sem administrador)",
+  "operation" : "CRIAÇÃO"
+}, {
+  "type" : "ERROR",
+  "contactName" : "teste",
+  "currentDate" : "10/12/23",
+  "currentHour" : "16:37:27",
+  "adminUsername" : "Sem administrador",
+  "message" : "Ocorreu a falha {nome já existente} ao realizar a operação {CRIAÇÃO} do contato teste, (10/12/23, 16:37:27, e Sem administrador)",
+  "operation" : "CRIAÇÃO"
+}, {
+  "type" : "ERROR",
+  "contactName" : "teste1",
+  "currentDate" : "10/12/23",
+  "currentHour" : "16:37:30",
+  "adminUsername" : "Sem administrador",
+  "message" : "Ocorreu a falha {nome já existente} ao realizar a operação {CRIAÇÃO} do contato teste1, (10/12/23, 16:37:30, e Sem administrador)",
+  "operation" : "CRIAÇÃO"
+}, {
+  "type" : "ERROR",
+  "contactName" : "teste1",
+  "currentDate" : "10/12/23",
+  "currentHour" : "16:37:33",
+  "adminUsername" : "Sem administrador",
+  "message" : "Ocorreu a falha {nome já existente} ao realizar a operação {CRIAÇÃO} do contato teste1, (10/12/23, 16:37:33, e Sem administrador)",
+  "operation" : "CRIAÇÃO"
+}, {
+  "type" : "ERROR",
+  "contactName" : "teste13",
+  "currentDate" : "10/12/23",
+  "currentHour" : "16:37:42",
+  "adminUsername" : "Sem administrador",
+  "message" : "Ocorreu a falha {nome já existente} ao realizar a operação {CRIAÇÃO} do contato teste13, (10/12/23, 16:37:42, e Sem administrador)",
+  "operation" : "CRIAÇÃO"
+}, {
+  "type" : "ERROR",
+  "contactName" : "teste 444",
+  "currentDate" : "10/12/23",
+  "currentHour" : "16:39:14",
+  "adminUsername" : "Sem administrador",
+  "message" : "Ocorreu a falha {nome já existente} ao realizar a operação {CRIAÇÃO} do contato teste 444, (10/12/23, 16:39:14, e Sem administrador)",
+  "operation" : "CRIAÇÃO"
+}, {
+  "type" : "ERROR",
+  "contactName" : "te232423",
+  "currentDate" : "10/12/23",
+  "currentHour" : "16:39:40",
+  "adminUsername" : "Sem administrador",
+  "message" : "Ocorreu a falha {nome já existente} ao realizar a operação {CRIAÇÃO} do contato te232423, (10/12/23, 16:39:40, e Sem administrador)",
+  "operation" : "CRIAÇÃO"
+}, {
+  "type" : "ERROR",
+  "contactName" : "te23242443",
+  "currentDate" : "10/12/23",
+  "currentHour" : "16:39:47",
+  "adminUsername" : "Sem administrador",
+  "message" : "Ocorreu a falha {nome já existente} ao realizar a operação {CRIAÇÃO} do contato te23242443, (10/12/23, 16:39:47, e Sem administrador)",
+  "operation" : "CRIAÇÃO"
+}, {
+  "type" : "ERROR",
+  "contactName" : "test23423",
+  "currentDate" : "10/12/23",
+  "currentHour" : "16:51:30",
+  "adminUsername" : "Sem administrador",
+  "message" : "Ocorreu a falha {nome já existente} ao realizar a operação {CRIAÇÃO} do contato test23423, (10/12/23, 16:51:30, e Sem administrador)",
+  "operation" : "CRIAÇÃO"
+}, {
+  "type" : "INFO",
+  "contactName" : "teste34",
+  "currentDate" : "10/12/23",
+  "currentHour" : "16:52:01",
+  "adminUsername" : "Sem administrador",
+  "message" : "CRIAÇÃO: teste34, (10/12/23, 16:52:01, e Sem administrador)",
+  "operation" : "CRIAÇÃO"
+}, {
+  "type" : "INFO",
+  "contactName" : "2342",
+  "currentDate" : "10/12/23",
+  "currentHour" : "16:52:11",
+  "adminUsername" : "Sem administrador",
+  "message" : "CRIAÇÃO: 2342, (10/12/23, 16:52:11, e Sem administrador)",
+  "operation" : "CRIAÇÃO"
+}, {
+  "type" : "ERROR",
+  "contactName" : "teste",
+  "currentDate" : "10/12/23",
+  "currentHour" : "16:52:42",
+  "adminUsername" : "Sem administrador",
+  "message" : "Ocorreu a falha {nome já existente} ao realizar a operação {CRIAÇÃO} do contato teste, (10/12/23, 16:52:42, e Sem administrador)",
+  "operation" : "CRIAÇÃO"
+}, {
+  "type" : "INFO",
+  "contactName" : "teste3333",
+  "currentDate" : "10/12/23",
+  "currentHour" : "16:52:45",
+  "adminUsername" : "Sem administrador",
+  "message" : "CRIAÇÃO: teste3333, (10/12/23, 16:52:45, e Sem administrador)",
+  "operation" : "CRIAÇÃO"
+}, {
   "type" : "INFO",
   "contactName" : "teste",
   "currentDate" : "10/12/23",
-  "currentHour" : "16:12:28",
+  "currentHour" : "16:52:49",
   "adminUsername" : "Sem administrador",
-  "message" : "LOGIN: teste, (10/12/23, 16:12:28, e Sem administrador)",
+  "message" : "LOGIN: teste, (10/12/23, 16:52:49, e Sem administrador)",
+  "operation" : "LOGIN"
+}, {
+  "type" : "ERROR",
+  "contactName" : "<< no user >>",
+  "currentDate" : "10/12/23",
+  "currentHour" : "16:53:14",
+  "adminUsername" : "teste",
+  "message" : "Ocorreu a falha {[SQLITE_ERROR] SQL error or missing database (near \"WHERE\": syntax error)} ao realizar a operação {LISTAGEM DE USUÁRIOS NÃO AUTORIZADOS} do contato << no user >>, (10/12/23, 16:53:14, e teste)",
+  "operation" : "LISTAGEM DE USUÁRIOS NÃO AUTORIZADOS"
+}, {
+  "type" : "INFO",
+  "contactName" : "teste",
+  "currentDate" : "10/12/23",
+  "currentHour" : "16:54:42",
+  "adminUsername" : "Sem administrador",
+  "message" : "LOGIN: teste, (10/12/23, 16:54:42, e Sem administrador)",
+  "operation" : "LOGIN"
+}, {
+  "type" : "ERROR",
+  "contactName" : "<< no user >>",
+  "currentDate" : "10/12/23",
+  "currentHour" : "16:54:49",
+  "adminUsername" : "teste",
+  "message" : "Ocorreu a falha {no such column: 'password'} ao realizar a operação {LISTAGEM DE USUÁRIOS NÃO AUTORIZADOS} do contato << no user >>, (10/12/23, 16:54:49, e teste)",
+  "operation" : "LISTAGEM DE USUÁRIOS NÃO AUTORIZADOS"
+}, {
+  "type" : "INFO",
+  "contactName" : "teste",
+  "currentDate" : "10/12/23",
+  "currentHour" : "16:55:25",
+  "adminUsername" : "Sem administrador",
+  "message" : "LOGIN: teste, (10/12/23, 16:55:25, e Sem administrador)",
+  "operation" : "LOGIN"
+}, {
+  "type" : "ERROR",
+  "contactName" : "<< no user >>",
+  "currentDate" : "10/12/23",
+  "currentHour" : "16:55:32",
+  "adminUsername" : "teste",
+  "message" : "Ocorreu a falha {[SQLITE_SCHEMA] The database schema changed (near \"(\": syntax error)} ao realizar a operação {LISTAGEM DE USUÁRIOS NÃO AUTORIZADOS} do contato << no user >>, (10/12/23, 16:55:32, e teste)",
+  "operation" : "LISTAGEM DE USUÁRIOS NÃO AUTORIZADOS"
+}, {
+  "type" : "INFO",
+  "contactName" : "teste",
+  "currentDate" : "10/12/23",
+  "currentHour" : "16:55:59",
+  "adminUsername" : "Sem administrador",
+  "message" : "LOGIN: teste, (10/12/23, 16:55:59, e Sem administrador)",
+  "operation" : "LOGIN"
+}, {
+  "type" : "ERROR",
+  "contactName" : "<< no user >>",
+  "currentDate" : "10/12/23",
+  "currentHour" : "16:56:35",
+  "adminUsername" : "teste",
+  "message" : "Ocorreu a falha {[SQLITE_SCHEMA] The database schema changed (near \"(\": syntax error)} ao realizar a operação {LISTAGEM DE USUÁRIOS NÃO AUTORIZADOS} do contato << no user >>, (10/12/23, 16:56:35, e teste)",
+  "operation" : "LISTAGEM DE USUÁRIOS NÃO AUTORIZADOS"
+}, {
+  "type" : "INFO",
+  "contactName" : "teste",
+  "currentDate" : "10/12/23",
+  "currentHour" : "16:56:45",
+  "adminUsername" : "Sem administrador",
+  "message" : "LOGIN: teste, (10/12/23, 16:56:45, e Sem administrador)",
+  "operation" : "LOGIN"
+}, {
+  "type" : "ERROR",
+  "contactName" : "<< no user >>",
+  "currentDate" : "10/12/23",
+  "currentHour" : "16:56:50",
+  "adminUsername" : "teste",
+  "message" : "Ocorreu a falha {[SQLITE_SCHEMA] The database schema changed (near \"(\": syntax error)} ao realizar a operação {LISTAGEM DE USUÁRIOS NÃO AUTORIZADOS} do contato << no user >>, (10/12/23, 16:56:50, e teste)",
+  "operation" : "LISTAGEM DE USUÁRIOS NÃO AUTORIZADOS"
+}, {
+  "type" : "INFO",
+  "contactName" : "teste",
+  "currentDate" : "10/12/23",
+  "currentHour" : "16:57:27",
+  "adminUsername" : "Sem administrador",
+  "message" : "LOGIN: teste, (10/12/23, 16:57:27, e Sem administrador)",
   "operation" : "LOGIN"
 }, {
   "type" : "INFO",
   "contactName" : "<< no user >>",
   "currentDate" : "10/12/23",
-  "currentHour" : "16:12:32",
+  "currentHour" : "16:57:28",
   "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS NÃO AUTORIZADOS: << no user >>, (10/12/23, 16:12:32, e teste)",
+  "message" : "LISTAGEM DE USUÁRIOS NÃO AUTORIZADOS: << no user >>, (10/12/23, 16:57:28, e teste)",
   "operation" : "LISTAGEM DE USUÁRIOS NÃO AUTORIZADOS"
 }, {
   "type" : "INFO",
-  "contactName" : "teasd",
+  "contactName" : "teste 4",
   "currentDate" : "10/12/23",
-  "currentHour" : "16:12:36",
+  "currentHour" : "16:57:37",
   "adminUsername" : "teste",
-  "message" : "FIND_USER: teasd, (10/12/23, 16:12:36, e teste)",
+  "message" : "FIND_USER: teste 4, (10/12/23, 16:57:37, e teste)",
   "operation" : "FIND_USER"
 }, {
   "type" : "INFO",
   "contactName" : "<< no user >>",
   "currentDate" : "10/12/23",
-  "currentHour" : "16:12:37",
+  "currentHour" : "16:57:38",
   "adminUsername" : "teste",
-  "message" : "ATUALIZAÇÃO DE USUÁRIO: << no user >>, (10/12/23, 16:12:37, e teste)",
+  "message" : "ATUALIZAÇÃO DE USUÁRIO: << no user >>, (10/12/23, 16:57:38, e teste)",
   "operation" : "ATUALIZAÇÃO DE USUÁRIO"
 }, {
   "type" : "INFO",
-  "contactName" : "teste",
+  "contactName" : "<< no user >>",
   "currentDate" : "10/12/23",
-  "currentHour" : "16:13:52",
-  "adminUsername" : "Sem administrador",
-  "message" : "LOGIN: teste, (10/12/23, 16:13:52, e Sem administrador)",
-  "operation" : "LOGIN"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "10/12/23",
-  "currentHour" : "16:14:41",
-  "adminUsername" : "Sem administrador",
-  "message" : "LOGIN: teste, (10/12/23, 16:14:41, e Sem administrador)",
-  "operation" : "LOGIN"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "10/12/23",
-  "currentHour" : "16:15:45",
-  "adminUsername" : "Sem administrador",
-  "message" : "LOGIN: teste, (10/12/23, 16:15:45, e Sem administrador)",
-  "operation" : "LOGIN"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "10/12/23",
-  "currentHour" : "16:18:04",
-  "adminUsername" : "Sem administrador",
-  "message" : "LOGIN: teste, (10/12/23, 16:18:04, e Sem administrador)",
-  "operation" : "LOGIN"
+  "currentHour" : "16:57:46",
+  "adminUsername" : "teste",
+  "message" : "LISTAGEM DE USUÁRIOS NÃO AUTORIZADOS: << no user >>, (10/12/23, 16:57:46, e teste)",
+  "operation" : "LISTAGEM DE USUÁRIOS NÃO AUTORIZADOS"
 } ]
