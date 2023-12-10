@@ -238,4 +238,252 @@
   "adminUsername" : "teste",
   "message" : "LISTAGEM DE USUÁRIOS NÃO AUTORIZADOS: << no user >>, (10/12/23, 16:57:46, e teste)",
   "operation" : "LISTAGEM DE USUÁRIOS NÃO AUTORIZADOS"
+}, {
+  "type" : "INFO",
+  "contactName" : "teste 1",
+  "currentDate" : "10/12/23",
+  "currentHour" : "18:34:04",
+  "adminUsername" : "Sem administrador",
+  "message" : "LOGIN: teste 1, (10/12/23, 18:34:04, e Sem administrador)",
+  "operation" : "LOGIN"
+}, {
+  "type" : "INFO",
+  "contactName" : "teste 1",
+  "currentDate" : "10/12/23",
+  "currentHour" : "18:34:08",
+  "adminUsername" : "teste 1",
+  "message" : "LISTAGEM DE NOTIFICAÇÕES: teste 1, (10/12/23, 18:34:08, e teste 1)",
+  "operation" : "LISTAGEM DE NOTIFICAÇÕES"
+}, {
+  "type" : "INFO",
+  "contactName" : "teste 1",
+  "currentDate" : "10/12/23",
+  "currentHour" : "18:34:46",
+  "adminUsername" : "Sem administrador",
+  "message" : "LOGIN: teste 1, (10/12/23, 18:34:46, e Sem administrador)",
+  "operation" : "LOGIN"
+}, {
+  "type" : "INFO",
+  "contactName" : "teste 1",
+  "currentDate" : "10/12/23",
+  "currentHour" : "18:34:47",
+  "adminUsername" : "teste 1",
+  "message" : "LISTAGEM DE NOTIFICAÇÕES: teste 1, (10/12/23, 18:34:47, e teste 1)",
+  "operation" : "LISTAGEM DE NOTIFICAÇÕES"
+}, {
+  "type" : "INFO",
+  "contactName" : "teste 1",
+  "currentDate" : "10/12/23",
+  "currentHour" : "18:38:05",
+  "adminUsername" : "Sem administrador",
+  "message" : "LOGIN: teste 1, (10/12/23, 18:38:05, e Sem administrador)",
+  "operation" : "LOGIN"
+}, {
+  "type" : "INFO",
+  "contactName" : "teste 1",
+  "currentDate" : "10/12/23",
+  "currentHour" : "18:38:07",
+  "adminUsername" : "teste 1",
+  "message" : "LISTAGEM DE NOTIFICAÇÕES: teste 1, (10/12/23, 18:38:07, e teste 1)",
+  "operation" : "LISTAGEM DE NOTIFICAÇÕES"
+}, {
+  "type" : "ERROR",
+  "contactName" : null,
+  "currentDate" : "10/12/23",
+  "currentHour" : "18:38:28",
+  "adminUsername" : "teste 1",
+  "message" : "Ocorreu a falha {[SQLITE_ERROR] SQL error or missing database (near \"=\": syntax error)} ao realizar a operação {MARCAÇÃO DE NOTIFICAÇÃO COMO LIDA} do contato null, (10/12/23, 18:38:28, e teste 1)",
+  "operation" : "MARCAÇÃO DE NOTIFICAÇÃO COMO LIDA"
+}, {
+  "type" : "INFO",
+  "contactName" : "teste 1",
+  "currentDate" : "10/12/23",
+  "currentHour" : "18:39:41",
+  "adminUsername" : "Sem administrador",
+  "message" : "LOGIN: teste 1, (10/12/23, 18:39:41, e Sem administrador)",
+  "operation" : "LOGIN"
+}, {
+  "type" : "INFO",
+  "contactName" : "teste 1",
+  "currentDate" : "10/12/23",
+  "currentHour" : "18:39:42",
+  "adminUsername" : "teste 1",
+  "message" : "LISTAGEM DE NOTIFICAÇÕES: teste 1, (10/12/23, 18:39:42, e teste 1)",
+  "operation" : "LISTAGEM DE NOTIFICAÇÕES"
+}, {
+  "type" : "ERROR",
+  "contactName" : null,
+  "currentDate" : "10/12/23",
+  "currentHour" : "18:39:46",
+  "adminUsername" : "teste 1",
+  "message" : "Ocorreu a falha {[SQLITE_ERROR] SQL error or missing database (near \"=\": syntax error)} ao realizar a operação {MARCAÇÃO DE NOTIFICAÇÃO COMO LIDA} do contato null, (10/12/23, 18:39:46, e teste 1)",
+  "operation" : "MARCAÇÃO DE NOTIFICAÇÃO COMO LIDA"
+}, {
+  "type" : "INFO",
+  "contactName" : "teste 1",
+  "currentDate" : "10/12/23",
+  "currentHour" : "18:40:41",
+  "adminUsername" : "Sem administrador",
+  "message" : "LOGIN: teste 1, (10/12/23, 18:40:41, e Sem administrador)",
+  "operation" : "LOGIN"
+}, {
+  "type" : "INFO",
+  "contactName" : "teste 1",
+  "currentDate" : "10/12/23",
+  "currentHour" : "18:40:43",
+  "adminUsername" : "teste 1",
+  "message" : "LISTAGEM DE NOTIFICAÇÕES: teste 1, (10/12/23, 18:40:43, e teste 1)",
+  "operation" : "LISTAGEM DE NOTIFICAÇÕES"
+}, {
+  "type" : "INFO",
+  "contactName" : "teste 1",
+  "currentDate" : "10/12/23",
+  "currentHour" : "18:40:44",
+  "adminUsername" : "teste 1",
+  "message" : "MARCAÇÃO DE NOTIFICAÇÃO COMO LIDA: teste 1, (10/12/23, 18:40:44, e teste 1)",
+  "operation" : "MARCAÇÃO DE NOTIFICAÇÃO COMO LIDA"
+}, {
+  "type" : "INFO",
+  "contactName" : "teste 1",
+  "currentDate" : "10/12/23",
+  "currentHour" : "18:40:46",
+  "adminUsername" : "teste 1",
+  "message" : "LISTAGEM DE NOTIFICAÇÕES: teste 1, (10/12/23, 18:40:46, e teste 1)",
+  "operation" : "LISTAGEM DE NOTIFICAÇÕES"
+}, {
+  "type" : "INFO",
+  "contactName" : "teste 1",
+  "currentDate" : "10/12/23",
+  "currentHour" : "18:41:34",
+  "adminUsername" : "Sem administrador",
+  "message" : "LOGIN: teste 1, (10/12/23, 18:41:34, e Sem administrador)",
+  "operation" : "LOGIN"
+}, {
+  "type" : "INFO",
+  "contactName" : "teste 1",
+  "currentDate" : "10/12/23",
+  "currentHour" : "18:41:36",
+  "adminUsername" : "teste 1",
+  "message" : "LISTAGEM DE NOTIFICAÇÕES: teste 1, (10/12/23, 18:41:36, e teste 1)",
+  "operation" : "LISTAGEM DE NOTIFICAÇÕES"
+}, {
+  "type" : "INFO",
+  "contactName" : "teste 1",
+  "currentDate" : "10/12/23",
+  "currentHour" : "18:41:38",
+  "adminUsername" : "teste 1",
+  "message" : "MARCAÇÃO DE NOTIFICAÇÃO COMO LIDA: teste 1, (10/12/23, 18:41:38, e teste 1)",
+  "operation" : "MARCAÇÃO DE NOTIFICAÇÃO COMO LIDA"
+}, {
+  "type" : "INFO",
+  "contactName" : "teste 1",
+  "currentDate" : "10/12/23",
+  "currentHour" : "18:41:39",
+  "adminUsername" : "teste 1",
+  "message" : "LISTAGEM DE NOTIFICAÇÕES: teste 1, (10/12/23, 18:41:39, e teste 1)",
+  "operation" : "LISTAGEM DE NOTIFICAÇÕES"
+}, {
+  "type" : "INFO",
+  "contactName" : "teste 1",
+  "currentDate" : "10/12/23",
+  "currentHour" : "18:42:06",
+  "adminUsername" : "teste 1",
+  "message" : "MARCAÇÃO DE NOTIFICAÇÃO COMO LIDA: teste 1, (10/12/23, 18:42:06, e teste 1)",
+  "operation" : "MARCAÇÃO DE NOTIFICAÇÃO COMO LIDA"
+}, {
+  "type" : "INFO",
+  "contactName" : "teste 1",
+  "currentDate" : "10/12/23",
+  "currentHour" : "18:42:55",
+  "adminUsername" : "Sem administrador",
+  "message" : "LOGIN: teste 1, (10/12/23, 18:42:55, e Sem administrador)",
+  "operation" : "LOGIN"
+}, {
+  "type" : "INFO",
+  "contactName" : "teste 1",
+  "currentDate" : "10/12/23",
+  "currentHour" : "18:42:56",
+  "adminUsername" : "teste 1",
+  "message" : "LISTAGEM DE NOTIFICAÇÕES: teste 1, (10/12/23, 18:42:56, e teste 1)",
+  "operation" : "LISTAGEM DE NOTIFICAÇÕES"
+}, {
+  "type" : "INFO",
+  "contactName" : "teste 1",
+  "currentDate" : "10/12/23",
+  "currentHour" : "18:42:58",
+  "adminUsername" : "teste 1",
+  "message" : "MARCAÇÃO DE NOTIFICAÇÃO COMO LIDA: teste 1, (10/12/23, 18:42:58, e teste 1)",
+  "operation" : "MARCAÇÃO DE NOTIFICAÇÃO COMO LIDA"
+}, {
+  "type" : "INFO",
+  "contactName" : "teste 1",
+  "currentDate" : "10/12/23",
+  "currentHour" : "18:46:23",
+  "adminUsername" : "Sem administrador",
+  "message" : "LOGIN: teste 1, (10/12/23, 18:46:23, e Sem administrador)",
+  "operation" : "LOGIN"
+}, {
+  "type" : "INFO",
+  "contactName" : "teste 1",
+  "currentDate" : "10/12/23",
+  "currentHour" : "18:46:25",
+  "adminUsername" : "teste 1",
+  "message" : "LISTAGEM DE NOTIFICAÇÕES: teste 1, (10/12/23, 18:46:25, e teste 1)",
+  "operation" : "LISTAGEM DE NOTIFICAÇÕES"
+}, {
+  "type" : "INFO",
+  "contactName" : "teste 1",
+  "currentDate" : "10/12/23",
+  "currentHour" : "18:46:27",
+  "adminUsername" : "teste 1",
+  "message" : "MARCAÇÃO DE NOTIFICAÇÃO COMO LIDA: teste 1, (10/12/23, 18:46:27, e teste 1)",
+  "operation" : "MARCAÇÃO DE NOTIFICAÇÃO COMO LIDA"
+}, {
+  "type" : "INFO",
+  "contactName" : "teste 1",
+  "currentDate" : "10/12/23",
+  "currentHour" : "18:46:29",
+  "adminUsername" : "teste 1",
+  "message" : "LISTAGEM DE NOTIFICAÇÕES: teste 1, (10/12/23, 18:46:29, e teste 1)",
+  "operation" : "LISTAGEM DE NOTIFICAÇÕES"
+}, {
+  "type" : "INFO",
+  "contactName" : "teste 1",
+  "currentDate" : "10/12/23",
+  "currentHour" : "18:46:32",
+  "adminUsername" : "teste 1",
+  "message" : "MARCAÇÃO DE NOTIFICAÇÃO COMO LIDA: teste 1, (10/12/23, 18:46:32, e teste 1)",
+  "operation" : "MARCAÇÃO DE NOTIFICAÇÃO COMO LIDA"
+}, {
+  "type" : "INFO",
+  "contactName" : "teste 1",
+  "currentDate" : "10/12/23",
+  "currentHour" : "18:46:33",
+  "adminUsername" : "teste 1",
+  "message" : "LISTAGEM DE NOTIFICAÇÕES: teste 1, (10/12/23, 18:46:33, e teste 1)",
+  "operation" : "LISTAGEM DE NOTIFICAÇÕES"
+}, {
+  "type" : "INFO",
+  "contactName" : "teste 1",
+  "currentDate" : "10/12/23",
+  "currentHour" : "18:46:38",
+  "adminUsername" : "teste 1",
+  "message" : "MARCAÇÃO DE NOTIFICAÇÃO COMO LIDA: teste 1, (10/12/23, 18:46:38, e teste 1)",
+  "operation" : "MARCAÇÃO DE NOTIFICAÇÃO COMO LIDA"
+}, {
+  "type" : "INFO",
+  "contactName" : "teste 1",
+  "currentDate" : "10/12/23",
+  "currentHour" : "18:46:40",
+  "adminUsername" : "teste 1",
+  "message" : "LISTAGEM DE NOTIFICAÇÕES: teste 1, (10/12/23, 18:46:40, e teste 1)",
+  "operation" : "LISTAGEM DE NOTIFICAÇÕES"
+}, {
+  "type" : "INFO",
+  "contactName" : "teste 1",
+  "currentDate" : "10/12/23",
+  "currentHour" : "18:46:58",
+  "adminUsername" : "teste 1",
+  "message" : "MARCAÇÃO DE NOTIFICAÇÃO COMO LIDA: teste 1, (10/12/23, 18:46:58, e teste 1)",
+  "operation" : "MARCAÇÃO DE NOTIFICAÇÃO COMO LIDA"
 } ]
