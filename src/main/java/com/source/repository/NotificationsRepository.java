@@ -34,13 +34,13 @@ public class NotificationsRepository {
 
     public List<NotificationsModel> listAllUserNotifications(int id) throws SQLException {
         ResultSet result = notificationsDao.getAllById(id);
-
+        
         return this.formatNotifications(result);
     }
 
     public List<NotificationsModel> listAllUnreadUserNotifications(int id) throws SQLException {
         ResultSet result = notificationsDao.getAllUnread(id);
-
+        
         return this.formatNotifications(result);
     }
 
@@ -53,7 +53,9 @@ public class NotificationsRepository {
 
             notifications.add(notification);
         }
-
+        
+        connection.disconnect();
+        
         return notifications;
     }
 

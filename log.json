@@ -566,4 +566,444 @@
   "adminUsername" : "teste 1",
   "message" : "ATUALIZAÇÃO DE USUÁRIO: << no user >>, (10/12/23, 20:11:19, e teste 1)",
   "operation" : "ATUALIZAÇÃO DE USUÁRIO"
+}, {
+  "type" : "ERROR",
+  "contactName" : "teste 23",
+  "currentDate" : "10/12/23",
+  "currentHour" : "20:16:36",
+  "adminUsername" : "Sem administrador",
+  "message" : "Ocorreu a falha {Usuário não autorizado.} ao realizar a operação {LOGIN} do contato teste 23, (10/12/23, 20:16:36, e Sem administrador)",
+  "operation" : "LOGIN"
+}, {
+  "type" : "ERROR",
+  "contactName" : "<<no user>>",
+  "currentDate" : "10/12/23",
+  "currentHour" : "20:16:44",
+  "adminUsername" : "Sem administrador",
+  "message" : "Ocorreu a falha {Validação falhou para o campo: password} ao realizar a operação {Register} do contato <<no user>>, (10/12/23, 20:16:44, e Sem administrador)",
+  "operation" : "Register"
+}, {
+  "type" : "ERROR",
+  "contactName" : "<<no user>>",
+  "currentDate" : "10/12/23",
+  "currentHour" : "20:16:53",
+  "adminUsername" : "Sem administrador",
+  "message" : "Ocorreu a falha {Validação falhou para o campo: password} ao realizar a operação {Register} do contato <<no user>>, (10/12/23, 20:16:53, e Sem administrador)",
+  "operation" : "Register"
+}, {
+  "type" : "ERROR",
+  "contactName" : "<<no user>>",
+  "currentDate" : "10/12/23",
+  "currentHour" : "20:17:06",
+  "adminUsername" : "Sem administrador",
+  "message" : "Ocorreu a falha {Validação falhou para o campo: password} ao realizar a operação {Register} do contato <<no user>>, (10/12/23, 20:17:06, e Sem administrador)",
+  "operation" : "Register"
+}, {
+  "type" : "ERROR",
+  "contactName" : "<<no user>>",
+  "currentDate" : "10/12/23",
+  "currentHour" : "20:17:13",
+  "adminUsername" : "Sem administrador",
+  "message" : "Ocorreu a falha {Validação falhou para o campo: password} ao realizar a operação {Register} do contato <<no user>>, (10/12/23, 20:17:13, e Sem administrador)",
+  "operation" : "Register"
+}, {
+  "type" : "INFO",
+  "contactName" : "testes 2342",
+  "currentDate" : "10/12/23",
+  "currentHour" : "20:17:24",
+  "adminUsername" : "Sem administrador",
+  "message" : "CRIAÇÃO: testes 2342, (10/12/23, 20:17:24, e Sem administrador)",
+  "operation" : "CRIAÇÃO"
+}, {
+  "type" : "ERROR",
+  "contactName" : "mauricio",
+  "currentDate" : "10/12/23",
+  "currentHour" : "20:17:59",
+  "adminUsername" : "Sem administrador",
+  "message" : "Ocorreu a falha {Usuário não autorizado.} ao realizar a operação {LOGIN} do contato mauricio, (10/12/23, 20:17:59, e Sem administrador)",
+  "operation" : "LOGIN"
+}, {
+  "type" : "ERROR",
+  "contactName" : "mauricio",
+  "currentDate" : "10/12/23",
+  "currentHour" : "20:18:07",
+  "adminUsername" : "Sem administrador",
+  "message" : "Ocorreu a falha {Usuário não autorizado.} ao realizar a operação {LOGIN} do contato mauricio, (10/12/23, 20:18:07, e Sem administrador)",
+  "operation" : "LOGIN"
+}, {
+  "type" : "ERROR",
+  "contactName" : "mauricio",
+  "currentDate" : "10/12/23",
+  "currentHour" : "20:18:11",
+  "adminUsername" : "Sem administrador",
+  "message" : "Ocorreu a falha {Usuário não autorizado.} ao realizar a operação {LOGIN} do contato mauricio, (10/12/23, 20:18:11, e Sem administrador)",
+  "operation" : "LOGIN"
+}, {
+  "type" : "ERROR",
+  "contactName" : "mauricio",
+  "currentDate" : "10/12/23",
+  "currentHour" : "20:18:28",
+  "adminUsername" : "Sem administrador",
+  "message" : "Ocorreu a falha {Usuário não autorizado.} ao realizar a operação {LOGIN} do contato mauricio, (10/12/23, 20:18:28, e Sem administrador)",
+  "operation" : "LOGIN"
+}, {
+  "type" : "ERROR",
+  "contactName" : "mauricio",
+  "currentDate" : "10/12/23",
+  "currentHour" : "20:19:32",
+  "adminUsername" : "Sem administrador",
+  "message" : "Ocorreu a falha {Usuário não autorizado.} ao realizar a operação {LOGIN} do contato mauricio, (10/12/23, 20:19:32, e Sem administrador)",
+  "operation" : "LOGIN"
+}, {
+  "type" : "ERROR",
+  "contactName" : "mauricio",
+  "currentDate" : "10/12/23",
+  "currentHour" : "20:19:42",
+  "adminUsername" : "Sem administrador",
+  "message" : "Ocorreu a falha {Usuário não autorizado.} ao realizar a operação {LOGIN} do contato mauricio, (10/12/23, 20:19:42, e Sem administrador)",
+  "operation" : "LOGIN"
+}, {
+  "type" : "INFO",
+  "contactName" : "mauricio",
+  "currentDate" : "10/12/23",
+  "currentHour" : "20:19:55",
+  "adminUsername" : "Sem administrador",
+  "message" : "LOGIN: mauricio, (10/12/23, 20:19:55, e Sem administrador)",
+  "operation" : "LOGIN"
+}, {
+  "type" : "INFO",
+  "contactName" : "mauricio",
+  "currentDate" : "10/12/23",
+  "currentHour" : "20:19:55",
+  "adminUsername" : "mauricio",
+  "message" : "BUSCA DE TOTAL DE NOTIFICAÇÕES NÃO LIDAS: mauricio, (10/12/23, 20:19:55, e mauricio)",
+  "operation" : "BUSCA DE TOTAL DE NOTIFICAÇÕES NÃO LIDAS"
+}, {
+  "type" : "ERROR",
+  "contactName" : "mauricio",
+  "currentDate" : "10/12/23",
+  "currentHour" : "20:20:02",
+  "adminUsername" : "mauricio",
+  "message" : "Ocorreu a falha {Validação falhou para o campo: password} ao realizar a operação {TROCAR SENHA} do contato mauricio, (10/12/23, 20:20:02, e mauricio)",
+  "operation" : "TROCAR SENHA"
+}, {
+  "type" : "ERROR",
+  "contactName" : "mauricio",
+  "currentDate" : "10/12/23",
+  "currentHour" : "20:20:04",
+  "adminUsername" : "mauricio",
+  "message" : "Ocorreu a falha {Validação falhou para o campo: password} ao realizar a operação {TROCAR SENHA} do contato mauricio, (10/12/23, 20:20:04, e mauricio)",
+  "operation" : "TROCAR SENHA"
+}, {
+  "type" : "ERROR",
+  "contactName" : "mauricio",
+  "currentDate" : "10/12/23",
+  "currentHour" : "20:20:07",
+  "adminUsername" : "mauricio",
+  "message" : "Ocorreu a falha {Validação falhou para o campo: password} ao realizar a operação {TROCAR SENHA} do contato mauricio, (10/12/23, 20:20:07, e mauricio)",
+  "operation" : "TROCAR SENHA"
+}, {
+  "type" : "ERROR",
+  "contactName" : "mauricio",
+  "currentDate" : "10/12/23",
+  "currentHour" : "20:20:09",
+  "adminUsername" : "mauricio",
+  "message" : "Ocorreu a falha {Validação falhou para o campo: password} ao realizar a operação {TROCAR SENHA} do contato mauricio, (10/12/23, 20:20:09, e mauricio)",
+  "operation" : "TROCAR SENHA"
+}, {
+  "type" : "ERROR",
+  "contactName" : "mauricio",
+  "currentDate" : "10/12/23",
+  "currentHour" : "20:20:27",
+  "adminUsername" : "mauricio",
+  "message" : "Ocorreu a falha {Validação falhou para o campo: password} ao realizar a operação {TROCAR SENHA} do contato mauricio, (10/12/23, 20:20:27, e mauricio)",
+  "operation" : "TROCAR SENHA"
+}, {
+  "type" : "ERROR",
+  "contactName" : "mauricio",
+  "currentDate" : "10/12/23",
+  "currentHour" : "20:20:35",
+  "adminUsername" : "mauricio",
+  "message" : "Ocorreu a falha {Validação falhou para o campo: Nova senha} ao realizar a operação {TROCAR SENHA} do contato mauricio, (10/12/23, 20:20:35, e mauricio)",
+  "operation" : "TROCAR SENHA"
+}, {
+  "type" : "ERROR",
+  "contactName" : "<< no user >>",
+  "currentDate" : "10/12/23",
+  "currentHour" : "20:21:05",
+  "adminUsername" : "mauricio",
+  "message" : "Ocorreu a falha {[SQLITE_BUSY] The database file is locked (database is locked)} ao realizar a operação {ATUALIZAÇÃO DE USUÁRIO} do contato << no user >>, (10/12/23, 20:21:05, e mauricio)",
+  "operation" : "ATUALIZAÇÃO DE USUÁRIO"
+}, {
+  "type" : "INFO",
+  "contactName" : "mauricio",
+  "currentDate" : "10/12/23",
+  "currentHour" : "20:21:51",
+  "adminUsername" : "Sem administrador",
+  "message" : "LOGIN: mauricio, (10/12/23, 20:21:51, e Sem administrador)",
+  "operation" : "LOGIN"
+}, {
+  "type" : "INFO",
+  "contactName" : "mauricio",
+  "currentDate" : "10/12/23",
+  "currentHour" : "20:21:51",
+  "adminUsername" : "mauricio",
+  "message" : "BUSCA DE TOTAL DE NOTIFICAÇÕES NÃO LIDAS: mauricio, (10/12/23, 20:21:51, e mauricio)",
+  "operation" : "BUSCA DE TOTAL DE NOTIFICAÇÕES NÃO LIDAS"
+}, {
+  "type" : "ERROR",
+  "contactName" : "mauricio",
+  "currentDate" : "10/12/23",
+  "currentHour" : "20:22:12",
+  "adminUsername" : "mauricio",
+  "message" : "Ocorreu a falha {Validação falhou para o campo: Nova senha} ao realizar a operação {TROCAR SENHA} do contato mauricio, (10/12/23, 20:22:12, e mauricio)",
+  "operation" : "TROCAR SENHA"
+}, {
+  "type" : "ERROR",
+  "contactName" : "<< no user >>",
+  "currentDate" : "10/12/23",
+  "currentHour" : "20:22:31",
+  "adminUsername" : "mauricio",
+  "message" : "Ocorreu a falha {[SQLITE_BUSY] The database file is locked (database is locked)} ao realizar a operação {ATUALIZAÇÃO DE USUÁRIO} do contato << no user >>, (10/12/23, 20:22:31, e mauricio)",
+  "operation" : "ATUALIZAÇÃO DE USUÁRIO"
+}, {
+  "type" : "INFO",
+  "contactName" : "mauricio 2",
+  "currentDate" : "10/12/23",
+  "currentHour" : "20:23:10",
+  "adminUsername" : "Sem administrador",
+  "message" : "CRIAÇÃO: mauricio 2, (10/12/23, 20:23:10, e Sem administrador)",
+  "operation" : "CRIAÇÃO"
+}, {
+  "type" : "ERROR",
+  "contactName" : "mauricio 2",
+  "currentDate" : "10/12/23",
+  "currentHour" : "20:23:23",
+  "adminUsername" : "Sem administrador",
+  "message" : "Ocorreu a falha {Usuário não autorizado.} ao realizar a operação {LOGIN} do contato mauricio 2, (10/12/23, 20:23:23, e Sem administrador)",
+  "operation" : "LOGIN"
+}, {
+  "type" : "INFO",
+  "contactName" : "teste",
+  "currentDate" : "10/12/23",
+  "currentHour" : "20:23:30",
+  "adminUsername" : "Sem administrador",
+  "message" : "LOGIN: teste, (10/12/23, 20:23:30, e Sem administrador)",
+  "operation" : "LOGIN"
+}, {
+  "type" : "INFO",
+  "contactName" : "<< no user >>",
+  "currentDate" : "10/12/23",
+  "currentHour" : "20:23:32",
+  "adminUsername" : "teste",
+  "message" : "LISTAGEM DE USUÁRIOS NÃO AUTORIZADOS: << no user >>, (10/12/23, 20:23:32, e teste)",
+  "operation" : "LISTAGEM DE USUÁRIOS NÃO AUTORIZADOS"
+}, {
+  "type" : "INFO",
+  "contactName" : "mauricio 2",
+  "currentDate" : "10/12/23",
+  "currentHour" : "20:23:35",
+  "adminUsername" : "teste",
+  "message" : "FIND_USER: mauricio 2, (10/12/23, 20:23:35, e teste)",
+  "operation" : "FIND_USER"
+}, {
+  "type" : "INFO",
+  "contactName" : "<< no user >>",
+  "currentDate" : "10/12/23",
+  "currentHour" : "20:23:36",
+  "adminUsername" : "teste",
+  "message" : "ATUALIZAÇÃO DE USUÁRIO: << no user >>, (10/12/23, 20:23:36, e teste)",
+  "operation" : "ATUALIZAÇÃO DE USUÁRIO"
+}, {
+  "type" : "INFO",
+  "contactName" : "mauricio 2",
+  "currentDate" : "10/12/23",
+  "currentHour" : "20:23:48",
+  "adminUsername" : "Sem administrador",
+  "message" : "LOGIN: mauricio 2, (10/12/23, 20:23:48, e Sem administrador)",
+  "operation" : "LOGIN"
+}, {
+  "type" : "INFO",
+  "contactName" : "mauricio 2",
+  "currentDate" : "10/12/23",
+  "currentHour" : "20:23:49",
+  "adminUsername" : "mauricio 2",
+  "message" : "BUSCA DE TOTAL DE NOTIFICAÇÕES NÃO LIDAS: mauricio 2, (10/12/23, 20:23:49, e mauricio 2)",
+  "operation" : "BUSCA DE TOTAL DE NOTIFICAÇÕES NÃO LIDAS"
+}, {
+  "type" : "ERROR",
+  "contactName" : "<< no user >>",
+  "currentDate" : "10/12/23",
+  "currentHour" : "20:24:57",
+  "adminUsername" : "mauricio 2",
+  "message" : "Ocorreu a falha {[SQLITE_BUSY] The database file is locked (database is locked)} ao realizar a operação {ATUALIZAÇÃO DE USUÁRIO} do contato << no user >>, (10/12/23, 20:24:57, e mauricio 2)",
+  "operation" : "ATUALIZAÇÃO DE USUÁRIO"
+}, {
+  "type" : "INFO",
+  "contactName" : "mauricio 2",
+  "currentDate" : "10/12/23",
+  "currentHour" : "20:26:44",
+  "adminUsername" : "Sem administrador",
+  "message" : "LOGIN: mauricio 2, (10/12/23, 20:26:44, e Sem administrador)",
+  "operation" : "LOGIN"
+}, {
+  "type" : "INFO",
+  "contactName" : "mauricio 2",
+  "currentDate" : "10/12/23",
+  "currentHour" : "20:26:44",
+  "adminUsername" : "mauricio 2",
+  "message" : "BUSCA DE TOTAL DE NOTIFICAÇÕES NÃO LIDAS: mauricio 2, (10/12/23, 20:26:44, e mauricio 2)",
+  "operation" : "BUSCA DE TOTAL DE NOTIFICAÇÕES NÃO LIDAS"
+}, {
+  "type" : "ERROR",
+  "contactName" : "<< no user >>",
+  "currentDate" : "10/12/23",
+  "currentHour" : "20:28:49",
+  "adminUsername" : "mauricio 2",
+  "message" : "Ocorreu a falha {[SQLITE_BUSY] The database file is locked (database is locked)} ao realizar a operação {ATUALIZAÇÃO DE USUÁRIO} do contato << no user >>, (10/12/23, 20:28:49, e mauricio 2)",
+  "operation" : "ATUALIZAÇÃO DE USUÁRIO"
+}, {
+  "type" : "ERROR",
+  "contactName" : "mauricio 2",
+  "currentDate" : "10/12/23",
+  "currentHour" : "20:29:33",
+  "adminUsername" : "Sem administrador",
+  "message" : "Ocorreu a falha {stmt pointer is closed} ao realizar a operação {LOGIN} do contato mauricio 2, (10/12/23, 20:29:33, e Sem administrador)",
+  "operation" : "LOGIN"
+}, {
+  "type" : "ERROR",
+  "contactName" : "mauricio 2",
+  "currentDate" : "10/12/23",
+  "currentHour" : "20:29:40",
+  "adminUsername" : "Sem administrador",
+  "message" : "Ocorreu a falha {stmt pointer is closed} ao realizar a operação {LOGIN} do contato mauricio 2, (10/12/23, 20:29:40, e Sem administrador)",
+  "operation" : "LOGIN"
+}, {
+  "type" : "INFO",
+  "contactName" : "mauricio 2",
+  "currentDate" : "10/12/23",
+  "currentHour" : "20:34:52",
+  "adminUsername" : "Sem administrador",
+  "message" : "LOGIN: mauricio 2, (10/12/23, 20:34:52, e Sem administrador)",
+  "operation" : "LOGIN"
+}, {
+  "type" : "INFO",
+  "contactName" : "mauricio 2",
+  "currentDate" : "10/12/23",
+  "currentHour" : "20:34:52",
+  "adminUsername" : "mauricio 2",
+  "message" : "BUSCA DE TOTAL DE NOTIFICAÇÕES NÃO LIDAS: mauricio 2, (10/12/23, 20:34:52, e mauricio 2)",
+  "operation" : "BUSCA DE TOTAL DE NOTIFICAÇÕES NÃO LIDAS"
+}, {
+  "type" : "INFO",
+  "contactName" : "<< no user >>",
+  "currentDate" : "10/12/23",
+  "currentHour" : "20:35:06",
+  "adminUsername" : "mauricio 2",
+  "message" : "ATUALIZAÇÃO DE USUÁRIO: << no user >>, (10/12/23, 20:35:06, e mauricio 2)",
+  "operation" : "ATUALIZAÇÃO DE USUÁRIO"
+}, {
+  "type" : "INFO",
+  "contactName" : "<< no user >>",
+  "currentDate" : "10/12/23",
+  "currentHour" : "20:35:23",
+  "adminUsername" : "mauricio 2",
+  "message" : "ATUALIZAÇÃO DE USUÁRIO: << no user >>, (10/12/23, 20:35:23, e mauricio 2)",
+  "operation" : "ATUALIZAÇÃO DE USUÁRIO"
+}, {
+  "type" : "INFO",
+  "contactName" : "mauricio 2",
+  "currentDate" : "10/12/23",
+  "currentHour" : "20:35:28",
+  "adminUsername" : "mauricio 2",
+  "message" : "LISTAGEM DE NOTIFICAÇÕES: mauricio 2, (10/12/23, 20:35:28, e mauricio 2)",
+  "operation" : "LISTAGEM DE NOTIFICAÇÕES"
+}, {
+  "type" : "ERROR",
+  "contactName" : "teste 1",
+  "currentDate" : "10/12/23",
+  "currentHour" : "20:35:52",
+  "adminUsername" : "Sem administrador",
+  "message" : "Ocorreu a falha {Username ou senha incorretos.} ao realizar a operação {LOGIN} do contato teste 1, (10/12/23, 20:35:52, e Sem administrador)",
+  "operation" : "LOGIN"
+}, {
+  "type" : "INFO",
+  "contactName" : "teste 2",
+  "currentDate" : "10/12/23",
+  "currentHour" : "20:35:57",
+  "adminUsername" : "Sem administrador",
+  "message" : "LOGIN: teste 2, (10/12/23, 20:35:57, e Sem administrador)",
+  "operation" : "LOGIN"
+}, {
+  "type" : "INFO",
+  "contactName" : "teste 2",
+  "currentDate" : "10/12/23",
+  "currentHour" : "20:35:57",
+  "adminUsername" : "teste 2",
+  "message" : "BUSCA DE TOTAL DE NOTIFICAÇÕES NÃO LIDAS: teste 2, (10/12/23, 20:35:57, e teste 2)",
+  "operation" : "BUSCA DE TOTAL DE NOTIFICAÇÕES NÃO LIDAS"
+}, {
+  "type" : "INFO",
+  "contactName" : "teste 2",
+  "currentDate" : "10/12/23",
+  "currentHour" : "20:36:00",
+  "adminUsername" : "teste 2",
+  "message" : "LISTAGEM DE NOTIFICAÇÕES: teste 2, (10/12/23, 20:36:00, e teste 2)",
+  "operation" : "LISTAGEM DE NOTIFICAÇÕES"
+}, {
+  "type" : "INFO",
+  "contactName" : "teste 1",
+  "currentDate" : "10/12/23",
+  "currentHour" : "20:36:31",
+  "adminUsername" : "Sem administrador",
+  "message" : "LOGIN: teste 1, (10/12/23, 20:36:31, e Sem administrador)",
+  "operation" : "LOGIN"
+}, {
+  "type" : "INFO",
+  "contactName" : "teste 1",
+  "currentDate" : "10/12/23",
+  "currentHour" : "20:36:31",
+  "adminUsername" : "teste 1",
+  "message" : "BUSCA DE TOTAL DE NOTIFICAÇÕES NÃO LIDAS: teste 1, (10/12/23, 20:36:31, e teste 1)",
+  "operation" : "BUSCA DE TOTAL DE NOTIFICAÇÕES NÃO LIDAS"
+}, {
+  "type" : "ERROR",
+  "contactName" : null,
+  "currentDate" : "10/12/23",
+  "currentHour" : "20:36:38",
+  "adminUsername" : "teste 1",
+  "message" : "Ocorreu a falha {stmt pointer is closed} ao realizar a operação {LISTAGEM DE NOTIFICAÇÕES} do contato null, (10/12/23, 20:36:38, e teste 1)",
+  "operation" : "LISTAGEM DE NOTIFICAÇÕES"
+}, {
+  "type" : "INFO",
+  "contactName" : "teste 1",
+  "currentDate" : "10/12/23",
+  "currentHour" : "20:38:33",
+  "adminUsername" : "Sem administrador",
+  "message" : "LOGIN: teste 1, (10/12/23, 20:38:33, e Sem administrador)",
+  "operation" : "LOGIN"
+}, {
+  "type" : "INFO",
+  "contactName" : "teste 1",
+  "currentDate" : "10/12/23",
+  "currentHour" : "20:38:33",
+  "adminUsername" : "teste 1",
+  "message" : "BUSCA DE TOTAL DE NOTIFICAÇÕES NÃO LIDAS: teste 1, (10/12/23, 20:38:33, e teste 1)",
+  "operation" : "BUSCA DE TOTAL DE NOTIFICAÇÕES NÃO LIDAS"
+}, {
+  "type" : "INFO",
+  "contactName" : "teste 1",
+  "currentDate" : "10/12/23",
+  "currentHour" : "20:38:35",
+  "adminUsername" : "teste 1",
+  "message" : "LISTAGEM DE NOTIFICAÇÕES: teste 1, (10/12/23, 20:38:35, e teste 1)",
+  "operation" : "LISTAGEM DE NOTIFICAÇÕES"
+}, {
+  "type" : "INFO",
+  "contactName" : "teste 1",
+  "currentDate" : "10/12/23",
+  "currentHour" : "20:38:43",
+  "adminUsername" : "teste 1",
+  "message" : "LISTAGEM DE NOTIFICAÇÕES: teste 1, (10/12/23, 20:38:43, e teste 1)",
+  "operation" : "LISTAGEM DE NOTIFICAÇÕES"
 } ]

@@ -62,6 +62,7 @@ public class ChangePasswordPresenter {
 
                     for (TextField field : fields) {
                         field.validateNotNull();
+                        field.validatePassword();
                         field.validateNotEquals(view.getTxtRepeatNewPassword().getText());
                     }
 
