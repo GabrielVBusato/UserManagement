@@ -4,6 +4,9 @@
  */
 package com.source.model;
 
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
 /**
  *
  * @author Mauricio
@@ -68,5 +71,14 @@ public class UsersModel {
     @Override
     public String toString() {
         return "UsersModel{" + "id=" + id + ", name=" + name + ", type=" + type + ", Authorized=" + authorized + ", createdAt=" + createdAt + '}';
+    }
+    
+    public void parseData(ResultSet result) throws SQLException {
+        this.setId(result.getInt("id"));
+        this.setName(result.getString("name"));
+        this.setType(result.getString("type"));
+        this.setAuthorized(result.getInt("authorized"));
+        this.setPassword(result.getString("password"));
+        this.setCreatedAt(result.getString("created_at"));
     }
 }

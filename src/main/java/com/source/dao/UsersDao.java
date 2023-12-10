@@ -29,7 +29,6 @@ public class UsersDao implements IDao<UsersModel> {
         connection.connect();
         connection.createStatement().executeUpdate(query);
         connection.disconnect();
-
     }
     
     @Override
@@ -48,31 +47,25 @@ public class UsersDao implements IDao<UsersModel> {
 
     @Override
     public ResultSet getAll() throws SQLException {
-        ResultSet result;
-        Statement statement;
-        String query = "Select * from users";
-        connection.connect();
-        statement = connection.createStatement();
-        result = statement.executeQuery(query);
-        return result;
+        return this.databaseQuery("Select * from users");
+    }
+    
+    public ResultSet getAllUnauthorized() throws SQLException {
+        return this.databaseQuery("Select * from users where authorized = 0");
     }
 
     @Override
     public ResultSet read(int id) throws SQLException {
-        ResultSet result;
-        Statement statement;
-        String query = "Select * from users where id = '" + id + "'";
-        connection.connect();
-        statement = connection.createStatement();
-        result = statement.executeQuery(query);
-        
-        return result;
+        return this.databaseQuery("Select * from users where id = '" + id + "'");
     }
     
     public ResultSet readByUsername(String username) throws SQLException {
+        return this.databaseQuery("Select * from users where name = '" + username + "'");
+    }
+    
+    private ResultSet databaseQuery(String query) throws SQLException {
         ResultSet result;
         Statement statement;
-        String query = "Select * from users where name = '" + username + "'";
         connection.connect();
         statement = connection.createStatement();
         result = statement.executeQuery(query);
@@ -80,7 +73,10 @@ public class UsersDao implements IDao<UsersModel> {
     }
 
     @Override
-    public void update(UsersModel entity) throws SQLException {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    public void update(UsersModel user) throws SQLException {
+        String updateQuery = "UPDATE users SET name = '" + user.getName() + "', password = '" + user.getPassword() + "', authorized = " + user.getAuthorized() + ", created_at = '" + user.getCreatedAt() + "'";
+        connection.connect();
+        connection.createStatement().executeUpdate(updateQuery);        
+        connection.disconnect();
     }
 }
