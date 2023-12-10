@@ -10,15 +10,15 @@ import java.lang.reflect.Constructor;
  *
  * @author busat
  */
-public class MenuStrategyFactory {
-    public static MenuStrategy createMenu(String userType) throws Exception {
-        String className = "com.source.presenters.MainPresenter.Strategies." + userType + "MenuStrategy";
+public class MainStrategyFactory {
+    public static MainStrategy createMainStrategy(String userType) throws Exception {
+        String className = "com.source.presenters.MainPresenter.Strategies." + userType + "Strategy";
 
         Class<?> menuClass = Class.forName(className);
 
         Constructor<?> constructor = menuClass.getConstructor();
 
-        MenuStrategy menuStrategy = (MenuStrategy) constructor.newInstance();
+        MainStrategy menuStrategy = (MainStrategy) constructor.newInstance();
         return menuStrategy;
     }
     

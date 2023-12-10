@@ -9,6 +9,6 @@ package com.source.presenters.MainPresenter;
  *
  * @author busat
  */
-public interface MenuStrategy {
-    void displayMenu(MainPresenter presenter);
+public interface MainStrategy {
+    void configureMainView(MainPresenter presenter);
 }

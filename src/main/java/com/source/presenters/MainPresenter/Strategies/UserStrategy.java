@@ -5,24 +5,25 @@
 package com.source.presenters.MainPresenter.Strategies;
 
 import com.source.presenters.MainPresenter.MainPresenter;
-import com.source.presenters.MainPresenter.MenuStrategy;
+import com.source.presenters.MainPresenter.MainStrategy;
 
 /**
  *
  * @author busat
  */
-public class UserMenuStrategy implements MenuStrategy {
+public class UserStrategy implements MainStrategy {
 
-    public UserMenuStrategy() {
+    public UserStrategy() {
     }
 
     @Override
-    public void displayMenu(MainPresenter presenter) {
+    public void configureMainView(MainPresenter presenter) {
         presenter.getView().getMenuItemAuthUser().setVisible(false);
-        presenter.getView().getMenuItemCreateUser().setVisible(false);
         presenter.getView().getMenuItemListUsers().setVisible(false);
         presenter.getView().getMenuItemSendNotification().setVisible(false);
         presenter.getView().getMenuItemChangePassword().setVisible(true);
         presenter.getView().getMenuItemListNotifications().setVisible(true);
+        presenter.getView().getLblDummyNewNotifications().setVisible(true);
+        presenter.getView().getBtnNewNotifications().setVisible(true);
     }
 }

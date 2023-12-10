@@ -5,8 +5,14 @@
 package com.source.presenters.MainPresenter;
 
 import com.source.dbConnection.connections.IDatabaseConnection;
+import com.source.model.UsersModel;
+import com.source.presenters.ConfigPresenter.ConfigPresenter;
+import com.source.presenters.UnauthenticatedUsersPresenter.UnauthenticatedUsersPresenter;
+import com.source.service.UserService.UsersService;
 import com.source.session.UserSession;
 import com.source.view.MainView;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 /**
  *
@@ -14,34 +20,56 @@ import com.source.view.MainView;
  */
 public class MainPresenter {
 
-    private MainView view = null;
+    private static MainView view = null;
     private static MainPresenter instance = null;
     private final IDatabaseConnection connection;
-    private MenuStrategy strategy;
+    private MainStrategy strategy;
+    private final UsersService userService;
 
-    private MainPresenter(IDatabaseConnection connection) {
+    private MainPresenter(IDatabaseConnection connection,
+            UsersService userService) {
         if (view == null) {
             view = new MainView();
         }
+        this.userService = userService;
         this.connection = connection;
-        view.setVisible(true);
         initComponents();
     }
 
+    public IDatabaseConnection getConnection() {
+        return this.connection;
+    }
+
+    public UsersService getUserService() {
+        return this.userService;
+    }
+
     public static MainPresenter getInstance(
-            IDatabaseConnection connection) {
+            IDatabaseConnection connection,
+            UsersService userService) {
         if (instance == null) {
-            instance = new MainPresenter(connection);
+            instance = new MainPresenter(connection, userService);
         }
+
+        view.setVisible(true);
         return instance;
     }
 
     private void initComponents() {
         try {
-            this.strategy = MenuStrategyFactory.createMenu(UserSession.getInstance()
+            view.getBtnConfig().addActionListener(new ActionListener() {
+                @Override
+                public void actionPerformed(ActionEvent e) {
+                    ConfigPresenter.getInstance();
+                }
+            });
+            UsersModel authenticatedUser = UserSession.getInstance().getCurrentUser();
+            view.getLblUserType().setText(authenticatedUser.getType());
+            view.getLblUserLoggedIn().setText(authenticatedUser.getName());
+            this.strategy = MainStrategyFactory.createMainStrategy(UserSession.getInstance()
                     .getCurrentUser().getType());
 
-            strategy.displayMenu(this);
+            strategy.configureMainView(this);
         } catch (Exception ex) {
         }
     }

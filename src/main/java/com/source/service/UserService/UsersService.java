@@ -56,6 +56,22 @@ public class UsersService {
         return null;
     }
 
+    public UsersModel findUserByUsername(String name) {
+        UsersModel user;
+        try {
+            user = usersRepository.readByUsername(name);
+
+            Logger.writeSystemInfoLog(LogTypeEnum.INFO, user.getName(), "FIND_USER");
+            return user;
+        } catch (SQLException ex) {
+            JOptionPane.showMessageDialog(null, ex.getMessage(),
+                    "Erro ao buscar usuário por nome", JOptionPane.ERROR_MESSAGE);
+            Logger.writeSystemErrorLog(LogTypeEnum.ERROR,
+                    name, "FIND_USER", ex.getMessage());
+        }
+        return null;
+    }
+
     public UsersModel login(String name,
             String password) {
         UsersModel user;
@@ -74,7 +90,7 @@ public class UsersService {
             return user;
         } catch (SQLException | UnauthorizedException | AuthenticateFailException ex) {
             JOptionPane.showMessageDialog(null, ex.getMessage(),
-                    "Erro ao testar fazer login", JOptionPane.ERROR_MESSAGE);
+                    "Erro ao tentar fazer login", JOptionPane.ERROR_MESSAGE);
             Logger.writeSystemErrorLog(LogTypeEnum.ERROR,
                     name, "LOGIN", ex.getMessage());
         }
@@ -101,6 +117,10 @@ public class UsersService {
     public UsersModel updateUser(UsersModel user) {
         try {
             usersRepository.updateUser(user);
+            
+            
+            JOptionPane.showMessageDialog(null, "Usuário atualizado com sucesso",
+                    "Usuário atualizado", JOptionPane.INFORMATION_MESSAGE);
 
             Logger.writeSystemInfoLog(LogTypeEnum.INFO, "<< no user >>", "ATUALIZAÇÃO DE USUÁRIO");
         } catch (SQLException ex) {

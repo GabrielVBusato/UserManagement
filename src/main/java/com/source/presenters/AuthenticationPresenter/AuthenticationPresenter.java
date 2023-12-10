@@ -4,23 +4,16 @@
  */
 package com.source.presenters.AuthenticationPresenter;
 
-import com.logger.business.log.structure.LogDirector;
 import com.logger.helpers.enums.LogTypeEnum;
-import com.logger.services.LogService;
 import com.source.dbConnection.connections.IDatabaseConnection;
-import com.source.exceptions.AuthenticateFailException;
 import com.source.exceptions.FailedValidationException;
-import com.source.exceptions.UnauthorizedException;
 import com.source.presenters.AuthenticationPresenter.states.AuthenticationState;
 import com.source.presenters.AuthenticationPresenter.states.LoginState;
-import com.source.presenters.MainPresenter.MainPresenter;
 import com.source.service.UserService.UsersService;
 import com.source.utils.Logger;
 import com.source.view.AuthenticationView;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.sql.SQLException;
-import javax.swing.JOptionPane;
 
 /**
  *
@@ -28,7 +21,7 @@ import javax.swing.JOptionPane;
  */
 public final class AuthenticationPresenter {
 
-    private AuthenticationView view = null;
+    private static AuthenticationView view = null;
     private static AuthenticationPresenter instance = null;
     private AuthenticationState state;
     private final UsersService userService;
@@ -40,7 +33,6 @@ public final class AuthenticationPresenter {
             view = new AuthenticationView();
         }
         this.connection = connection;
-        view.setVisible(true);
         this.userService = userService;
         this.state = new LoginState(this);
     }
@@ -51,6 +43,8 @@ public final class AuthenticationPresenter {
         if (instance == null) {
             instance = new AuthenticationPresenter(connection, userService);
         }
+        
+        view.setVisible(true);
         return instance;
     }
 

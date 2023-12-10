@@ -1,0 +1,65 @@
+[ {
+  "type" : "INFO",
+  "contactName" : "teste",
+  "currentDate" : "10/12/23",
+  "currentHour" : "16:12:28",
+  "adminUsername" : "Sem administrador",
+  "message" : "LOGIN: teste, (10/12/23, 16:12:28, e Sem administrador)",
+  "operation" : "LOGIN"
+}, {
+  "type" : "INFO",
+  "contactName" : "<< no user >>",
+  "currentDate" : "10/12/23",
+  "currentHour" : "16:12:32",
+  "adminUsername" : "teste",
+  "message" : "LISTAGEM DE USUÁRIOS NÃO AUTORIZADOS: << no user >>, (10/12/23, 16:12:32, e teste)",
+  "operation" : "LISTAGEM DE USUÁRIOS NÃO AUTORIZADOS"
+}, {
+  "type" : "INFO",
+  "contactName" : "teasd",
+  "currentDate" : "10/12/23",
+  "currentHour" : "16:12:36",
+  "adminUsername" : "teste",
+  "message" : "FIND_USER: teasd, (10/12/23, 16:12:36, e teste)",
+  "operation" : "FIND_USER"
+}, {
+  "type" : "INFO",
+  "contactName" : "<< no user >>",
+  "currentDate" : "10/12/23",
+  "currentHour" : "16:12:37",
+  "adminUsername" : "teste",
+  "message" : "ATUALIZAÇÃO DE USUÁRIO: << no user >>, (10/12/23, 16:12:37, e teste)",
+  "operation" : "ATUALIZAÇÃO DE USUÁRIO"
+}, {
+  "type" : "INFO",
+  "contactName" : "teste",
+  "currentDate" : "10/12/23",
+  "currentHour" : "16:13:52",
+  "adminUsername" : "Sem administrador",
+  "message" : "LOGIN: teste, (10/12/23, 16:13:52, e Sem administrador)",
+  "operation" : "LOGIN"
+}, {
+  "type" : "INFO",
+  "contactName" : "teste",
+  "currentDate" : "10/12/23",
+  "currentHour" : "16:14:41",
+  "adminUsername" : "Sem administrador",
+  "message" : "LOGIN: teste, (10/12/23, 16:14:41, e Sem administrador)",
+  "operation" : "LOGIN"
+}, {
+  "type" : "INFO",
+  "contactName" : "teste",
+  "currentDate" : "10/12/23",
+  "currentHour" : "16:15:45",
+  "adminUsername" : "Sem administrador",
+  "message" : "LOGIN: teste, (10/12/23, 16:15:45, e Sem administrador)",
+  "operation" : "LOGIN"
+}, {
+  "type" : "INFO",
+  "contactName" : "teste",
+  "currentDate" : "10/12/23",
+  "currentHour" : "16:18:04",
+  "adminUsername" : "Sem administrador",
+  "message" : "LOGIN: teste, (10/12/23, 16:18:04, e Sem administrador)",
+  "operation" : "LOGIN"
+} ]

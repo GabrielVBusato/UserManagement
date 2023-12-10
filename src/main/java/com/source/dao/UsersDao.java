@@ -91,7 +91,8 @@ public class UsersDao implements IDao<UsersModel> {
 
     @Override
     public void update(UsersModel user) throws SQLException {
-        String updateQuery = "UPDATE users SET name = '" + user.getName() + "', password = '" + user.getPassword() + "', authorized = " + user.getAuthorized() + ", created_at = '" + user.getCreatedAt() + "'";
+        String updateQuery = "UPDATE users SET name = '" + user.getName() + "', password = '" + user.getPassword() + "', authorized = "
+                + user.getAuthorized() + ", created_at = '" + user.getCreatedAt() + "' where id = '" + user.getId() + "'";
         connection.connect();
         connection.createStatement().executeUpdate(updateQuery);
         connection.disconnect();

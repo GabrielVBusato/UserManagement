@@ -23,8 +23,6 @@ public final class RegisterState extends AuthenticationState {
     @Override
     public void initComponents() {
         clearScreen();
-        presenter.getView().getBtnLogin().setVisible(false);
-        presenter.setState(new RegisterState(presenter));
         presenter.removeListeners();
         presenter.initComponents();
         presenter.getView().getBtnLogin().setVisible(false);

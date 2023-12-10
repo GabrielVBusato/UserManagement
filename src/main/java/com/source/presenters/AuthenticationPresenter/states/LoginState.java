@@ -26,6 +26,7 @@ public final class LoginState extends AuthenticationState {
     public void initComponents() {
         presenter.removeListeners();
         presenter.initComponents();
+        presenter.getView().getBtnLogin().setVisible(true);
         clearScreen();
     }
 
@@ -46,7 +47,13 @@ public final class LoginState extends AuthenticationState {
             UserSession.getInstance().loginUser(user);
             presenter.getView().dispose();
 
-            MainPresenter.getInstance(presenter.getConnection());
+            MainPresenter.getInstance(presenter.getConnection(), presenter.getUserService());
         }
+    }
+
+    @Override
+    public void onRegister() {
+        presenter.getView().getBtnLogin().setVisible(false);
+        presenter.setState(new RegisterState(presenter));
     }
 }
