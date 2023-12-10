@@ -4,22 +4,30 @@
  */
 package com.source.model;
 
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
 /**
  *
  * @author mauricio
  */
 public class NotificationsModel {
-    private int adminId;
+
+    private int id;
     private int userId;
     private String notification;
     private int read;
 
-    public int getAdminId() {
-        return adminId;
+    public NotificationsModel() {
+        this.read = 0;
     }
 
-    public void setAdminId(int adminId) {
-        this.adminId = adminId;
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public int getUserId() {
@@ -48,6 +56,11 @@ public class NotificationsModel {
 
     @Override
     public String toString() {
-        return "NotificationsModel{" + "adminId=" + adminId + ", userId=" + userId + ", notification=" + notification + ", read=" + read + '}';
+        return "NotificationsModel{userId=" + userId + ", notification=" + notification + ", read=" + read + '}';
+    }
+    
+    public void parseData(ResultSet result) throws SQLException {
+        this.setNotification(result.getString("notification"));
+        this.setRead(result.getInt("read"));
     }
 }

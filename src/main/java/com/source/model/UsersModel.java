@@ -19,6 +19,31 @@ public class UsersModel {
     private String type;
     private int authorized;
     private String createdAt;
+    private int unreadNotifications;
+    private int readNotifications;
+    
+    public UsersModel() {
+        this.unreadNotifications = 0;
+        this.readNotifications = 0;
+    }
+
+    public int getUnreadNotifications() {
+        return unreadNotifications;
+    }
+
+    public void setUnreadNotifications(int unreadNotifications) {
+        this.unreadNotifications = unreadNotifications;
+    }
+
+    public int getReadNotifications() {
+        return readNotifications;
+    }
+
+    public void setReadNotifications(int readNotifications) {
+        this.readNotifications = readNotifications;
+    }
+    
+    
 
     public String getPassword() {
         return password;
@@ -80,5 +105,7 @@ public class UsersModel {
         this.setAuthorized(result.getInt("authorized"));
         this.setPassword(result.getString("password"));
         this.setCreatedAt(result.getString("created_at"));
+        this.setReadNotifications(result.getInt("read_notifications"));
+        this.setUnreadNotifications(result.getInt("unread_notifications"));
     }
 }

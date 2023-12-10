@@ -47,11 +47,28 @@ public class UsersDao implements IDao<UsersModel> {
 
     @Override
     public ResultSet getAll() throws SQLException {
-        return this.databaseQuery("Select * from users");
+        return this.databaseQuery("SELECT u.id, u.name, u.type, u.authorized, u.created_at, "
+                + "COUNT(n.id) AS total_notifications, "
+                + "SUM(CASE WHEN n.read = 1 THEN 1 ELSE 0 END) AS read_notifications, "
+                + "SUM(CASE WHEN n.read = 0 THEN 1 ELSE 0 END) AS unread_notifications "
+                + "FROM users u "
+                + "LEFT JOIN notifications n ON u.id = n.user_id "
+                + "WHERE type = 'User'"
+                + "GROUP BY u.id, u.name, u.type, u.authorized, u.created_at"
+        );
     }
 
     public ResultSet getAllUnauthorized() throws SQLException {
-        return this.databaseQuery("Select * from users where authorized = 0");
+        return this.databaseQuery("SELECT u.id, u.name, u.type, u.authorized, u.created_at, "
+                + "COUNT(n.id) AS total_notifications, "
+                + "SUM(CASE WHEN n.read = 1 THEN 1 ELSE 0 END) AS read_notifications, "
+                + "SUM(CASE WHEN n.read = 0 THEN 1 ELSE 0 END) AS unread_notifications "
+                + "FROM users u "
+                + "LEFT JOIN notifications n ON u.id = n.user_id "
+                + "WHERE u.authorized = 0 "
+                + "AND WHERE type = 'User'"
+                + "GROUP BY u.id, u.name, u.type, u.authorized, u.created_at"
+        );
     }
 
     @Override
