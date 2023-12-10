@@ -1006,4 +1006,60 @@
   "adminUsername" : "teste 1",
   "message" : "LISTAGEM DE NOTIFICAÇÕES: teste 1, (10/12/23, 20:38:43, e teste 1)",
   "operation" : "LISTAGEM DE NOTIFICAÇÕES"
+}, {
+  "type" : "INFO",
+  "contactName" : "teste 1",
+  "currentDate" : "10/12/23",
+  "currentHour" : "20:40:17",
+  "adminUsername" : "Sem administrador",
+  "message" : "LOGIN: teste 1, (10/12/23, 20:40:17, e Sem administrador)",
+  "operation" : "LOGIN"
+}, {
+  "type" : "INFO",
+  "contactName" : "teste 1",
+  "currentDate" : "10/12/23",
+  "currentHour" : "20:40:17",
+  "adminUsername" : "teste 1",
+  "message" : "BUSCA DE TOTAL DE NOTIFICAÇÕES NÃO LIDAS: teste 1, (10/12/23, 20:40:17, e teste 1)",
+  "operation" : "BUSCA DE TOTAL DE NOTIFICAÇÕES NÃO LIDAS"
+}, {
+  "type" : "INFO",
+  "contactName" : "teste 1",
+  "currentDate" : "10/12/23",
+  "currentHour" : "20:43:12",
+  "adminUsername" : "Sem administrador",
+  "message" : "LOGIN: teste 1, (10/12/23, 20:43:12, e Sem administrador)",
+  "operation" : "LOGIN"
+}, {
+  "type" : "INFO",
+  "contactName" : "teste 1",
+  "currentDate" : "10/12/23",
+  "currentHour" : "20:43:12",
+  "adminUsername" : "teste 1",
+  "message" : "BUSCA DE TOTAL DE NOTIFICAÇÕES NÃO LIDAS: teste 1, (10/12/23, 20:43:12, e teste 1)",
+  "operation" : "BUSCA DE TOTAL DE NOTIFICAÇÕES NÃO LIDAS"
+}, {
+  "type" : "INFO",
+  "contactName" : "teste 1",
+  "currentDate" : "10/12/23",
+  "currentHour" : "20:43:14",
+  "adminUsername" : "teste 1",
+  "message" : "LISTAGEM DE NOTIFICAÇÕES: teste 1, (10/12/23, 20:43:14, e teste 1)",
+  "operation" : "LISTAGEM DE NOTIFICAÇÕES"
+}, {
+  "type" : "INFO",
+  "contactName" : "teste 1",
+  "currentDate" : "10/12/23",
+  "currentHour" : "20:43:18",
+  "adminUsername" : "teste 1",
+  "message" : "MARCAÇÃO DE NOTIFICAÇÃO COMO LIDA: teste 1, (10/12/23, 20:43:18, e teste 1)",
+  "operation" : "MARCAÇÃO DE NOTIFICAÇÃO COMO LIDA"
+}, {
+  "type" : "INFO",
+  "contactName" : "teste 1",
+  "currentDate" : "10/12/23",
+  "currentHour" : "20:43:25",
+  "adminUsername" : "teste 1",
+  "message" : "LISTAGEM DE NOTIFICAÇÕES: teste 1, (10/12/23, 20:43:25, e teste 1)",
+  "operation" : "LISTAGEM DE NOTIFICAÇÕES"
 } ]
