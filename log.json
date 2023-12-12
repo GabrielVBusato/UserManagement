@@ -1,0 +1,9 @@
+[ {
+  "type" : "INFO",
+  "contactName" : "teste",
+  "currentDate" : "12/12/23",
+  "currentHour" : "01:27:47",
+  "adminUsername" : "Sem administrador",
+  "message" : "LOGIN: teste, (12/12/23, 01:27:47, e Sem administrador)",
+  "operation" : "LOGIN"
+} ]

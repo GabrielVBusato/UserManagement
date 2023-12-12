@@ -9,6 +9,7 @@ import com.logger.helpers.enums.LogTypeEnum;
 import com.logger.services.LogService;
 import com.source.model.UsersModel;
 import com.source.session.UserSession;
+import io.github.cdimascio.dotenv.Dotenv;
 
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
@@ -26,7 +27,8 @@ public class Logger {
     private static void initialize() {
         if (logService == null) {
             logService = new LogService();
-            logService.setFileType(FileTypeEnum.JSON);
+            Dotenv env = Dotenv.load();
+            logService.setFileType(FileTypeEnum.valueOf(env.get("LOG_FILE_TYPE")));
             director = new LogDirector("");
             logService.setDirector(director);
         }
@@ -34,15 +36,19 @@ public class Logger {
 
         if (adminUser != null) {
             director.setAdminUserName(UserSession.getInstance().getCurrentUser().getName());
-            if (adminUser.getType().equals("User")) director.setContactName(adminUser.getName());
-            if (adminUser.getType().equals("Admin")) director.setContactName(adminUser.getName());
+            if (adminUser.getType().equals("User")) {
+                director.setContactName(adminUser.getName());
+            }
+            if (adminUser.getType().equals("Admin")) {
+                director.setContactName(adminUser.getName());
+            }
         } else {
             director.setAdminUserName("Sem administrador");
         }
 
     }
-    
-    public static void setLogType(FileTypeEnum fileType){
+
+    public static void setLogType(FileTypeEnum fileType) {
         logService.setFileType(fileType);
     }
 
@@ -51,7 +57,9 @@ public class Logger {
             String operation) {
         initialize();
 
-        if (userName != null) director.setContactName(userName);
+        if (userName != null) {
+            director.setContactName(userName);
+        }
         director.setOperation(operation);
         LogBuilder infoLogger = new LogInfoBuilder();
         logService.writeSystemLogFile(logType, infoLogger);
