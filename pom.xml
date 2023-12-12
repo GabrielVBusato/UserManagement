@@ -28,7 +28,6 @@
             <artifactId>validadorsenha</artifactId>
             <version>-SNAPSHOT</version>
         </dependency>
-        
         <dependency>
 	    <groupId>com.github.claytonfraga</groupId>
 	    <artifactId>validadorsenha</artifactId>

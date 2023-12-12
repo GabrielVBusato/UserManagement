@@ -1,1561 +1,1757 @@
-[ {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "10/12/23",
-  "currentHour" : "22:40:55",
-  "adminUsername" : "Sem administrador",
-  "message" : "LOGIN: teste, (10/12/23, 22:40:55, e Sem administrador)",
-  "operation" : "LOGIN"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "10/12/23",
-  "currentHour" : "22:42:53",
-  "adminUsername" : "Sem administrador",
-  "message" : "LOGIN: teste, (10/12/23, 22:42:53, e Sem administrador)",
-  "operation" : "LOGIN"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "10/12/23",
-  "currentHour" : "22:42:55",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (10/12/23, 22:42:55, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "ERROR",
-  "contactName" : "teste",
-  "currentDate" : "10/12/23",
-  "currentHour" : "22:43:00",
-  "adminUsername" : "teste",
-  "message" : "Ocorreu a falha {nome já existente} ao realizar a operação {CRIAÇÃO} do contato teste, (10/12/23, 22:43:00, e teste)",
-  "operation" : "CRIAÇÃO"
-}, {
-  "type" : "INFO",
-  "contactName" : "testea1",
-  "currentDate" : "10/12/23",
-  "currentHour" : "22:43:06",
-  "adminUsername" : "teste",
-  "message" : "CRIAÇÃO: testea1, (10/12/23, 22:43:06, e teste)",
-  "operation" : "CRIAÇÃO"
-}, {
-  "type" : "INFO",
-  "contactName" : "testea1",
-  "currentDate" : "10/12/23",
-  "currentHour" : "22:43:20",
-  "adminUsername" : "teste",
-  "message" : "DELETAR USUÁRIO: testea1, (10/12/23, 22:43:20, e teste)",
-  "operation" : "DELETAR USUÁRIO"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "10/12/23",
-  "currentHour" : "22:43:48",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (10/12/23, 22:43:48, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "asdasd",
-  "currentDate" : "10/12/23",
-  "currentHour" : "22:43:58",
-  "adminUsername" : "teste",
-  "message" : "CRIAÇÃO: asdasd, (10/12/23, 22:43:58, e teste)",
-  "operation" : "CRIAÇÃO"
-}, {
-  "type" : "INFO",
-  "contactName" : "asdasd",
-  "currentDate" : "10/12/23",
-  "currentHour" : "22:44:03",
-  "adminUsername" : "teste",
-  "message" : "DELETAR USUÁRIO: asdasd, (10/12/23, 22:44:03, e teste)",
-  "operation" : "DELETAR USUÁRIO"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "10/12/23",
-  "currentHour" : "22:45:07",
-  "adminUsername" : "Sem administrador",
-  "message" : "LOGIN: teste, (10/12/23, 22:45:07, e Sem administrador)",
-  "operation" : "LOGIN"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "10/12/23",
-  "currentHour" : "22:45:10",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (10/12/23, 22:45:10, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "axaxa",
-  "currentDate" : "10/12/23",
-  "currentHour" : "22:45:15",
-  "adminUsername" : "teste",
-  "message" : "CRIAÇÃO: axaxa, (10/12/23, 22:45:15, e teste)",
-  "operation" : "CRIAÇÃO"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "10/12/23",
-  "currentHour" : "22:47:09",
-  "adminUsername" : "Sem administrador",
-  "message" : "LOGIN: teste, (10/12/23, 22:47:09, e Sem administrador)",
-  "operation" : "LOGIN"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "10/12/23",
-  "currentHour" : "22:47:12",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (10/12/23, 22:47:12, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "qqqq",
-  "currentDate" : "10/12/23",
-  "currentHour" : "22:47:17",
-  "adminUsername" : "teste",
-  "message" : "CRIAÇÃO: qqqq, (10/12/23, 22:47:17, e teste)",
-  "operation" : "CRIAÇÃO"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "10/12/23",
-  "currentHour" : "22:48:35",
-  "adminUsername" : "Sem administrador",
-  "message" : "LOGIN: teste, (10/12/23, 22:48:35, e Sem administrador)",
-  "operation" : "LOGIN"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "10/12/23",
-  "currentHour" : "22:48:39",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (10/12/23, 22:48:39, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "ERROR",
-  "contactName" : "asdasd",
-  "currentDate" : "10/12/23",
-  "currentHour" : "22:48:46",
-  "adminUsername" : "teste",
-  "message" : "Ocorreu a falha {nome já existente} ao realizar a operação {CRIAÇÃO} do contato asdasd, (10/12/23, 22:48:46, e teste)",
-  "operation" : "CRIAÇÃO"
-}, {
-  "type" : "INFO",
-  "contactName" : "asdasdf",
-  "currentDate" : "10/12/23",
-  "currentHour" : "22:48:49",
-  "adminUsername" : "teste",
-  "message" : "CRIAÇÃO: asdasdf, (10/12/23, 22:48:49, e teste)",
-  "operation" : "CRIAÇÃO"
-}, {
-  "type" : "INFO",
-  "contactName" : "asdasdf",
-  "currentDate" : "10/12/23",
-  "currentHour" : "22:48:54",
-  "adminUsername" : "teste",
-  "message" : "DELETAR USUÁRIO: asdasdf, (10/12/23, 22:48:54, e teste)",
-  "operation" : "DELETAR USUÁRIO"
-}, {
-  "type" : "INFO",
-  "contactName" : "qqqq",
-  "currentDate" : "10/12/23",
-  "currentHour" : "22:49:03",
-  "adminUsername" : "teste",
-  "message" : "FIND_USER: qqqq, (10/12/23, 22:49:03, e teste)",
-  "operation" : "FIND_USER"
-}, {
-  "type" : "INFO",
-  "contactName" : "qqqq",
-  "currentDate" : "10/12/23",
-  "currentHour" : "22:49:08",
-  "adminUsername" : "teste",
-  "message" : "DELETAR USUÁRIO: qqqq, (10/12/23, 22:49:08, e teste)",
-  "operation" : "DELETAR USUÁRIO"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "10/12/23",
-  "currentHour" : "22:52:25",
-  "adminUsername" : "Sem administrador",
-  "message" : "LOGIN: teste, (10/12/23, 22:52:25, e Sem administrador)",
-  "operation" : "LOGIN"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "10/12/23",
-  "currentHour" : "22:52:27",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (10/12/23, 22:52:27, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "10/12/23",
-  "currentHour" : "22:52:27",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (10/12/23, 22:52:27, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "10/12/23",
-  "currentHour" : "22:52:30",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (10/12/23, 22:52:30, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "10/12/23",
-  "currentHour" : "22:52:39",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (10/12/23, 22:52:39, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "10/12/23",
-  "currentHour" : "22:52:41",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (10/12/23, 22:52:41, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "10/12/23",
-  "currentHour" : "22:52:53",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (10/12/23, 22:52:53, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "10/12/23",
-  "currentHour" : "22:52:53",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (10/12/23, 22:52:53, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "10/12/23",
-  "currentHour" : "22:52:53",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (10/12/23, 22:52:53, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "10/12/23",
-  "currentHour" : "22:52:53",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (10/12/23, 22:52:53, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "10/12/23",
-  "currentHour" : "22:52:53",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (10/12/23, 22:52:53, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "10/12/23",
-  "currentHour" : "22:52:56",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (10/12/23, 22:52:56, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "10/12/23",
-  "currentHour" : "22:52:56",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (10/12/23, 22:52:56, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "10/12/23",
-  "currentHour" : "22:52:57",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (10/12/23, 22:52:57, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "10/12/23",
-  "currentHour" : "22:52:57",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (10/12/23, 22:52:57, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "10/12/23",
-  "currentHour" : "22:54:17",
-  "adminUsername" : "Sem administrador",
-  "message" : "LOGIN: teste, (10/12/23, 22:54:17, e Sem administrador)",
-  "operation" : "LOGIN"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "10/12/23",
-  "currentHour" : "22:54:19",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (10/12/23, 22:54:19, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "taaca",
-  "currentDate" : "10/12/23",
-  "currentHour" : "22:54:22",
-  "adminUsername" : "teste",
-  "message" : "FIND_USER: taaca, (10/12/23, 22:54:22, e teste)",
-  "operation" : "FIND_USER"
-}, {
-  "type" : "INFO",
-  "contactName" : "taaca",
-  "currentDate" : "10/12/23",
-  "currentHour" : "22:54:29",
-  "adminUsername" : "teste",
-  "message" : "DELETAR USUÁRIO: taaca, (10/12/23, 22:54:29, e teste)",
-  "operation" : "DELETAR USUÁRIO"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "10/12/23",
-  "currentHour" : "22:54:31",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (10/12/23, 22:54:31, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "faaaqq",
-  "currentDate" : "10/12/23",
-  "currentHour" : "22:54:43",
-  "adminUsername" : "teste",
-  "message" : "CRIAÇÃO: faaaqq, (10/12/23, 22:54:43, e teste)",
-  "operation" : "CRIAÇÃO"
-}, {
-  "type" : "INFO",
-  "contactName" : "axaxa",
-  "currentDate" : "10/12/23",
-  "currentHour" : "22:54:48",
-  "adminUsername" : "teste",
-  "message" : "FIND_USER: axaxa, (10/12/23, 22:54:48, e teste)",
-  "operation" : "FIND_USER"
-}, {
-  "type" : "INFO",
-  "contactName" : "asdasd",
-  "currentDate" : "10/12/23",
-  "currentHour" : "22:54:57",
-  "adminUsername" : "teste",
-  "message" : "FIND_USER: asdasd, (10/12/23, 22:54:57, e teste)",
-  "operation" : "FIND_USER"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "10/12/23",
-  "currentHour" : "22:55:01",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (10/12/23, 22:55:01, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "10/12/23",
-  "currentHour" : "22:56:12",
-  "adminUsername" : "Sem administrador",
-  "message" : "LOGIN: teste, (10/12/23, 22:56:12, e Sem administrador)",
-  "operation" : "LOGIN"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "10/12/23",
-  "currentHour" : "22:56:14",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (10/12/23, 22:56:14, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "10/12/23",
-  "currentHour" : "22:59:13",
-  "adminUsername" : "Sem administrador",
-  "message" : "LOGIN: teste, (10/12/23, 22:59:13, e Sem administrador)",
-  "operation" : "LOGIN"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "10/12/23",
-  "currentHour" : "22:59:17",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (10/12/23, 22:59:17, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "10/12/23",
-  "currentHour" : "22:59:17",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (10/12/23, 22:59:17, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "10/12/23",
-  "currentHour" : "22:59:18",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (10/12/23, 22:59:18, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "10/12/23",
-  "currentHour" : "22:59:21",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (10/12/23, 22:59:21, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "10/12/23",
-  "currentHour" : "22:59:22",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (10/12/23, 22:59:22, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "10/12/23",
-  "currentHour" : "22:59:23",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (10/12/23, 22:59:23, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "10/12/23",
-  "currentHour" : "22:59:25",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (10/12/23, 22:59:25, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "10/12/23",
-  "currentHour" : "22:59:55",
-  "adminUsername" : "Sem administrador",
-  "message" : "LOGIN: teste, (10/12/23, 22:59:55, e Sem administrador)",
-  "operation" : "LOGIN"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "10/12/23",
-  "currentHour" : "22:59:59",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (10/12/23, 22:59:59, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "10/12/23",
-  "currentHour" : "22:59:59",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (10/12/23, 22:59:59, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "faaaqq",
-  "currentDate" : "10/12/23",
-  "currentHour" : "23:00:01",
-  "adminUsername" : "teste",
-  "message" : "FIND_USER: faaaqq, (10/12/23, 23:00:01, e teste)",
-  "operation" : "FIND_USER"
-}, {
-  "type" : "INFO",
-  "contactName" : "faaaqq",
-  "currentDate" : "10/12/23",
-  "currentHour" : "23:00:05",
-  "adminUsername" : "teste",
-  "message" : "DELETAR USUÁRIO: faaaqq, (10/12/23, 23:00:05, e teste)",
-  "operation" : "DELETAR USUÁRIO"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "10/12/23",
-  "currentHour" : "23:00:06",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (10/12/23, 23:00:06, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:21:24",
-  "adminUsername" : "Sem administrador",
-  "message" : "LOGIN: teste, (11/12/23, 23:21:24, e Sem administrador)",
-  "operation" : "LOGIN"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:21:27",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:21:27, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:21:28",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:21:28, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste 2",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:21:29",
-  "adminUsername" : "teste",
-  "message" : "FIND_USER: teste 2, (11/12/23, 23:21:29, e teste)",
-  "operation" : "FIND_USER"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste 2as",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:21:47",
-  "adminUsername" : "teste",
-  "message" : "ATUALIZAÇÃO DE USUÁRIO: teste 2as, (11/12/23, 23:21:47, e teste)",
-  "operation" : "ATUALIZAÇÃO DE USUÁRIO"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:22:47",
-  "adminUsername" : "Sem administrador",
-  "message" : "LOGIN: teste, (11/12/23, 23:22:47, e Sem administrador)",
-  "operation" : "LOGIN"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:22:49",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:22:49, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:22:49",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:22:49, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste 1",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:22:50",
-  "adminUsername" : "teste",
-  "message" : "FIND_USER: teste 1, (11/12/23, 23:22:50, e teste)",
-  "operation" : "FIND_USER"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste 1a1",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:22:57",
-  "adminUsername" : "teste",
-  "message" : "ATUALIZAÇÃO DE USUÁRIO: teste 1a1, (11/12/23, 23:22:57, e teste)",
-  "operation" : "ATUALIZAÇÃO DE USUÁRIO"
-}, {
-  "type" : "ERROR",
-  "contactName" : "teste 1a1",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:23:11",
-  "adminUsername" : "teste",
-  "message" : "Ocorreu a falha {nome já existente} ao realizar a operação {CRIAÇÃO} do contato teste 1a1, (11/12/23, 23:23:11, e teste)",
-  "operation" : "CRIAÇÃO"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:24:25",
-  "adminUsername" : "Sem administrador",
-  "message" : "LOGIN: teste, (11/12/23, 23:24:25, e Sem administrador)",
-  "operation" : "LOGIN"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:24:27",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:24:27, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:24:27",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:24:27, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste 1a1",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:24:28",
-  "adminUsername" : "teste",
-  "message" : "FIND_USER: teste 1a1, (11/12/23, 23:24:28, e teste)",
-  "operation" : "FIND_USER"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:26:19",
-  "adminUsername" : "Sem administrador",
-  "message" : "LOGIN: teste, (11/12/23, 23:26:19, e Sem administrador)",
-  "operation" : "LOGIN"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:26:21",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:26:21, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:26:21",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:26:21, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste 1a1",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:26:24",
-  "adminUsername" : "teste",
-  "message" : "FIND_USER: teste 1a1, (11/12/23, 23:26:24, e teste)",
-  "operation" : "FIND_USER"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:27:06",
-  "adminUsername" : "Sem administrador",
-  "message" : "LOGIN: teste, (11/12/23, 23:27:06, e Sem administrador)",
-  "operation" : "LOGIN"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:27:11",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:27:11, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:27:12",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:27:12, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste 1a1",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:27:14",
-  "adminUsername" : "teste",
-  "message" : "FIND_USER: teste 1a1, (11/12/23, 23:27:14, e teste)",
-  "operation" : "FIND_USER"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:28:30",
-  "adminUsername" : "Sem administrador",
-  "message" : "LOGIN: teste, (11/12/23, 23:28:30, e Sem administrador)",
-  "operation" : "LOGIN"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:28:31",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:28:31, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:28:32",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:28:32, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste 1a1",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:28:33",
-  "adminUsername" : "teste",
-  "message" : "FIND_USER: teste 1a1, (11/12/23, 23:28:33, e teste)",
-  "operation" : "FIND_USER"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste 1a1x",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:28:38",
-  "adminUsername" : "teste",
-  "message" : "CRIAÇÃO: teste 1a1x, (11/12/23, 23:28:38, e teste)",
-  "operation" : "CRIAÇÃO"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:28:44",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:28:44, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:28:44",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:28:44, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:28:44",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:28:44, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste 1a1",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:28:53",
-  "adminUsername" : "teste",
-  "message" : "FIND_USER: teste 1a1, (11/12/23, 23:28:53, e teste)",
-  "operation" : "FIND_USER"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste 1a1fafa",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:29:00",
-  "adminUsername" : "teste",
-  "message" : "CRIAÇÃO: teste 1a1fafa, (11/12/23, 23:29:00, e teste)",
-  "operation" : "CRIAÇÃO"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:29:03",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:29:03, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:29:03",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:29:03, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:29:03",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:29:03, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:29:03",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:29:03, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:29:34",
-  "adminUsername" : "Sem administrador",
-  "message" : "LOGIN: teste, (11/12/23, 23:29:34, e Sem administrador)",
-  "operation" : "LOGIN"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:29:36",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:29:36, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:29:36",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:29:36, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:30:48",
-  "adminUsername" : "Sem administrador",
-  "message" : "LOGIN: teste, (11/12/23, 23:30:48, e Sem administrador)",
-  "operation" : "LOGIN"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:30:50",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:30:50, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:30:50",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:30:50, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste 1a1",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:31:00",
-  "adminUsername" : "teste",
-  "message" : "FIND_USER: teste 1a1, (11/12/23, 23:31:00, e teste)",
-  "operation" : "FIND_USER"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:35:52",
-  "adminUsername" : "Sem administrador",
-  "message" : "LOGIN: teste, (11/12/23, 23:35:52, e Sem administrador)",
-  "operation" : "LOGIN"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:35:54",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:35:54, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:35:54",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:35:54, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste 1a1",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:35:56",
-  "adminUsername" : "teste",
-  "message" : "FIND_USER: teste 1a1, (11/12/23, 23:35:56, e teste)",
-  "operation" : "FIND_USER"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:35:59",
-  "adminUsername" : "teste",
-  "message" : "FIND_USER: teste, (11/12/23, 23:35:59, e teste)",
-  "operation" : "FIND_USER"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:36:03",
-  "adminUsername" : "teste",
-  "message" : "ATUALIZAÇÃO DE USUÁRIO: teste, (11/12/23, 23:36:03, e teste)",
-  "operation" : "ATUALIZAÇÃO DE USUÁRIO"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:36:07",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:36:07, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:36:07",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:36:07, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:36:07",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:36:07, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste 1a1",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:36:23",
-  "adminUsername" : "teste",
-  "message" : "FIND_USER: teste 1a1, (11/12/23, 23:36:23, e teste)",
-  "operation" : "FIND_USER"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:36:27",
-  "adminUsername" : "teste",
-  "message" : "FIND_USER: teste, (11/12/23, 23:36:27, e teste)",
-  "operation" : "FIND_USER"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:36:30",
-  "adminUsername" : "teste",
-  "message" : "ATUALIZAÇÃO DE USUÁRIO: teste, (11/12/23, 23:36:30, e teste)",
-  "operation" : "ATUALIZAÇÃO DE USUÁRIO"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:36:33",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:36:33, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:36:33",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:36:33, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:36:33",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:36:33, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:36:33",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:36:33, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:37:41",
-  "adminUsername" : "Sem administrador",
-  "message" : "LOGIN: teste, (11/12/23, 23:37:41, e Sem administrador)",
-  "operation" : "LOGIN"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:37:44",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:37:44, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:37:44",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:37:44, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste 1a1",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:37:46",
-  "adminUsername" : "teste",
-  "message" : "FIND_USER: teste 1a1, (11/12/23, 23:37:46, e teste)",
-  "operation" : "FIND_USER"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:37:49",
-  "adminUsername" : "teste",
-  "message" : "FIND_USER: teste, (11/12/23, 23:37:49, e teste)",
-  "operation" : "FIND_USER"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste 1a1xq",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:37:50",
-  "adminUsername" : "teste",
-  "message" : "ATUALIZAÇÃO DE USUÁRIO: teste 1a1xq, (11/12/23, 23:37:50, e teste)",
-  "operation" : "ATUALIZAÇÃO DE USUÁRIO"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:37:54",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:37:54, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:37:54",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:37:54, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:37:54",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:37:54, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:39:26",
-  "adminUsername" : "Sem administrador",
-  "message" : "LOGIN: teste, (11/12/23, 23:39:26, e Sem administrador)",
-  "operation" : "LOGIN"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:39:35",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:39:35, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:39:36",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:39:36, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste 1a1",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:39:38",
-  "adminUsername" : "teste",
-  "message" : "FIND_USER: teste 1a1, (11/12/23, 23:39:38, e teste)",
-  "operation" : "FIND_USER"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:39:42",
-  "adminUsername" : "teste",
-  "message" : "FIND_USER: teste, (11/12/23, 23:39:42, e teste)",
-  "operation" : "FIND_USER"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:45:08",
-  "adminUsername" : "Sem administrador",
-  "message" : "LOGIN: teste, (11/12/23, 23:45:08, e Sem administrador)",
-  "operation" : "LOGIN"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:45:11",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:45:11, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:45:11",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:45:11, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste 1a1",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:45:14",
-  "adminUsername" : "teste",
-  "message" : "FIND_USER: teste 1a1, (11/12/23, 23:45:14, e teste)",
-  "operation" : "FIND_USER"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:46:31",
-  "adminUsername" : "Sem administrador",
-  "message" : "LOGIN: teste, (11/12/23, 23:46:31, e Sem administrador)",
-  "operation" : "LOGIN"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:46:33",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:46:33, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:46:34",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:46:34, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:46:36",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:46:36, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste 1a1",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:46:37",
-  "adminUsername" : "teste",
-  "message" : "FIND_USER: teste 1a1, (11/12/23, 23:46:37, e teste)",
-  "operation" : "FIND_USER"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:47:44",
-  "adminUsername" : "Sem administrador",
-  "message" : "LOGIN: teste, (11/12/23, 23:47:44, e Sem administrador)",
-  "operation" : "LOGIN"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:50:35",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:50:35, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:50:36",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:50:36, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste 1a1",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:50:37",
-  "adminUsername" : "teste",
-  "message" : "FIND_USER: teste 1a1, (11/12/23, 23:50:37, e teste)",
-  "operation" : "FIND_USER"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:52:15",
-  "adminUsername" : "Sem administrador",
-  "message" : "LOGIN: teste, (11/12/23, 23:52:15, e Sem administrador)",
-  "operation" : "LOGIN"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:52:17",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:52:17, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:52:17",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:52:17, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste 1a1",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:52:19",
-  "adminUsername" : "teste",
-  "message" : "FIND_USER: teste 1a1, (11/12/23, 23:52:19, e teste)",
-  "operation" : "FIND_USER"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste 1a1",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:52:24",
-  "adminUsername" : "teste",
-  "message" : "FIND_USER: teste 1a1, (11/12/23, 23:52:24, e teste)",
-  "operation" : "FIND_USER"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste 1a1xasxa",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:52:25",
-  "adminUsername" : "teste",
-  "message" : "ATUALIZAÇÃO DE USUÁRIO: teste 1a1xasxa, (11/12/23, 23:52:25, e teste)",
-  "operation" : "ATUALIZAÇÃO DE USUÁRIO"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:52:30",
-  "adminUsername" : "teste",
-  "message" : "FIND_USER: teste, (11/12/23, 23:52:30, e teste)",
-  "operation" : "FIND_USER"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:52:33",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:52:33, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:52:33",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:52:33, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:52:33",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:52:33, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste 1a1xasxa",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:52:34",
-  "adminUsername" : "teste",
-  "message" : "FIND_USER: teste 1a1xasxa, (11/12/23, 23:52:34, e teste)",
-  "operation" : "FIND_USER"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:52:46",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:52:46, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:52:46",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:52:46, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste 444",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:52:48",
-  "adminUsername" : "teste",
-  "message" : "FIND_USER: teste 444, (11/12/23, 23:52:48, e teste)",
-  "operation" : "FIND_USER"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste 444",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:52:52",
-  "adminUsername" : "teste",
-  "message" : "DELETAR USUÁRIO: teste 444, (11/12/23, 23:52:52, e teste)",
-  "operation" : "DELETAR USUÁRIO"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:52:55",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:52:55, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:52:56",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:52:56, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:52:56",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:52:56, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:52:56",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:52:56, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:53:51",
-  "adminUsername" : "Sem administrador",
-  "message" : "LOGIN: teste, (11/12/23, 23:53:51, e Sem administrador)",
-  "operation" : "LOGIN"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:53:53",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:53:53, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:53:53",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:53:53, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste 1a1xasxa",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:53:56",
-  "adminUsername" : "teste",
-  "message" : "FIND_USER: teste 1a1xasxa, (11/12/23, 23:53:56, e teste)",
-  "operation" : "FIND_USER"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:54:00",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:54:00, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "asdasd",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:54:03",
-  "adminUsername" : "teste",
-  "message" : "FIND_USER: asdasd, (11/12/23, 23:54:03, e teste)",
-  "operation" : "FIND_USER"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "11/12/23",
-  "currentHour" : "23:54:04",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:54:04, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "12/12/23",
-  "currentHour" : "00:00:15",
-  "adminUsername" : "Sem administrador",
-  "message" : "LOGIN: teste, (12/12/23, 00:00:15, e Sem administrador)",
-  "operation" : "LOGIN"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "12/12/23",
-  "currentHour" : "00:00:17",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (12/12/23, 00:00:17, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "12/12/23",
-  "currentHour" : "00:00:17",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (12/12/23, 00:00:17, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste 2as",
-  "currentDate" : "12/12/23",
-  "currentHour" : "00:00:18",
-  "adminUsername" : "teste",
-  "message" : "FIND_USER: teste 2as, (12/12/23, 00:00:18, e teste)",
-  "operation" : "FIND_USER"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "12/12/23",
-  "currentHour" : "00:00:19",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (12/12/23, 00:00:19, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste",
-  "currentDate" : "12/12/23",
-  "currentHour" : "00:03:24",
-  "adminUsername" : "Sem administrador",
-  "message" : "LOGIN: teste, (12/12/23, 00:03:24, e Sem administrador)",
-  "operation" : "LOGIN"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "12/12/23",
-  "currentHour" : "00:03:26",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (12/12/23, 00:03:26, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "12/12/23",
-  "currentHour" : "00:03:26",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (12/12/23, 00:03:26, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "12/12/23",
-  "currentHour" : "00:03:28",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (12/12/23, 00:03:28, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "12/12/23",
-  "currentHour" : "00:03:31",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (12/12/23, 00:03:31, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "12/12/23",
-  "currentHour" : "00:03:33",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (12/12/23, 00:03:33, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "12/12/23",
-  "currentHour" : "00:03:37",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (12/12/23, 00:03:37, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "12/12/23",
-  "currentHour" : "00:03:40",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (12/12/23, 00:03:40, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste 2as",
-  "currentDate" : "12/12/23",
-  "currentHour" : "00:03:42",
-  "adminUsername" : "teste",
-  "message" : "FIND_USER: teste 2as, (12/12/23, 00:03:42, e teste)",
-  "operation" : "FIND_USER"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste 2as",
-  "currentDate" : "12/12/23",
-  "currentHour" : "00:03:46",
-  "adminUsername" : "teste",
-  "message" : "FIND_USER: teste 2as, (12/12/23, 00:03:46, e teste)",
-  "operation" : "FIND_USER"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste 2as",
-  "currentDate" : "12/12/23",
-  "currentHour" : "00:03:50",
-  "adminUsername" : "teste",
-  "message" : "FIND_USER: teste 2as, (12/12/23, 00:03:50, e teste)",
-  "operation" : "FIND_USER"
-}, {
-  "type" : "INFO",
-  "contactName" : "teste 2asaq",
-  "currentDate" : "12/12/23",
-  "currentHour" : "00:03:51",
-  "adminUsername" : "teste",
-  "message" : "ATUALIZAÇÃO DE USUÁRIO: teste 2asaq, (12/12/23, 00:03:51, e teste)",
-  "operation" : "ATUALIZAÇÃO DE USUÁRIO"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "12/12/23",
-  "currentHour" : "00:03:57",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (12/12/23, 00:03:57, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "12/12/23",
-  "currentHour" : "00:03:57",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (12/12/23, 00:03:57, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-}, {
-  "type" : "INFO",
-  "contactName" : "<< no user >>",
-  "currentDate" : "12/12/23",
-  "currentHour" : "00:03:57",
-  "adminUsername" : "teste",
-  "message" : "LISTAGEM DE USUÁRIOS: << no user >>, (12/12/23, 00:03:57, e teste)",
-  "operation" : "LISTAGEM DE USUÁRIOS"
-} ]
+[
+  {
+    "type": "INFO",
+    "contactName": "teste",
+    "currentDate": "10/12/23",
+    "currentHour": "22:40:55",
+    "adminUsername": "Sem administrador",
+    "message": "LOGIN: teste, (10/12/23, 22:40:55, e Sem administrador)",
+    "operation": "LOGIN"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste",
+    "currentDate": "10/12/23",
+    "currentHour": "22:42:53",
+    "adminUsername": "Sem administrador",
+    "message": "LOGIN: teste, (10/12/23, 22:42:53, e Sem administrador)",
+    "operation": "LOGIN"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "10/12/23",
+    "currentHour": "22:42:55",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (10/12/23, 22:42:55, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "ERROR",
+    "contactName": "teste",
+    "currentDate": "10/12/23",
+    "currentHour": "22:43:00",
+    "adminUsername": "teste",
+    "message": "Ocorreu a falha {nome já existente} ao realizar a operação {CRIAÇÃO} do contato teste, (10/12/23, 22:43:00, e teste)",
+    "operation": "CRIAÇÃO"
+  },
+  {
+    "type": "INFO",
+    "contactName": "testea1",
+    "currentDate": "10/12/23",
+    "currentHour": "22:43:06",
+    "adminUsername": "teste",
+    "message": "CRIAÇÃO: testea1, (10/12/23, 22:43:06, e teste)",
+    "operation": "CRIAÇÃO"
+  },
+  {
+    "type": "INFO",
+    "contactName": "testea1",
+    "currentDate": "10/12/23",
+    "currentHour": "22:43:20",
+    "adminUsername": "teste",
+    "message": "DELETAR USUÁRIO: testea1, (10/12/23, 22:43:20, e teste)",
+    "operation": "DELETAR USUÁRIO"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "10/12/23",
+    "currentHour": "22:43:48",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (10/12/23, 22:43:48, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "asdasd",
+    "currentDate": "10/12/23",
+    "currentHour": "22:43:58",
+    "adminUsername": "teste",
+    "message": "CRIAÇÃO: asdasd, (10/12/23, 22:43:58, e teste)",
+    "operation": "CRIAÇÃO"
+  },
+  {
+    "type": "INFO",
+    "contactName": "asdasd",
+    "currentDate": "10/12/23",
+    "currentHour": "22:44:03",
+    "adminUsername": "teste",
+    "message": "DELETAR USUÁRIO: asdasd, (10/12/23, 22:44:03, e teste)",
+    "operation": "DELETAR USUÁRIO"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste",
+    "currentDate": "10/12/23",
+    "currentHour": "22:45:07",
+    "adminUsername": "Sem administrador",
+    "message": "LOGIN: teste, (10/12/23, 22:45:07, e Sem administrador)",
+    "operation": "LOGIN"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "10/12/23",
+    "currentHour": "22:45:10",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (10/12/23, 22:45:10, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "axaxa",
+    "currentDate": "10/12/23",
+    "currentHour": "22:45:15",
+    "adminUsername": "teste",
+    "message": "CRIAÇÃO: axaxa, (10/12/23, 22:45:15, e teste)",
+    "operation": "CRIAÇÃO"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste",
+    "currentDate": "10/12/23",
+    "currentHour": "22:47:09",
+    "adminUsername": "Sem administrador",
+    "message": "LOGIN: teste, (10/12/23, 22:47:09, e Sem administrador)",
+    "operation": "LOGIN"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "10/12/23",
+    "currentHour": "22:47:12",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (10/12/23, 22:47:12, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "qqqq",
+    "currentDate": "10/12/23",
+    "currentHour": "22:47:17",
+    "adminUsername": "teste",
+    "message": "CRIAÇÃO: qqqq, (10/12/23, 22:47:17, e teste)",
+    "operation": "CRIAÇÃO"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste",
+    "currentDate": "10/12/23",
+    "currentHour": "22:48:35",
+    "adminUsername": "Sem administrador",
+    "message": "LOGIN: teste, (10/12/23, 22:48:35, e Sem administrador)",
+    "operation": "LOGIN"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "10/12/23",
+    "currentHour": "22:48:39",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (10/12/23, 22:48:39, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "ERROR",
+    "contactName": "asdasd",
+    "currentDate": "10/12/23",
+    "currentHour": "22:48:46",
+    "adminUsername": "teste",
+    "message": "Ocorreu a falha {nome já existente} ao realizar a operação {CRIAÇÃO} do contato asdasd, (10/12/23, 22:48:46, e teste)",
+    "operation": "CRIAÇÃO"
+  },
+  {
+    "type": "INFO",
+    "contactName": "asdasdf",
+    "currentDate": "10/12/23",
+    "currentHour": "22:48:49",
+    "adminUsername": "teste",
+    "message": "CRIAÇÃO: asdasdf, (10/12/23, 22:48:49, e teste)",
+    "operation": "CRIAÇÃO"
+  },
+  {
+    "type": "INFO",
+    "contactName": "asdasdf",
+    "currentDate": "10/12/23",
+    "currentHour": "22:48:54",
+    "adminUsername": "teste",
+    "message": "DELETAR USUÁRIO: asdasdf, (10/12/23, 22:48:54, e teste)",
+    "operation": "DELETAR USUÁRIO"
+  },
+  {
+    "type": "INFO",
+    "contactName": "qqqq",
+    "currentDate": "10/12/23",
+    "currentHour": "22:49:03",
+    "adminUsername": "teste",
+    "message": "FIND_USER: qqqq, (10/12/23, 22:49:03, e teste)",
+    "operation": "FIND_USER"
+  },
+  {
+    "type": "INFO",
+    "contactName": "qqqq",
+    "currentDate": "10/12/23",
+    "currentHour": "22:49:08",
+    "adminUsername": "teste",
+    "message": "DELETAR USUÁRIO: qqqq, (10/12/23, 22:49:08, e teste)",
+    "operation": "DELETAR USUÁRIO"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste",
+    "currentDate": "10/12/23",
+    "currentHour": "22:52:25",
+    "adminUsername": "Sem administrador",
+    "message": "LOGIN: teste, (10/12/23, 22:52:25, e Sem administrador)",
+    "operation": "LOGIN"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "10/12/23",
+    "currentHour": "22:52:27",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (10/12/23, 22:52:27, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "10/12/23",
+    "currentHour": "22:52:27",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (10/12/23, 22:52:27, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "10/12/23",
+    "currentHour": "22:52:30",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (10/12/23, 22:52:30, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "10/12/23",
+    "currentHour": "22:52:39",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (10/12/23, 22:52:39, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "10/12/23",
+    "currentHour": "22:52:41",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (10/12/23, 22:52:41, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "10/12/23",
+    "currentHour": "22:52:53",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (10/12/23, 22:52:53, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "10/12/23",
+    "currentHour": "22:52:53",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (10/12/23, 22:52:53, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "10/12/23",
+    "currentHour": "22:52:53",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (10/12/23, 22:52:53, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "10/12/23",
+    "currentHour": "22:52:53",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (10/12/23, 22:52:53, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "10/12/23",
+    "currentHour": "22:52:53",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (10/12/23, 22:52:53, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "10/12/23",
+    "currentHour": "22:52:56",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (10/12/23, 22:52:56, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "10/12/23",
+    "currentHour": "22:52:56",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (10/12/23, 22:52:56, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "10/12/23",
+    "currentHour": "22:52:57",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (10/12/23, 22:52:57, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "10/12/23",
+    "currentHour": "22:52:57",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (10/12/23, 22:52:57, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste",
+    "currentDate": "10/12/23",
+    "currentHour": "22:54:17",
+    "adminUsername": "Sem administrador",
+    "message": "LOGIN: teste, (10/12/23, 22:54:17, e Sem administrador)",
+    "operation": "LOGIN"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "10/12/23",
+    "currentHour": "22:54:19",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (10/12/23, 22:54:19, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "taaca",
+    "currentDate": "10/12/23",
+    "currentHour": "22:54:22",
+    "adminUsername": "teste",
+    "message": "FIND_USER: taaca, (10/12/23, 22:54:22, e teste)",
+    "operation": "FIND_USER"
+  },
+  {
+    "type": "INFO",
+    "contactName": "taaca",
+    "currentDate": "10/12/23",
+    "currentHour": "22:54:29",
+    "adminUsername": "teste",
+    "message": "DELETAR USUÁRIO: taaca, (10/12/23, 22:54:29, e teste)",
+    "operation": "DELETAR USUÁRIO"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "10/12/23",
+    "currentHour": "22:54:31",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (10/12/23, 22:54:31, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "faaaqq",
+    "currentDate": "10/12/23",
+    "currentHour": "22:54:43",
+    "adminUsername": "teste",
+    "message": "CRIAÇÃO: faaaqq, (10/12/23, 22:54:43, e teste)",
+    "operation": "CRIAÇÃO"
+  },
+  {
+    "type": "INFO",
+    "contactName": "axaxa",
+    "currentDate": "10/12/23",
+    "currentHour": "22:54:48",
+    "adminUsername": "teste",
+    "message": "FIND_USER: axaxa, (10/12/23, 22:54:48, e teste)",
+    "operation": "FIND_USER"
+  },
+  {
+    "type": "INFO",
+    "contactName": "asdasd",
+    "currentDate": "10/12/23",
+    "currentHour": "22:54:57",
+    "adminUsername": "teste",
+    "message": "FIND_USER: asdasd, (10/12/23, 22:54:57, e teste)",
+    "operation": "FIND_USER"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "10/12/23",
+    "currentHour": "22:55:01",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (10/12/23, 22:55:01, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste",
+    "currentDate": "10/12/23",
+    "currentHour": "22:56:12",
+    "adminUsername": "Sem administrador",
+    "message": "LOGIN: teste, (10/12/23, 22:56:12, e Sem administrador)",
+    "operation": "LOGIN"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "10/12/23",
+    "currentHour": "22:56:14",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (10/12/23, 22:56:14, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste",
+    "currentDate": "10/12/23",
+    "currentHour": "22:59:13",
+    "adminUsername": "Sem administrador",
+    "message": "LOGIN: teste, (10/12/23, 22:59:13, e Sem administrador)",
+    "operation": "LOGIN"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "10/12/23",
+    "currentHour": "22:59:17",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (10/12/23, 22:59:17, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "10/12/23",
+    "currentHour": "22:59:17",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (10/12/23, 22:59:17, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "10/12/23",
+    "currentHour": "22:59:18",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (10/12/23, 22:59:18, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "10/12/23",
+    "currentHour": "22:59:21",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (10/12/23, 22:59:21, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "10/12/23",
+    "currentHour": "22:59:22",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (10/12/23, 22:59:22, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "10/12/23",
+    "currentHour": "22:59:23",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (10/12/23, 22:59:23, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "10/12/23",
+    "currentHour": "22:59:25",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (10/12/23, 22:59:25, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste",
+    "currentDate": "10/12/23",
+    "currentHour": "22:59:55",
+    "adminUsername": "Sem administrador",
+    "message": "LOGIN: teste, (10/12/23, 22:59:55, e Sem administrador)",
+    "operation": "LOGIN"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "10/12/23",
+    "currentHour": "22:59:59",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (10/12/23, 22:59:59, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "10/12/23",
+    "currentHour": "22:59:59",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (10/12/23, 22:59:59, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "faaaqq",
+    "currentDate": "10/12/23",
+    "currentHour": "23:00:01",
+    "adminUsername": "teste",
+    "message": "FIND_USER: faaaqq, (10/12/23, 23:00:01, e teste)",
+    "operation": "FIND_USER"
+  },
+  {
+    "type": "INFO",
+    "contactName": "faaaqq",
+    "currentDate": "10/12/23",
+    "currentHour": "23:00:05",
+    "adminUsername": "teste",
+    "message": "DELETAR USUÁRIO: faaaqq, (10/12/23, 23:00:05, e teste)",
+    "operation": "DELETAR USUÁRIO"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "10/12/23",
+    "currentHour": "23:00:06",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (10/12/23, 23:00:06, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste",
+    "currentDate": "11/12/23",
+    "currentHour": "23:21:24",
+    "adminUsername": "Sem administrador",
+    "message": "LOGIN: teste, (11/12/23, 23:21:24, e Sem administrador)",
+    "operation": "LOGIN"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "11/12/23",
+    "currentHour": "23:21:27",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:21:27, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "11/12/23",
+    "currentHour": "23:21:28",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:21:28, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste 2",
+    "currentDate": "11/12/23",
+    "currentHour": "23:21:29",
+    "adminUsername": "teste",
+    "message": "FIND_USER: teste 2, (11/12/23, 23:21:29, e teste)",
+    "operation": "FIND_USER"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste 2as",
+    "currentDate": "11/12/23",
+    "currentHour": "23:21:47",
+    "adminUsername": "teste",
+    "message": "ATUALIZAÇÃO DE USUÁRIO: teste 2as, (11/12/23, 23:21:47, e teste)",
+    "operation": "ATUALIZAÇÃO DE USUÁRIO"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste",
+    "currentDate": "11/12/23",
+    "currentHour": "23:22:47",
+    "adminUsername": "Sem administrador",
+    "message": "LOGIN: teste, (11/12/23, 23:22:47, e Sem administrador)",
+    "operation": "LOGIN"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "11/12/23",
+    "currentHour": "23:22:49",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:22:49, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "11/12/23",
+    "currentHour": "23:22:49",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:22:49, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste 1",
+    "currentDate": "11/12/23",
+    "currentHour": "23:22:50",
+    "adminUsername": "teste",
+    "message": "FIND_USER: teste 1, (11/12/23, 23:22:50, e teste)",
+    "operation": "FIND_USER"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste 1a1",
+    "currentDate": "11/12/23",
+    "currentHour": "23:22:57",
+    "adminUsername": "teste",
+    "message": "ATUALIZAÇÃO DE USUÁRIO: teste 1a1, (11/12/23, 23:22:57, e teste)",
+    "operation": "ATUALIZAÇÃO DE USUÁRIO"
+  },
+  {
+    "type": "ERROR",
+    "contactName": "teste 1a1",
+    "currentDate": "11/12/23",
+    "currentHour": "23:23:11",
+    "adminUsername": "teste",
+    "message": "Ocorreu a falha {nome já existente} ao realizar a operação {CRIAÇÃO} do contato teste 1a1, (11/12/23, 23:23:11, e teste)",
+    "operation": "CRIAÇÃO"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste",
+    "currentDate": "11/12/23",
+    "currentHour": "23:24:25",
+    "adminUsername": "Sem administrador",
+    "message": "LOGIN: teste, (11/12/23, 23:24:25, e Sem administrador)",
+    "operation": "LOGIN"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "11/12/23",
+    "currentHour": "23:24:27",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:24:27, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "11/12/23",
+    "currentHour": "23:24:27",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:24:27, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste 1a1",
+    "currentDate": "11/12/23",
+    "currentHour": "23:24:28",
+    "adminUsername": "teste",
+    "message": "FIND_USER: teste 1a1, (11/12/23, 23:24:28, e teste)",
+    "operation": "FIND_USER"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste",
+    "currentDate": "11/12/23",
+    "currentHour": "23:26:19",
+    "adminUsername": "Sem administrador",
+    "message": "LOGIN: teste, (11/12/23, 23:26:19, e Sem administrador)",
+    "operation": "LOGIN"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "11/12/23",
+    "currentHour": "23:26:21",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:26:21, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "11/12/23",
+    "currentHour": "23:26:21",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:26:21, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste 1a1",
+    "currentDate": "11/12/23",
+    "currentHour": "23:26:24",
+    "adminUsername": "teste",
+    "message": "FIND_USER: teste 1a1, (11/12/23, 23:26:24, e teste)",
+    "operation": "FIND_USER"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste",
+    "currentDate": "11/12/23",
+    "currentHour": "23:27:06",
+    "adminUsername": "Sem administrador",
+    "message": "LOGIN: teste, (11/12/23, 23:27:06, e Sem administrador)",
+    "operation": "LOGIN"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "11/12/23",
+    "currentHour": "23:27:11",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:27:11, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "11/12/23",
+    "currentHour": "23:27:12",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:27:12, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste 1a1",
+    "currentDate": "11/12/23",
+    "currentHour": "23:27:14",
+    "adminUsername": "teste",
+    "message": "FIND_USER: teste 1a1, (11/12/23, 23:27:14, e teste)",
+    "operation": "FIND_USER"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste",
+    "currentDate": "11/12/23",
+    "currentHour": "23:28:30",
+    "adminUsername": "Sem administrador",
+    "message": "LOGIN: teste, (11/12/23, 23:28:30, e Sem administrador)",
+    "operation": "LOGIN"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "11/12/23",
+    "currentHour": "23:28:31",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:28:31, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "11/12/23",
+    "currentHour": "23:28:32",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:28:32, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste 1a1",
+    "currentDate": "11/12/23",
+    "currentHour": "23:28:33",
+    "adminUsername": "teste",
+    "message": "FIND_USER: teste 1a1, (11/12/23, 23:28:33, e teste)",
+    "operation": "FIND_USER"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste 1a1x",
+    "currentDate": "11/12/23",
+    "currentHour": "23:28:38",
+    "adminUsername": "teste",
+    "message": "CRIAÇÃO: teste 1a1x, (11/12/23, 23:28:38, e teste)",
+    "operation": "CRIAÇÃO"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "11/12/23",
+    "currentHour": "23:28:44",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:28:44, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "11/12/23",
+    "currentHour": "23:28:44",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:28:44, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "11/12/23",
+    "currentHour": "23:28:44",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:28:44, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste 1a1",
+    "currentDate": "11/12/23",
+    "currentHour": "23:28:53",
+    "adminUsername": "teste",
+    "message": "FIND_USER: teste 1a1, (11/12/23, 23:28:53, e teste)",
+    "operation": "FIND_USER"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste 1a1fafa",
+    "currentDate": "11/12/23",
+    "currentHour": "23:29:00",
+    "adminUsername": "teste",
+    "message": "CRIAÇÃO: teste 1a1fafa, (11/12/23, 23:29:00, e teste)",
+    "operation": "CRIAÇÃO"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "11/12/23",
+    "currentHour": "23:29:03",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:29:03, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "11/12/23",
+    "currentHour": "23:29:03",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:29:03, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "11/12/23",
+    "currentHour": "23:29:03",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:29:03, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "11/12/23",
+    "currentHour": "23:29:03",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:29:03, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste",
+    "currentDate": "11/12/23",
+    "currentHour": "23:29:34",
+    "adminUsername": "Sem administrador",
+    "message": "LOGIN: teste, (11/12/23, 23:29:34, e Sem administrador)",
+    "operation": "LOGIN"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "11/12/23",
+    "currentHour": "23:29:36",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:29:36, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "11/12/23",
+    "currentHour": "23:29:36",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:29:36, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste",
+    "currentDate": "11/12/23",
+    "currentHour": "23:30:48",
+    "adminUsername": "Sem administrador",
+    "message": "LOGIN: teste, (11/12/23, 23:30:48, e Sem administrador)",
+    "operation": "LOGIN"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "11/12/23",
+    "currentHour": "23:30:50",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:30:50, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "11/12/23",
+    "currentHour": "23:30:50",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:30:50, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste 1a1",
+    "currentDate": "11/12/23",
+    "currentHour": "23:31:00",
+    "adminUsername": "teste",
+    "message": "FIND_USER: teste 1a1, (11/12/23, 23:31:00, e teste)",
+    "operation": "FIND_USER"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste",
+    "currentDate": "11/12/23",
+    "currentHour": "23:35:52",
+    "adminUsername": "Sem administrador",
+    "message": "LOGIN: teste, (11/12/23, 23:35:52, e Sem administrador)",
+    "operation": "LOGIN"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "11/12/23",
+    "currentHour": "23:35:54",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:35:54, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "11/12/23",
+    "currentHour": "23:35:54",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:35:54, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste 1a1",
+    "currentDate": "11/12/23",
+    "currentHour": "23:35:56",
+    "adminUsername": "teste",
+    "message": "FIND_USER: teste 1a1, (11/12/23, 23:35:56, e teste)",
+    "operation": "FIND_USER"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste",
+    "currentDate": "11/12/23",
+    "currentHour": "23:35:59",
+    "adminUsername": "teste",
+    "message": "FIND_USER: teste, (11/12/23, 23:35:59, e teste)",
+    "operation": "FIND_USER"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste",
+    "currentDate": "11/12/23",
+    "currentHour": "23:36:03",
+    "adminUsername": "teste",
+    "message": "ATUALIZAÇÃO DE USUÁRIO: teste, (11/12/23, 23:36:03, e teste)",
+    "operation": "ATUALIZAÇÃO DE USUÁRIO"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "11/12/23",
+    "currentHour": "23:36:07",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:36:07, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "11/12/23",
+    "currentHour": "23:36:07",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:36:07, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "11/12/23",
+    "currentHour": "23:36:07",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:36:07, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste 1a1",
+    "currentDate": "11/12/23",
+    "currentHour": "23:36:23",
+    "adminUsername": "teste",
+    "message": "FIND_USER: teste 1a1, (11/12/23, 23:36:23, e teste)",
+    "operation": "FIND_USER"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste",
+    "currentDate": "11/12/23",
+    "currentHour": "23:36:27",
+    "adminUsername": "teste",
+    "message": "FIND_USER: teste, (11/12/23, 23:36:27, e teste)",
+    "operation": "FIND_USER"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste",
+    "currentDate": "11/12/23",
+    "currentHour": "23:36:30",
+    "adminUsername": "teste",
+    "message": "ATUALIZAÇÃO DE USUÁRIO: teste, (11/12/23, 23:36:30, e teste)",
+    "operation": "ATUALIZAÇÃO DE USUÁRIO"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "11/12/23",
+    "currentHour": "23:36:33",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:36:33, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "11/12/23",
+    "currentHour": "23:36:33",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:36:33, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "11/12/23",
+    "currentHour": "23:36:33",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:36:33, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "11/12/23",
+    "currentHour": "23:36:33",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:36:33, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste",
+    "currentDate": "11/12/23",
+    "currentHour": "23:37:41",
+    "adminUsername": "Sem administrador",
+    "message": "LOGIN: teste, (11/12/23, 23:37:41, e Sem administrador)",
+    "operation": "LOGIN"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "11/12/23",
+    "currentHour": "23:37:44",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:37:44, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "11/12/23",
+    "currentHour": "23:37:44",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:37:44, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste 1a1",
+    "currentDate": "11/12/23",
+    "currentHour": "23:37:46",
+    "adminUsername": "teste",
+    "message": "FIND_USER: teste 1a1, (11/12/23, 23:37:46, e teste)",
+    "operation": "FIND_USER"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste",
+    "currentDate": "11/12/23",
+    "currentHour": "23:37:49",
+    "adminUsername": "teste",
+    "message": "FIND_USER: teste, (11/12/23, 23:37:49, e teste)",
+    "operation": "FIND_USER"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste 1a1xq",
+    "currentDate": "11/12/23",
+    "currentHour": "23:37:50",
+    "adminUsername": "teste",
+    "message": "ATUALIZAÇÃO DE USUÁRIO: teste 1a1xq, (11/12/23, 23:37:50, e teste)",
+    "operation": "ATUALIZAÇÃO DE USUÁRIO"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "11/12/23",
+    "currentHour": "23:37:54",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:37:54, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "11/12/23",
+    "currentHour": "23:37:54",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:37:54, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "11/12/23",
+    "currentHour": "23:37:54",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:37:54, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste",
+    "currentDate": "11/12/23",
+    "currentHour": "23:39:26",
+    "adminUsername": "Sem administrador",
+    "message": "LOGIN: teste, (11/12/23, 23:39:26, e Sem administrador)",
+    "operation": "LOGIN"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "11/12/23",
+    "currentHour": "23:39:35",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:39:35, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "11/12/23",
+    "currentHour": "23:39:36",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:39:36, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste 1a1",
+    "currentDate": "11/12/23",
+    "currentHour": "23:39:38",
+    "adminUsername": "teste",
+    "message": "FIND_USER: teste 1a1, (11/12/23, 23:39:38, e teste)",
+    "operation": "FIND_USER"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste",
+    "currentDate": "11/12/23",
+    "currentHour": "23:39:42",
+    "adminUsername": "teste",
+    "message": "FIND_USER: teste, (11/12/23, 23:39:42, e teste)",
+    "operation": "FIND_USER"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste",
+    "currentDate": "11/12/23",
+    "currentHour": "23:45:08",
+    "adminUsername": "Sem administrador",
+    "message": "LOGIN: teste, (11/12/23, 23:45:08, e Sem administrador)",
+    "operation": "LOGIN"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "11/12/23",
+    "currentHour": "23:45:11",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:45:11, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "11/12/23",
+    "currentHour": "23:45:11",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:45:11, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste 1a1",
+    "currentDate": "11/12/23",
+    "currentHour": "23:45:14",
+    "adminUsername": "teste",
+    "message": "FIND_USER: teste 1a1, (11/12/23, 23:45:14, e teste)",
+    "operation": "FIND_USER"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste",
+    "currentDate": "11/12/23",
+    "currentHour": "23:46:31",
+    "adminUsername": "Sem administrador",
+    "message": "LOGIN: teste, (11/12/23, 23:46:31, e Sem administrador)",
+    "operation": "LOGIN"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "11/12/23",
+    "currentHour": "23:46:33",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:46:33, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "11/12/23",
+    "currentHour": "23:46:34",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:46:34, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "11/12/23",
+    "currentHour": "23:46:36",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:46:36, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste 1a1",
+    "currentDate": "11/12/23",
+    "currentHour": "23:46:37",
+    "adminUsername": "teste",
+    "message": "FIND_USER: teste 1a1, (11/12/23, 23:46:37, e teste)",
+    "operation": "FIND_USER"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste",
+    "currentDate": "11/12/23",
+    "currentHour": "23:47:44",
+    "adminUsername": "Sem administrador",
+    "message": "LOGIN: teste, (11/12/23, 23:47:44, e Sem administrador)",
+    "operation": "LOGIN"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "11/12/23",
+    "currentHour": "23:50:35",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:50:35, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "11/12/23",
+    "currentHour": "23:50:36",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:50:36, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste 1a1",
+    "currentDate": "11/12/23",
+    "currentHour": "23:50:37",
+    "adminUsername": "teste",
+    "message": "FIND_USER: teste 1a1, (11/12/23, 23:50:37, e teste)",
+    "operation": "FIND_USER"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste",
+    "currentDate": "11/12/23",
+    "currentHour": "23:52:15",
+    "adminUsername": "Sem administrador",
+    "message": "LOGIN: teste, (11/12/23, 23:52:15, e Sem administrador)",
+    "operation": "LOGIN"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "11/12/23",
+    "currentHour": "23:52:17",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:52:17, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "11/12/23",
+    "currentHour": "23:52:17",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:52:17, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste 1a1",
+    "currentDate": "11/12/23",
+    "currentHour": "23:52:19",
+    "adminUsername": "teste",
+    "message": "FIND_USER: teste 1a1, (11/12/23, 23:52:19, e teste)",
+    "operation": "FIND_USER"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste 1a1",
+    "currentDate": "11/12/23",
+    "currentHour": "23:52:24",
+    "adminUsername": "teste",
+    "message": "FIND_USER: teste 1a1, (11/12/23, 23:52:24, e teste)",
+    "operation": "FIND_USER"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste 1a1xasxa",
+    "currentDate": "11/12/23",
+    "currentHour": "23:52:25",
+    "adminUsername": "teste",
+    "message": "ATUALIZAÇÃO DE USUÁRIO: teste 1a1xasxa, (11/12/23, 23:52:25, e teste)",
+    "operation": "ATUALIZAÇÃO DE USUÁRIO"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste",
+    "currentDate": "11/12/23",
+    "currentHour": "23:52:30",
+    "adminUsername": "teste",
+    "message": "FIND_USER: teste, (11/12/23, 23:52:30, e teste)",
+    "operation": "FIND_USER"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "11/12/23",
+    "currentHour": "23:52:33",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:52:33, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "11/12/23",
+    "currentHour": "23:52:33",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:52:33, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "11/12/23",
+    "currentHour": "23:52:33",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:52:33, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste 1a1xasxa",
+    "currentDate": "11/12/23",
+    "currentHour": "23:52:34",
+    "adminUsername": "teste",
+    "message": "FIND_USER: teste 1a1xasxa, (11/12/23, 23:52:34, e teste)",
+    "operation": "FIND_USER"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "11/12/23",
+    "currentHour": "23:52:46",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:52:46, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "11/12/23",
+    "currentHour": "23:52:46",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:52:46, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste 444",
+    "currentDate": "11/12/23",
+    "currentHour": "23:52:48",
+    "adminUsername": "teste",
+    "message": "FIND_USER: teste 444, (11/12/23, 23:52:48, e teste)",
+    "operation": "FIND_USER"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste 444",
+    "currentDate": "11/12/23",
+    "currentHour": "23:52:52",
+    "adminUsername": "teste",
+    "message": "DELETAR USUÁRIO: teste 444, (11/12/23, 23:52:52, e teste)",
+    "operation": "DELETAR USUÁRIO"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "11/12/23",
+    "currentHour": "23:52:55",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:52:55, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "11/12/23",
+    "currentHour": "23:52:56",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:52:56, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "11/12/23",
+    "currentHour": "23:52:56",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:52:56, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "11/12/23",
+    "currentHour": "23:52:56",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:52:56, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste",
+    "currentDate": "11/12/23",
+    "currentHour": "23:53:51",
+    "adminUsername": "Sem administrador",
+    "message": "LOGIN: teste, (11/12/23, 23:53:51, e Sem administrador)",
+    "operation": "LOGIN"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "11/12/23",
+    "currentHour": "23:53:53",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:53:53, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "11/12/23",
+    "currentHour": "23:53:53",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:53:53, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste 1a1xasxa",
+    "currentDate": "11/12/23",
+    "currentHour": "23:53:56",
+    "adminUsername": "teste",
+    "message": "FIND_USER: teste 1a1xasxa, (11/12/23, 23:53:56, e teste)",
+    "operation": "FIND_USER"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "11/12/23",
+    "currentHour": "23:54:00",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:54:00, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "asdasd",
+    "currentDate": "11/12/23",
+    "currentHour": "23:54:03",
+    "adminUsername": "teste",
+    "message": "FIND_USER: asdasd, (11/12/23, 23:54:03, e teste)",
+    "operation": "FIND_USER"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "11/12/23",
+    "currentHour": "23:54:04",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (11/12/23, 23:54:04, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste",
+    "currentDate": "12/12/23",
+    "currentHour": "00:00:15",
+    "adminUsername": "Sem administrador",
+    "message": "LOGIN: teste, (12/12/23, 00:00:15, e Sem administrador)",
+    "operation": "LOGIN"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "12/12/23",
+    "currentHour": "00:00:17",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (12/12/23, 00:00:17, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "12/12/23",
+    "currentHour": "00:00:17",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (12/12/23, 00:00:17, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste 2as",
+    "currentDate": "12/12/23",
+    "currentHour": "00:00:18",
+    "adminUsername": "teste",
+    "message": "FIND_USER: teste 2as, (12/12/23, 00:00:18, e teste)",
+    "operation": "FIND_USER"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "12/12/23",
+    "currentHour": "00:00:19",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (12/12/23, 00:00:19, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste",
+    "currentDate": "12/12/23",
+    "currentHour": "00:03:24",
+    "adminUsername": "Sem administrador",
+    "message": "LOGIN: teste, (12/12/23, 00:03:24, e Sem administrador)",
+    "operation": "LOGIN"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "12/12/23",
+    "currentHour": "00:03:26",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (12/12/23, 00:03:26, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "12/12/23",
+    "currentHour": "00:03:26",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (12/12/23, 00:03:26, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "12/12/23",
+    "currentHour": "00:03:28",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (12/12/23, 00:03:28, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "12/12/23",
+    "currentHour": "00:03:31",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (12/12/23, 00:03:31, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "12/12/23",
+    "currentHour": "00:03:33",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (12/12/23, 00:03:33, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "12/12/23",
+    "currentHour": "00:03:37",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (12/12/23, 00:03:37, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "12/12/23",
+    "currentHour": "00:03:40",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (12/12/23, 00:03:40, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste 2as",
+    "currentDate": "12/12/23",
+    "currentHour": "00:03:42",
+    "adminUsername": "teste",
+    "message": "FIND_USER: teste 2as, (12/12/23, 00:03:42, e teste)",
+    "operation": "FIND_USER"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste 2as",
+    "currentDate": "12/12/23",
+    "currentHour": "00:03:46",
+    "adminUsername": "teste",
+    "message": "FIND_USER: teste 2as, (12/12/23, 00:03:46, e teste)",
+    "operation": "FIND_USER"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste 2as",
+    "currentDate": "12/12/23",
+    "currentHour": "00:03:50",
+    "adminUsername": "teste",
+    "message": "FIND_USER: teste 2as, (12/12/23, 00:03:50, e teste)",
+    "operation": "FIND_USER"
+  },
+  {
+    "type": "INFO",
+    "contactName": "teste 2asaq",
+    "currentDate": "12/12/23",
+    "currentHour": "00:03:51",
+    "adminUsername": "teste",
+    "message": "ATUALIZAÇÃO DE USUÁRIO: teste 2asaq, (12/12/23, 00:03:51, e teste)",
+    "operation": "ATUALIZAÇÃO DE USUÁRIO"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "12/12/23",
+    "currentHour": "00:03:57",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (12/12/23, 00:03:57, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "12/12/23",
+    "currentHour": "00:03:57",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (12/12/23, 00:03:57, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  },
+  {
+    "type": "INFO",
+    "contactName": "<< no user >>",
+    "currentDate": "12/12/23",
+    "currentHour": "00:03:57",
+    "adminUsername": "teste",
+    "message": "LISTAGEM DE USUÁRIOS: << no user >>, (12/12/23, 00:03:57, e teste)",
+    "operation": "LISTAGEM DE USUÁRIOS"
+  }
+]

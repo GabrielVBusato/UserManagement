@@ -33,7 +33,7 @@ public final class LoginState extends AuthenticationState {
     @Override
     public void onLogin() throws FailedValidationException {
         TextField userName = new TextField(presenter.getView().getTxtUsername().getText(), "userName");
-        TextField password = new TextField(presenter.getView().getTxtPassword().getText(), "password");;
+        TextField password = new TextField(presenter.getView().getTxtPassword().getText(), "password");
 
         TextField[] fields = {userName, password};
 

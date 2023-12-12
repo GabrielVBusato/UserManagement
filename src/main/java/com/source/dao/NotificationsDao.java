@@ -61,9 +61,13 @@ public class NotificationsDao implements IDao<NotificationsModel> {
     }
     
     public int totalUnreadNotifications(int userId) throws SQLException {
-        ResultSet result = this.databaseQuery("Select count(id) as total from notifications where read = 0");
+        ResultSet result = this.databaseQuery("Select count(id) as total from notifications where read = 0 and user_id = '" + userId + "'");
         
-        return result.getInt("total");
+        int total = result.getInt("total");
+        
+        connection.disconnect();
+
+        return total;
     }
 
     private ResultSet databaseQuery(String query) throws SQLException {
