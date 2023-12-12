@@ -139,14 +139,31 @@ public class UsersService {
             JOptionPane.showMessageDialog(null, "Usuário atualizado com sucesso",
                     "Usuário atualizado", JOptionPane.INFORMATION_MESSAGE);
 
-            Logger.writeSystemInfoLog(LogTypeEnum.INFO, "<< no user >>", "ATUALIZAÇÃO DE USUÁRIO");
+            Logger.writeSystemInfoLog(LogTypeEnum.INFO, user.getName(), "ATUALIZAÇÃO DE USUÁRIO");
         } catch (SQLException ex) {
             JOptionPane.showMessageDialog(null, ex.getMessage(),
                     "Erro ao atualizar usuário", JOptionPane.ERROR_MESSAGE);
             Logger.writeSystemErrorLog(LogTypeEnum.ERROR,
-                    "<< no user >>", "ATUALIZAÇÃO DE USUÁRIO", ex.getMessage());
+                    user.getName(), "ATUALIZAÇÃO DE USUÁRIO", ex.getMessage());
         }
 
         return user;
+    }
+    
+    public void deleteUser(int id, String name) {
+        try {
+            usersRepository.deleteUser(id);
+            
+            JOptionPane.showMessageDialog(null, "Usuário deletado com sucesso",
+                    "Usuário deletado", JOptionPane.INFORMATION_MESSAGE);
+
+            Logger.writeSystemInfoLog(LogTypeEnum.INFO, name, "DELETAR USUÁRIO");
+        } catch (SQLException ex) {
+            JOptionPane.showMessageDialog(null, ex.getMessage(),
+                    "Erro ao deletar usuário", JOptionPane.ERROR_MESSAGE);
+            Logger.writeSystemErrorLog(LogTypeEnum.ERROR,
+                    name, "DELETAR USUÁRIO", ex.getMessage());
+        }
+
     }
 }

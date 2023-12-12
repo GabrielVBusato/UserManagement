@@ -25,6 +25,10 @@ public class UsersRepository {
         usersDao = new UsersDao(connection);
         this.connection = connection;
     }
+    
+    public void deleteUser(int id) throws SQLException {
+        usersDao.delete(id);
+    }
 
     public UsersModel createUser(UsersModel user) throws SQLException {
         int id = usersDao.create(user);

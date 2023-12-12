@@ -40,8 +40,6 @@ public final class LoginState extends AuthenticationState {
         for (TextField field : fields) {
             field.validateNotNull();
         }
-        
-        System.out.println("a");
 
         UsersModel user = presenter.getUserService().login(userName.getValue(), password.getValue());
 
