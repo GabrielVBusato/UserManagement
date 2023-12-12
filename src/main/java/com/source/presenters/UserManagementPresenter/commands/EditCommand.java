@@ -4,7 +4,6 @@
  */
 package com.source.presenters.UserManagementPresenter.commands;
 
-import com.source.model.UsersModel;
 import com.source.presenters.UserManagementPresenter.UserManagementPresenter;
 import com.source.presenters.UserManagementPresenter.states.ManageUserState;
 
@@ -20,13 +19,7 @@ public class EditCommand extends Command {
 
     @Override
     public void execute() {
-        String newUsername = presenter.getView().getTxtName().getText();
-        presenter.getUser().setName(newUsername);
-        UsersModel updatedUser = presenter.getUserService().updateUser(presenter.getUser());
-        if (updatedUser != null) {
-            presenter.setUser(updatedUser);
-            presenter.setState(new ManageUserState(presenter));
-        }
+        presenter.setState(new ManageUserState(presenter));
     }
 
 }

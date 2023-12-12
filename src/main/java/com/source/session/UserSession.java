@@ -5,17 +5,20 @@
 package com.source.session;
 
 import com.source.model.UsersModel;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  *
  * @author busat
  */
 public class UserSession {
+
     private static UserSession instance;
-    private UsersModel currentUser;  // Suponha que você tenha uma classe User para representar os dados do usuário
+    private UsersModel currentUser;
+    private List<UserSessionObserver> observers = new ArrayList<>();
 
     private UserSession() {
-        // Construtor privado para evitar instâncias externas
     }
 
     public static UserSession getInstance() {
@@ -23,6 +26,20 @@ public class UserSession {
             instance = new UserSession();
         }
         return instance;
+    }
+    
+     private void notifyObserversOnUpdateUnreadNotifications(int totalUnreadUserNotifications) {
+        for (UserSessionObserver observer : observers) {
+            observer.onUpdateUnreadNotifications(totalUnreadUserNotifications);
+        }
+    }
+
+    public void addObserver(UserSessionObserver observer) {
+        observers.add(observer);
+    }
+
+    public void removeObserver(UserSessionObserver observer) {
+        observers.remove(observer);
     }
 
     public void loginUser(UsersModel user) {
@@ -39,5 +56,10 @@ public class UserSession {
 
     public boolean isLoggedIn() {
         return currentUser != null;
+    }
+    
+    public void setUserUnreadNotifications(int unread){
+        this.currentUser.setUnreadNotifications(unread);
+        notifyObserversOnUpdateUnreadNotifications(unread);
     }
 }

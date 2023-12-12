@@ -29,18 +29,11 @@
             <version>-SNAPSHOT</version>
         </dependency>
         <dependency>
-	    <groupId>com.github.claytonfraga</groupId>
-	    <artifactId>validadorsenha</artifactId>
-	    <version>-SNAPSHOT</version>
-	</dependency>
-
-        <dependency>
             <groupId>com.github.GabrielVBusato</groupId>
             <artifactId>LoggerJava</artifactId>
             <version>Release-1.3</version>
         </dependency>
         <dependency>
-
             <groupId>io.github.cdimascio</groupId>
 
             <artifactId>dotenv-java</artifactId>

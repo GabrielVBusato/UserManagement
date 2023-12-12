@@ -6,6 +6,7 @@ package com.source.presenters.UserManagementPresenter;
 
 import com.source.dbConnection.connections.IDatabaseConnection;
 import com.source.model.UsersModel;
+import com.source.presenters.UserManagementPresenter.commands.Command;
 import com.source.presenters.UserManagementPresenter.states.ManageUserState;
 import com.source.presenters.UserManagementPresenter.states.ReadState;
 import com.source.service.UserService.UsersService;
@@ -27,6 +28,7 @@ public class UserManagementPresenter {
     private final IDatabaseConnection connection;
     private static UserManagementState state;
     private static UsersModel user;
+    private Command command;
 
     private UserManagementPresenter(IDatabaseConnection connection,
             UsersService userService) {
@@ -59,6 +61,10 @@ public class UserManagementPresenter {
         return this.userService;
     }
 
+    public void setCommand(Command command) {
+        this.command = command;
+    }
+
     public UsersModel getUser() {
         return UserManagementPresenter.user;
     }
@@ -88,7 +94,7 @@ public class UserManagementPresenter {
         if (user != null && "".equals(view.getTxtName().getText())) {
             view.getTxtName().setText(user.getName());
         }
-        
+
         view.addWindowListener(new WindowAdapter() {
             @Override
             public void windowClosing(WindowEvent e) {
@@ -106,6 +112,7 @@ public class UserManagementPresenter {
                     public void actionPerformed(ActionEvent e
                     ) {
                         state.onSave();
+                        command.executeCommandIfValid();
                     }
                 }
                 );
@@ -116,6 +123,7 @@ public class UserManagementPresenter {
                     public void actionPerformed(ActionEvent e
                     ) {
                         state.onClose();
+                        command.executeCommandIfValid();
                     }
                 }
                 );
@@ -126,6 +134,7 @@ public class UserManagementPresenter {
                     public void actionPerformed(ActionEvent e
                     ) {
                         state.onEdit();
+                        command.executeCommandIfValid();
                     }
                 }
                 );
@@ -136,6 +145,7 @@ public class UserManagementPresenter {
                     public void actionPerformed(ActionEvent e
                     ) {
                         state.onDelete();
+                        command.executeCommandIfValid();
                     }
                 }
                 );
@@ -146,6 +156,7 @@ public class UserManagementPresenter {
                     public void actionPerformed(ActionEvent e
                     ) {
                         state.onCancel();
+                        command.executeCommandIfValid();
                     }
                 }
                 );

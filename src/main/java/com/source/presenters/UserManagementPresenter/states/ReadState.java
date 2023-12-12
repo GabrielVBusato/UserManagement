@@ -7,6 +7,9 @@ package com.source.presenters.UserManagementPresenter.states;
 import com.source.model.UsersModel;
 import com.source.presenters.UserManagementPresenter.UserManagementPresenter;
 import com.source.presenters.UserManagementPresenter.UserManagementState;
+import com.source.presenters.UserManagementPresenter.commands.CloseWindowCommand;
+import com.source.presenters.UserManagementPresenter.commands.DeleteCommand;
+import com.source.presenters.UserManagementPresenter.commands.EditCommand;
 import javax.swing.JOptionPane;
 
 /**
@@ -33,22 +36,16 @@ public final class ReadState extends UserManagementState {
 
     @Override
     public void onEdit() {
-        presenter.setState(new ManageUserState(presenter));
+        presenter.setCommand(new EditCommand(presenter));
     }
 
     @Override
     public void onDelete() {
-        int choice = JOptionPane.showConfirmDialog(null, "Deseja continuar realmente excluir??", "Confirmação de exclusão  ",
-                JOptionPane.YES_NO_OPTION);
-
-        if (choice == JOptionPane.YES_OPTION) {
-            presenter.getUserService().deleteUser(presenter.getUser().getId(), presenter.getUser().getName());
-        }
-        presenter.getView().dispose();
+        presenter.setCommand(new DeleteCommand(presenter));
     }
 
     @Override
     public void onClose() {
-        presenter.getView().dispose();
+        presenter.setCommand(new CloseWindowCommand(presenter));
     }
 }

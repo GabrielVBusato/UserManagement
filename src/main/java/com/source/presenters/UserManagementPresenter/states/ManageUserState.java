@@ -7,6 +7,8 @@ package com.source.presenters.UserManagementPresenter.states;
 import com.source.model.UsersModel;
 import com.source.presenters.UserManagementPresenter.UserManagementPresenter;
 import com.source.presenters.UserManagementPresenter.UserManagementState;
+import com.source.presenters.UserManagementPresenter.commands.CloseWindowCommand;
+import com.source.presenters.UserManagementPresenter.commands.SaveCommand;
 
 /**
  *
@@ -32,28 +34,12 @@ public final class ManageUserState extends UserManagementState {
 
     @Override
     public void onSave() {
-        UsersModel oldUser = presenter.getUserService().findUserByUsername(presenter.getUser().getName());
-        UsersModel newUser = new UsersModel();
-        UsersModel hasUser;
-
-        if (oldUser != null) {
-            oldUser.setName(presenter.getView().getTxtName().getText());
-            hasUser = presenter.getUserService().updateUser(oldUser);
-        } else {
-            newUser.setName(presenter.getView().getTxtName().getText());
-            newUser.setPassword("sandbox");
-            hasUser = presenter.getUserService().register(newUser);
-        }
-
-        if (hasUser != null) {
-            presenter.setUser(hasUser);
-            presenter.setState(new ReadState(presenter));
-        }
+        presenter.setCommand(new SaveCommand(presenter));
     }
 
     @Override
     public void onCancel() {
-        presenter.getView().dispose();
+        presenter.setCommand(new CloseWindowCommand(presenter));
     }
 
 }

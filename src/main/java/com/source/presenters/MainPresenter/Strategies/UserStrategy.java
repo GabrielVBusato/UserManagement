@@ -11,6 +11,7 @@ import com.source.presenters.MainPresenter.MainStrategy;
 import com.source.presenters.UnauthenticatedUsersPresenter.UnauthenticatedUsersPresenter;
 import com.source.service.NotificationsService.NotificationsService;
 import com.source.session.UserSession;
+import com.source.session.UserSessionObserver;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -18,13 +19,17 @@ import java.awt.event.ActionListener;
  *
  * @author busat
  */
-public class UserStrategy implements MainStrategy {
+public class UserStrategy implements MainStrategy, UserSessionObserver {
+    
+    private MainPresenter presenter;
 
     public UserStrategy() {
+        UserSession.getInstance().addObserver(this);
     }
 
     @Override
     public void configureMainView(MainPresenter presenter) {
+        this.presenter = presenter;
         NotificationsService service = new NotificationsService(presenter.getConnection());
         presenter.getView().getMenuItemAuthUser().setVisible(false);
         presenter.getView().getMenuItemListUsers().setVisible(false);
@@ -45,7 +50,7 @@ public class UserStrategy implements MainStrategy {
                 ChangePasswordPresenter.getInstance(presenter.getConnection(), presenter.getUserService());
             }
         });
-        
+
         presenter.getView().getBtnNewNotifications().addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -53,7 +58,13 @@ public class UserStrategy implements MainStrategy {
             }
         });
         int totalUnreadUserNotifications = service.totalUnreadUserNotifications(UserSession.getInstance().getCurrentUser().getId());
-        presenter.getView().getBtnNewNotifications()
+        UserSession.getInstance().setUserUnreadNotifications(totalUnreadUserNotifications);
+
+    }
+
+    @Override
+    public void onUpdateUnreadNotifications(int totalUnreadUserNotifications) {
+        this.presenter.getView().getBtnNewNotifications()
                 .setText(String.valueOf(totalUnreadUserNotifications));
     }
 }

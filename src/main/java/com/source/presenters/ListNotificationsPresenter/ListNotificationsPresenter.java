@@ -88,6 +88,8 @@ public class ListNotificationsPresenter {
             public void actionPerformed(ActionEvent e) {
                 int notificationId = getSelectedRowValue();
                 service.markAsReadNotification(notificationId);
+                int totalUnreadUserNotifications = service.totalUnreadUserNotifications(UserSession.getInstance().getCurrentUser().getId());
+                UserSession.getInstance().setUserUnreadNotifications(totalUnreadUserNotifications);
                 view.dispose();
             }
         });
