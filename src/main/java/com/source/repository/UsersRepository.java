@@ -57,6 +57,8 @@ public class UsersRepository {
             unauthorizedUsers.add(user);
         }
         
+        connection.disconnect();
+        
         return unauthorizedUsers;
     }
     
@@ -70,6 +72,8 @@ public class UsersRepository {
             user.parseData(result);
             users.add(user);
         }
+        
+        connection.disconnect();
         
         return users;
     }
